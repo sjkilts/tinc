@@ -40,5 +40,5 @@ lose everything that
 weighs you   
 >   
 >no face  
-thank you  
+why thank you  
 wit my turtles hell still find me rude
