@@ -18,9 +18,9 @@ look inside
 see you  
 cool don fly  
 hot do  
->
->what could 
-hypnotize you
+>  
+>what could  
+hypnotize you  
 like how  
 chicken thighs do  
 >  
@@ -41,4 +41,4 @@ weighs you
 >   
 >no face  
 why thank you  
-wit my turtles hell still find me rude
+wit my turtles hell still find me rude  
