@@ -13,21 +13,19 @@ published: true
     {% for item in site.categories.post limit:1000 %}
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
       {% capture url %}{{ item.url }}{% endcapture %}
-      {% capture title %}{{ item.title }}{% endcapture %}
-    	  {% capture img %}{{ item.img }}{% endcapture %}
-    	  {% capture img-name %}{{ item.img-name }}{% endcapture %}
-    	  {% capture medium %}{{ item.medium }} {% endcapture %}
       
       <div class='listing col6 pad4h margin3' style='padding-bottom: 4em;'>		
-        {% if forloop.item.title == post.title %}
+        {% if page.url == item.url %}
         
         <div class='splash' style='splash-wrapper'>
           <a class='prev' href="{{ item.previous }}" ><<<</a>
           <a class='next' href="{{ item.next }}" >>>></a>
           
-          <img alt='item.img-name' class='excerpt' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent" </img>
-        <!--more-->  
+          <img alt='{{ item.img-name }}' class='excerpt' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
         </div>
+        
+        
+        <!--more-->      
               
         <div class='splash' style='padding-bottom: 2em;'>
           {{ content }}
@@ -47,9 +45,7 @@ published: true
             <details>
               <summary>
                 <a href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
-                <span class='date'>
-                  &#152; {{item.date | date:"%b %d %Y"}}
-                </span>
+                <span class='date'>&#152; {{item.date | date:"%b %d %Y"}}</span>
                 <span class='date fr'>&nbsp;&raquo;</span>
               </summary>
               <p>
