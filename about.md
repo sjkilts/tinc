@@ -28,11 +28,7 @@ at a scale unknown to imperialist rule
   
 what are we going to do with our power?    
   
-email [scott@scottkilts.com](mailto:scott@scottkilts.com) or use the contact form:  
   
-  
-{% include contact-form.html %}
-
 [1](dawn of everything 1)
 [2](kandiaronk)
 [3](m scott momaday)
