@@ -16,9 +16,10 @@ published: true
     	  {% capture img %}{{ item.img }}{% endcapture %}
     	  {% capture img-name %}{{ item.img-name }}{% endcapture %}
     	  {% capture medium %}{{ item.medium }} {% endcapture %}
-      	
-      {% if item.title == post.title %}	
-      <div class='listing col6 pad4h margin3' style='padding-bottom: 4em;'>    
+      
+      <div class='listing col6 pad4h margin3' style='padding-bottom: 4em;'>	
+        {% if item == post %}	
+    
         <div class='splash excerpt' style='splash-wrapper'>
           <a class='prev' href="{{ item.previous }}" ><<<</a>
           <a class='next' href="{{ item.next }}" >>>></a>
@@ -29,7 +30,7 @@ published: true
         <div class='splash' style='padding-bottom: 2em;'>
           <span class='date fr'>{{ item.medium }}
           
-          {{content}}
+          {{ content }}
         </div>
         
         <div style='padding-bottom:2em;'>
@@ -37,8 +38,7 @@ published: true
           <span class='date fl'>{{ item.title }}</span>
           <span class='date fr'>{{ item.date | date:"%b %d %Y" }}</span>
         </div> 
-        
-      </div>      
+              
       {% else %}      
       
         <div class='splash' style='padding-bottom:.42em;'>
@@ -59,6 +59,7 @@ published: true
         </div>
 
       {% endif %}
+      </div>
     {% endfor %}  
     </div> 
   <script src='{{site.baseurl}}/site.js'></script>
