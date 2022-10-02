@@ -18,8 +18,8 @@ published: true
         {% if page.url == item.url %}
         
         <div class='splash' style='splash-wrapper'>
-          <a class='prev' href="{{ item.previous }}" ><<<</a>
-          <a class='next' href="{{ item.next }}" >>>></a>
+          <a class='prev' href="{{ item.previous }}" > <<< </a>
+          <a class='next' href="{{ item.next }}" > >>> </a>
           
           <img alt='{{ item.img-name }}' class='excerpt' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
         </div>
@@ -45,7 +45,7 @@ published: true
             <details>
               <summary>
                 <a href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
-                <span class='date'>&#152; {{item.date | date:"%b %d %Y"}}</span>
+                <span class='date'>&#152; {{ item.date | date:"%b %d %Y" }}</span>
                 <span class='date fr'>&nbsp;&raquo;</span>
               </summary>
               <p>
