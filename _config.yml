@@ -5,6 +5,9 @@ title: scott kilts
 email: sjkilts@gmail.com
 permalink: pretty
 markdown: CommonMark
+paginate: 123
+
+paginate_path: "/page:num"
 
 commonmark:
   options: ["FOOTNOTES", "SMART"]
