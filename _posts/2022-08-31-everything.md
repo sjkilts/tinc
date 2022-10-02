@@ -1,8 +1,9 @@
 ---
-layout: post
-category: post
 published: false
-title: 'everything '
+img: /media/everything.png
+img-name: everything
+medium: digital
+title: everything 
 ---
 ![everything](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/everything.png&h=800&output=jpg&q=65bg=transparent)  
 <!--more-->
@@ -13,37 +14,37 @@ in this reality
   
 is  
   
-attitude   
-perception   
-posture   
+attitude  
+perception  
+posture  
   
 set  
-setting   
+setting  
 fractal  
   
 your lifetime  
-is   
+is  
 one big trip  
   
 as real as reality  
 as real as you let it be  
-more serious than life or death   
+more serious than life or death  
   
 both  
   
-neither   
+neither  
   
 breathe  
   
 you are the earth  
-your body belongs to the earth   
-love yourself   
+your body belongs to the earth  
+love yourself  
 heal  
-be whole   
+be whole  
 
-time   
+time  
 is a construct  
-all that is   
+all that is  
 is now  
 the space between thoughts  
 is real  
@@ -60,23 +61,22 @@ you will find light
 light as prisoner  
 ends in  
 death of earth   
-   
-raven was just playing   
-doing as was shown   
-shiny trinket mountain    
+raven was just playing  
+doing as was shown  
+shiny trinket mountain  
 castle of a home  
 fat and happy  
-preened and fluffed   
+preened and fluffed  
 betchu couldnt steal the sun  
 quick side eye  
 flap  
 gust  
 didn’t take too much  
 
-misguided mercury    
-dont slow down to think   
-heels on fire   
-lit the pyre   
+misguided mercury  
+dont slow down to think  
+heels on fire  
+lit the pyre  
 brought us to the brink
 
 ---
