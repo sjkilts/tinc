@@ -19,7 +19,7 @@ published: true
     	  {% capture medium %}{{ item.medium }} {% endcapture %}
       
       <div class='listing col6 pad4h margin3' style='padding-bottom: 4em;'>		
-        {% if item.title == post.title %}
+        {% if forloop.item.title == post.title %}
         
         <div class='splash' style='splash-wrapper'>
           <a class='prev' href="{{ item.previous }}" ><<<</a>
