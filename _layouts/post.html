@@ -11,7 +11,9 @@ published: true
     {% include hamburger.html %}
       
       <div class='listing col6 pad4h margin3' style='padding-bottom: 4em;'>		
-        
+        {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+         
         <div class='splash' style='splash-wrapper'>
           <img alt='{{ page.img-name }}' class='excerpt' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
         </div>
@@ -30,6 +32,9 @@ published: true
           <span class='date fr'>{{ page.date | date:"%b %d %Y" }}</span>
           <span class='date fr'>{{ page.medium }}</span>
         </div> 
+        
+        {% endif %}
+        {% endfor %}
       
       {% for item in site.categories.post limit:1000 %}
       
