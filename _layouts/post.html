@@ -36,18 +36,17 @@ published: true
         </div>
       </div>
       
-      {% for item in site.categories.post limit:1000 %}
-        {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-      	{% capture url %}{{ item.url }}{% endcapture %}
-      	{% capture title %}{{ item.title }}{% endcapture %}
-      	{% capture excerpt %}{{ item.excerpt }}{% endcapture %}
-      	{% capture img %}{{ item.img }}{% endcapture %}
-      	{% capture medium %}{{ item.medium }} {% endcapture %}
+    {% endfor %}  
+      
+    {% for item in site.categories.post limit:1000 %}
+      {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+      {% capture url %}{{ item.url }}{% endcapture %}
+      {% capture title %}{{ item.title }}{% endcapture %}
+      {% capture excerpt %}{{ item.excerpt }}{% endcapture %}
+    	  {% capture img %}{{ item.img }}{% endcapture %}
+    	  {% capture medium %}{{ item.medium }} {% endcapture %}
 
       <div class='col6 pad4h margin3' style='padding-bottom:6em;'>
-      	
-      	{% if post.title == item.title %}
-      	{% else %}  
       	
         <div class='splash' style='padding-bottom:.42em;'>
           <div style='padding-bottom:.42em;'>
@@ -65,14 +64,10 @@ published: true
             </details>
           </div>
         </div>
-        
-        {% endif %}
+      
+      {% endfor %}  
 
       </div>
-      
-      {% endfor %}
-    
-    {% endfor %}  
     
     </div> 
   <script src='{{site.baseurl}}/site.js'></script>
