@@ -25,6 +25,7 @@ published: true
           <a class='next' href="{{ item.next }}" >>>></a>
           
           <img alt='item.img-name' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent" </img>
+        <!--more-->  
         </div>
               
         <div class='splash' style='padding-bottom: 2em;'>
@@ -51,7 +52,7 @@ published: true
                 <span class='date fr'>&nbsp;&raquo;</span>
               </summary>
               <p>
-                <a href="{{site.baseurl}}{{item.url}}">{{ item.img }}</a>
+                <a href="{{site.baseurl}}{{item.url}}">{{ item.img | prepend: site.baseurl }}</a>
               </p>
             </details>
           </div>
