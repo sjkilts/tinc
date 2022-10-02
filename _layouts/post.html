@@ -12,10 +12,10 @@ published: true
     
     {% for item in site.categories.post limit:1000 %}
       {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
-      {% capture url %}{{ item.url }}{% endcapture %}
+      {% capture id %}{{ item.id }}{% endcapture %}
       
       <div class='listing col6 pad4h margin3' style='padding-bottom: 4em;'>		
-        {% if item.url == page.url %}
+        {% if item.id == post.id %}
         
         <div class='splash' style='splash-wrapper'>
           <a class='prev' href="{{ item.previous }}" > <<< </a>
