@@ -5,10 +5,9 @@ img-name: everything
 medium: digital
 title: everything 
 ---
-![everything](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/everything.png&h=800&output=jpg&q=65bg=transparent)  
-<!--more-->
-<span class='date fr'>*digital*</span><br>
-
+\<!--more--\>
+  
+  
 everything  
 in this reality  
   
@@ -60,7 +59,7 @@ you will find light
   
 light as prisoner  
 ends in  
-death of earth   
+death of earth  
 raven was just playing  
 doing as was shown  
 shiny trinket mountain  

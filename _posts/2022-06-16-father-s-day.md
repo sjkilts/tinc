@@ -1,7 +1,8 @@
 ---
-layout: post
-category: post
 published: true
+img: /media/fathers-day.jpeg
+img-name: father’s day 2022
+medium: ink
 title: Father’s Day
 ---
 ![father's day 2022](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/fathers-day.jpeg&h=800&output=jpg&q=65)

@@ -1,15 +1,13 @@
 ---
-layout: post
-category: post
 published: false
+img: /media/.png
+img-name:
+medium: digital
 title: weeping willow
 ---
-![]()
-<!--more-->
-<span class='date fr'>\*\*</span><br>
+\<!--more--\>
   
   
-
 > sterile gravel  
 > stepping stones  
 > where the great willow grew  
