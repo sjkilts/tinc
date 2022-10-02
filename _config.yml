@@ -5,9 +5,12 @@ title: scott kilts
 email: sjkilts@gmail.com
 permalink: pretty
 markdown: CommonMark
-paginate: 123
 
-paginate_path: "/posts/page:num"
+plugins:
+          - jekyll-paginate
+
+paginate: 123
+paginate_path: "/page:num/"
 
 commonmark:
   options: ["FOOTNOTES", "SMART"]
