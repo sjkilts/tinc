@@ -31,15 +31,6 @@ published: true
         </div>
         
         <div style='padding-bottom:2em;'>
-            {% if page.previous.url %}
-            <a class="prev date fl" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-            {% endif %}
-            
-            {% if page.next.url %}
-              <a class="next date fr" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-            {% endif %}
-            
-            <h4 class='item'></h4>
             <span class='date fl'>
               {{ page.title }}
             </span>
@@ -49,6 +40,16 @@ published: true
             <span class='date' style='display: block; text-align: center;'>
               {{ page.medium }}
             </span>
+            
+            <h4 class='item'></h4>
+        
+            {% if page.previous.url %}
+            <a class="prev date fr" href="{{page.previous.url}}">&raquo; {{page.previous.title}}</a>
+            {% endif %}
+            
+            {% if page.next.url %}
+              <a class="next date fl" href="{{page.next.url}}">{{page.next.title}} &laquo;</a>
+            {% endif %}
         </div>    
       
       {% include foot.html %}
