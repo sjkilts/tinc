@@ -381,7 +381,7 @@ img .splash {
   font-weight:normal;
   }
   
-span .prev {
+.prev {
   position: absolute;
   right: 0;
   top: 0;
@@ -389,7 +389,7 @@ span .prev {
   width: 70%;
 }
 
-span .next {
+.next {
   position: absolute;
   left: 0;
   top: 0;

@@ -12,17 +12,17 @@ published: true
     
       <div class='splash col12' style='padding-bottom: 4.32em; position: relative; display: inline-block; border: 1px solid yellow;'>
     
-        <img class='splash' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
+        <img style='display:block; max-width:100%; height: auto;' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
 
         {% if page.previous.url %}
-          <a class='prev date fr' href="{{page.previous.url}}">
+          <a class='date fr' href="{{page.previous.url}}">
             <span class='prev' style='border: 1px solid red;'>
             </span>
           </a>
         {% endif %}
         
         {% if page.next.url %}
-          <a class='prev' href="{{page.next.url}}">
+          <a class='date fl' href="{{page.next.url}}">
             <span class='next' style='border: 1px solid blue;'>
             </span>
           </a>
@@ -53,11 +53,11 @@ published: true
             <h4 class='item'></h4>
         
             {% if page.previous.url %}
-              <a class="prev date fr" style='padding-top: .43em; padding-bottom: 6em;' href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
+              <a class="date fr" style='padding-top: .43em; padding-bottom: 6em;' href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
             {% endif %}
             
             {% if page.next.url %}
-              <a class="next date fl" style='padding-top: .43em; padding-bottom: 6em;' href="{{page.next.url}}">&laquo; {{page.next.title}}</a>
+              <a class="date fl" style='padding-top: .43em; padding-bottom: 6em;' href="{{page.next.url}}">&laquo; {{page.next.title}}</a>
             {% endif %}
         </div>    
       </div> <!-- ./listing -->
