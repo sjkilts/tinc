@@ -17,15 +17,15 @@ published: true
             <img alt='{{ page.img-name }}' class='excerpt' style='display: block; max-width: 100%; height: auto;' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
 
             {% if page.previous.url %}
-            <span style='position:absolute; right: 0; top: 0; border: 1px solid blue; max-height: 100%; width: 70%;'>    
+            <div style='position:absolute; right: 0; top: 0; border: 1px solid blue; max-height: 100%; width: 70%;'>    
                 <a class='prev date fr' href="{{page.previous.url}}">{{page.previous.title}}</a>
-            </span>
+            </div>
             {% endif %}
             
             {% if page.next.url %}
-              <span style='position:absolute; left: 0; top: 0; border: 1px solid red; max-height: 100%; width: 30%;'>
+              <div style='position:absolute; left: 0; top: 0; border: 1px solid red; max-height: 100%; width: 30%;'>
                 <a class='next date fl' href="{{page.next.url}}">{{page.next.title}}</a>
-              </span>
+              </div>
             {% endif %}
         </div>
         
