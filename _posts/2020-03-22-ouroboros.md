@@ -1,6 +1,6 @@
 ---
 published: true
-img: /media/o.jpeg
+img: /media/infinite-o.jpeg
 img-name: ouroboros
 medium: watercolor, ink
 title: ouroboros

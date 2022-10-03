@@ -6,14 +6,14 @@ published: true
 {% include head.html %}
 
 <body>
-  <div class='container' style='position: relative; min-height: 100vh;'>
+  <div class='container' style='position: relative; min-height: 100vh; border: 1px solid black;'>
   
     {% include hamburger.html %}    
     
-      <div class='listing col6 pad4h margin3' style='padding-bottom:2.43em;'>
+      <div class='listing col6 pad4h margin3' style='padding-bottom:2.43em; border: 1px solid green;'>
 
     
-        <div class='splash' style='padding-bottom: 2em; position: relative; display: inline-block;'>
+        <div class='splash' style='padding-bottom: 2em; position: relative; display: inline-block; border: 1px solid yellow;'>
             <img alt='{{ page.img-name }}' class='excerpt' style='display: block; max-width: 100%; height: auto;' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
 
             {% if page.previous.url %}
