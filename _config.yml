@@ -8,6 +8,7 @@ markdown: CommonMark
 
 plugins:
           - jekyll-paginate
+          - jekyll-sitemap
 
 paginate: 123
 paginate_path: "/posts/page:num/"
