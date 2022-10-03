@@ -3,7 +3,7 @@ description: you are the spacetimedistortion
 baseurl: /
 title: scott kilts
 email: sjkilts@gmail.com
-permalink: pretty
+permalink: /:categories/:title/
 markdown: CommonMark
 
 plugins:
