@@ -21,7 +21,7 @@ paginate_path: "_posts/page:num"
 defaults:
   -
     scope:
-      path: "_posts" # an empty string here means all files in the project 
+      path: "post" # an empty string here means all files in the project 
     values:
       layout: "post"
       category: "post"
