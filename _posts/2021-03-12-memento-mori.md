@@ -2,7 +2,7 @@
 published: true
 img: /media/memento-mori.jpeg
 img-name: remember you will die
-medium: watercolor, gouache, ink - digitally traced and manipulated
+medium: watercolor, gouache, ink - digital
 title: memento mori
 ---  
   \\

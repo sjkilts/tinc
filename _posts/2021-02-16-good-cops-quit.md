@@ -2,11 +2,10 @@
 published: true
 img: /media/good-cops-quit.jpeg
 img-name: justice is love
-medium: watercolor, gouache, ink - digitally traced and manipulated
+medium: watercolor, gouache, ink - digital
 title: good cops quit
 ---
 
-   
 good cops quit  
 justice is love  
   
