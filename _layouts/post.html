@@ -14,7 +14,7 @@ published: true
 
     
         <div class='splash' style='padding-bottom: 2em; position: relative; display: inline-block;'>
-            <img alt='{{ page.img-name }}' class='excerpt' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
+            <img alt='{{ page.img-name }}' class='excerpt' style='display: block; max-width: 100%; height: auto;' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
 
             {% if page.previous.url %}
             <a class='prev date fr' style='position:absolute;' href="{{page.previous.url}}">{{page.previous.title}}</a>
