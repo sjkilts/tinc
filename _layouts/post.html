@@ -36,7 +36,10 @@ published: true
             {{ content }}
         </div>
         
-        <div style='padding-bottom:2em;'>
+      </div>
+      
+      <div class='listing col8 pad4h margin2' style='padding-bottom:2.43em;'>  
+          <div style='padding-bottom:2em;'>
             <span class='date fl'>
               {{ page.title }}
             </span>
@@ -57,7 +60,6 @@ published: true
               <a class="next date fl" style='padding-top: .43em; padding-bottom: 6em;' href="{{page.next.url}}">&laquo; {{page.next.title}}</a>
             {% endif %}
         </div>    
-    
       </div> <!-- ./listing -->
       
       {% include foot.html %}          
