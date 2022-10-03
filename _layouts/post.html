@@ -17,11 +17,11 @@ published: true
             <img alt='{{ page.img-name }}' class='excerpt' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
 
             {% if page.previous.url %}
-            <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+            <a class="prev date fl" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
             {% endif %}
             
             {% if page.next.url %}
-              <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+              <a class="next date fr" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
             {% endif %}
         </div>
         
@@ -38,7 +38,7 @@ published: true
             <span class='date fr'>
               {{ page.date | date:"%b %d %Y" }}
             </span>
-            <span class='date' style='display: inline-block;'>
+            <span class='date' style='display: block; text-align: center;'>
               {{ page.medium }}
             </span>
         </div>    
