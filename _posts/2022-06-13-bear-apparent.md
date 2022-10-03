@@ -1,14 +1,12 @@
 ---
-layout: post
-category: post
 published: true
+img: /media/bear-apparent.jpeg
+img-name: barely apparent
+medium: digital
 title: barely apparent
 ---
-![barely apparent](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/bea/bear-apparent.jpeg&h=800&output=jpg&q=65)
-<!--more-->
-<span class='date fr'>*acryllic, ink*</span><br>
-  
-  
+   
+   
 > take ya all  
 >  
 > the way back  
@@ -32,7 +30,7 @@ title: barely apparent
 > see  
 > 
 > let us be  
-  
+>   
   
 ![barely apparent dark](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/bea/bear-apparent-dark.jpeg&h=800&output=jpg&q=65)
   
