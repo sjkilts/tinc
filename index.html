@@ -13,8 +13,6 @@ published: true
   	
   	{% if forloop.first == true %}
   	
-  	{{ content }}
-  	
   	 <div class='splash' style='padding-bottom:6em;'>
         <a class='excerpt' href="{{site.baseurl}}{{item.url}}"><img class='splash' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img></a>
         <div style='padding-bottom:2em; padding-top:3em;'>
