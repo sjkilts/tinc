@@ -1,16 +1,15 @@
 ---
-layout: post
-category: post
 published: true
+img: /media/client/ap/apache-pine-tree-stack.jpeg
+img-name: apache pine logo
+medium: digital
 title: apache pine
 ---
-![Apache Pine Logo](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/apache-pine-tree-stack.jpeg&h=800&output=jpg&q=65)
-<!--more-->
-<span class='date fr'>*branding, marketing, product design, print design, packaging, UX, SEO, web design & full-stack development*</span><br><br>
   
   
+> branding, marketing, product design, print design, packaging, UX, SEO, web design & full-stack development
   
-An outdoor lifestyle brand. helped Apache Pine define their visual identity and web presence. also had the pleasure of designing several products and accompanying promotional materials  
+An outdoor lifestyle brand. together we defined the visual identity and web presence of apache pine.  had the pleasure of designing several products and accompanying promotional materials as well  
   
   
 ![The Ridge](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/client/ap/ridge.jpeg&h=800&output=jpg&q=65)  

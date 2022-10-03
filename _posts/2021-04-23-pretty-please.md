@@ -1,13 +1,10 @@
 ---
-layout: post
-category: post
 published: true
+img: /media/decolonize.jpeg
+img-name: decolonize
+medium: watercolor, ink
 title: pretty please
----
-![decolonize](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/decolonize.jpeg&h=800&output=jpg&q=65)
-<!--more-->
-<span class='date fr'>*watercolor, ink*</span><br>
-  
-  
-  
+--- 
+
+
 here's to a fabulous future together!

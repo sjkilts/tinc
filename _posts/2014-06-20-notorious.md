@@ -1,12 +1,7 @@
 ---
-layout: post
-category: post
 published: true
+img: /media/notorious-1200w.jpeg
+img-name: notorious
+medium: watercolor, ink
 title: notorious
 ---
-![notorious](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/notorious-1200w.jpeg&h=800&output=jpg&q=65)
-<!--more-->
-<span class='date fr'>*watercolor, ink*</span><br>  
-  
-  
-  

@@ -1,24 +1,22 @@
 ---
-layout: post
-category: post
 published: true
+img: /media/stop-killing-turtles.jpeg
+img-name: stop killing turtles
+medium: watercolor, ink, gouache
 title: stop killing turtles
----
-![stop killing turtles](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/stop-killing-turtles.jpeg&h=800&output=jpg&q=65)
-<!--more-->
-<span class='date fr'>*watercolor, ink, gouache*</span><br>  
-  
-  
+---  
+    
+
 but why you gotta litter like that ?!?  
   
   
 > you es eh  
-  
+>   
   
 > had a dream  
 > how you was judas  
 > watched you screwed us  
-> really dude?    
+> really dude?  
 >  
 > playin catch up  
 > won’t get back up  
@@ -28,25 +26,25 @@ but why you gotta litter like that ?!?
 > had a dream  
 > that set me free  
 > woke up laughin  
-> it came true      
+> it came true  
 >   
-> had a dream   
-> how you were judas   
-> wonder if you    
-> had it too    
+> had a dream  
+> how you were judas  
+> wonder if you  
+> had it too  
 >   
-> on some blacktop   
-> concrete catwalk    
+> on some blacktop  
+> concrete catwalk  
 > don’t look down  
 > you’ll be blue  
 >   
-> keep yo’ head up    
-> don’t get fed up   
-> it ain’t news boo    
+> keep yo’ head up  
+> don’t get fed up  
+> it ain’t news boo  
 > truth stay true  
 >   
 > y’all bread shifty  
-> ditch it wit’ me   
+> ditch it wit’ me  
 > we born ready  
 > hbu?  
 > 
@@ -55,7 +53,7 @@ but why you gotta litter like that ?!?
 > we live
 > no stress
 > 
-> no act    
+> no act  
 > no slack  
 > ain’t ridin’  
 > step back   

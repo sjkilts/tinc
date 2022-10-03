@@ -1,17 +1,14 @@
 ---
-layout: post
-category: post
 published: true
+img: /media/good-cops-quit.jpeg
+img-name: justice is love
+medium: watercolor, gouache, ink - digitally traced and manipulated
 title: good cops quit
 ---
-![justice is love](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/good-cops-quit.jpeg&h=800&output=jpg&q=65)
-<!--more-->
-<span class='date fr'>*watercolor, gouache, ink. digitally traced and manipulated*</span><br>  
-  
-  
-  
-good cops quit   
-justice is love    
+
+   
+good cops quit  
+justice is love  
   
   
   
@@ -20,5 +17,5 @@ justice is love
   
   
   
-good cops quit in real life     
+good cops quit in real life  
 don't colonize, end the lies
