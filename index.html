@@ -3,22 +3,6 @@ layout: default
 section: post
 published: true
 ---
-<!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  
-layout:default
-
-<div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
-
-  <div class='splash' style='padding-bottom:6em;'>
-  
-    <img alt="land back" src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/scream-it.png&h=800&output=jpg&q=65bg=transparent" 
-    </img>
-  
-  </div>
-
-</div>
-
-  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
-<!-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  
 
 
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
@@ -29,7 +13,7 @@ layout:default
   	{% if forloop.first == true %}
   	
   	  <div class='splash' style='padding-bottom:6em;'>
-        <a class='excerpt' href="{{site.baseurl}}{{item.url}}">{{ item.excerpt }}</a>
+        <a class='excerpt' href="{{site.baseurl}}{{item.url}}"><img class='splash' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img></a>
         <div style='padding-bottom:2em; padding-top:3em;'>
           {{ item.title }}
           <span class='date'>
@@ -55,7 +39,7 @@ layout:default
             <span class='date fr'>&nbsp;&raquo;</span>
           </summary>
           <p>
-            <a href="{{site.baseurl}}{{item.url}}">{{ item.excerpt }}</a>
+            <a href="{{site.baseurl}}{{item.url}}"><img class='splash' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img></a>
           </p>
         </details>
       </div>
@@ -65,6 +49,3 @@ layout:default
       
   {% endfor %}
 </div>
-
-
-  -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -->
