@@ -35,13 +35,13 @@ published: true
               {{ page.title }}
             </span>
             <span class='date fr'>
-              {{ page.date | date:"%b %d %Y" }}
+              {{ page.date | date:"%Y" }}
             </span>
             <span class='date' style='display: block; text-align: center;'>
               {{ page.medium }}
             </span>
             
-            <h4 class='item'></h4>
+            <h4 class='item' style='padding-bottom: .43em;'></h4>
         
             {% if page.previous.url %}
             <a class="prev date fr" href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
