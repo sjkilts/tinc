@@ -378,7 +378,7 @@ table {
   font-weight:normal;
   }
   
-.prev span {
+.prev {
   position: absolute;
   right: 0;
   top: 0;
@@ -386,7 +386,7 @@ table {
   width: 70%;
 }
 
-.next span {
+.next {
   position: absolute;
   left: 0;
   top: 0;
