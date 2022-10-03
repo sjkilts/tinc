@@ -1,6 +1,6 @@
 ---
 published: true
-img: /media/existential-horsepower-dark.png
+img: /media/ehp/existential-horsepower-dark.png
 img-name: existential horsepower
 medium: digital
 title: existential hp

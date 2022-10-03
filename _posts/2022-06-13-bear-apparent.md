@@ -1,6 +1,6 @@
 ---
 published: true
-img: /media/bear-apparent.jpeg
+img: /media/bea/bear-apparent.jpeg
 img-name: barely apparent
 medium: digital
 title: barely apparent
