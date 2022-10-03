@@ -10,9 +10,9 @@ published: true
   
     {% include hamburger.html %}    
     
-      <div class='splash col12' style='padding-bottom: 2em; position: relative; display: inline-block; border: 1px solid yellow; box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;'>
+      <div class='splash col12' style='padding-bottom: 2em; position: relative; display: inline-block; border: 1px solid yellow;'>
     
-        <img alt='{{ page.img-name }}' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
+        <img style='box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;' alt='{{ page.img-name }}' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
 
         {% if page.previous.url %}
           <a class='prev date fr' href="{{page.previous.url}}">
