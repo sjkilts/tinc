@@ -380,14 +380,6 @@ img .splash {
   color:#d4d7d9;
   font-weight:normal;
   }
-  
-.prev {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 70%;
-}
 
 .next {
   position: absolute;
