@@ -5,7 +5,6 @@ img-name: prayer for a turtle
 medium: watercolor, ink, gouache
 title: turtle life
 ---  
-    
 
 > turtle island
 > dragon sky  
@@ -27,15 +26,11 @@ title: turtle life
 > way back where  
 > trauma ties you
 > 
-> stay up
-> you been lies too
-> this is why 
-> we like you
+> stay up you been lies too    
+> this is why we like you   
 > 
-> little light
-> it shine through
-> pitch black night
-> you bright dude
+> little light it shine through   
+> pitch black night you bright dude   
 >  
 > funny how  
 > things do  
