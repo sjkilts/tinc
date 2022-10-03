@@ -368,10 +368,13 @@ table {
 .splash img {
   background:#f0f0f0;
   margin:0 auto;
+  }
+
+img .splash {
   display:block;
   max-width:100%;
   height: auto;
-  }
+  }  
   
 .date {
   color:#d4d7d9;
