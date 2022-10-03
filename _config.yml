@@ -1,4 +1,4 @@
-url: "http://www.scottkilts.com/"
+url: "http://www.scottkilts.com"
 description: you are the spacetimedistortion
 baseurl: /
 title: scott kilts
@@ -16,7 +16,7 @@ commonmark:
 
 excerpt_separator: <!--more-->
 
-paginate: 123
+paginate: 6
 paginate_path: "_posts/page:num"
 defaults:
   -
