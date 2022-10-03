@@ -17,11 +17,11 @@ published: true
             <img alt='{{ page.img-name }}' class='excerpt' style='display: block; max-width: 100%; height: auto;' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
 
             {% if page.previous.url %}
-            <a class='prev date fr' style='position:absolute; right: 0;' href="{{page.previous.url}}">{{page.previous.title}}</a>
+            <a class='prev date fr' style='position:absolute; right: 0; top: 0;' href="{{page.previous.url}}">{{page.previous.title}}</a>
             {% endif %}
             
             {% if page.next.url %}
-              <a class='next date fl' style='position:absolute; left: 0;' href="{{page.next.url}}">{{page.next.title}}</a>
+              <a class='next date fl' style='position:absolute; left: 0; top: 0;' href="{{page.next.url}}">{{page.next.title}}</a>
             {% endif %}
         </div>
         
