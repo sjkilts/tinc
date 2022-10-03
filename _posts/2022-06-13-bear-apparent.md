@@ -5,8 +5,6 @@ img-name: barely apparent
 medium: digital
 title: barely apparent
 ---
-   
-   
 > take ya all  
 >  
 > the way back  
@@ -32,11 +30,8 @@ title: barely apparent
 > let us be  
 >   
   
+  
+  
 ![barely apparent dark](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/bea/bear-apparent-dark.jpeg&h=800&output=jpg&q=65)
   
 ![barely apparent lines](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/bea/bear-apparent-lines.jpeg&h=800&output=jpg&q=65)
-  
-  
-[look; see][1]
-
-[1]:	http://www.scottkilts.com/post/2020/03/23/look-see/
