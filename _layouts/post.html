@@ -12,12 +12,11 @@ published: true
     
       <div class='splash col12' style='padding-bottom: 2em; position: relative; display: inline-block; border: 1px solid yellow;'>
     
-        <img alt='{{ page.img-name }}' class='excerpt' style='display: block; max-width: 100%; height: auto;' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
+        <img alt='{{ page.img-name }}' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
 
         {% if page.previous.url %}
           <a class='prev date fr' href="{{page.previous.url}}">
             <span style='position:absolute; right: 0; top: 0; border: 1px solid blue; height: 100%; width: 70%;'>
-              {{page.previous.title}}
             </span>
           </a>
         {% endif %}
@@ -25,7 +24,13 @@ published: true
         {% if page.next.url %}
           <a class='next date fl' href="{{page.next.url}}">
             <span style='position:absolute; left: 0; top: 0; border: 1px solid red; height: 100%; width: 30%;'>
-              {{page.next.title}}
+            </span>
+          </a>
+        {% endif %}
+        
+        {% if page.next.url == false %}
+          <a class='prev date fr' href="{{page.previous.url}}">
+            <span style='position:absolute; left: 0; top: 0; border: 1px solid blue; height: 100%; width: 300%;'>
             </span>
           </a>
         {% endif %}
