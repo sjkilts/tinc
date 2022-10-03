@@ -5,7 +5,6 @@ img-name: everything
 medium: digital
 title: everything 
 ---
-\<!--more--\>
   
   
 everything  

@@ -5,11 +5,8 @@ img-name: father’s day 2022
 medium: ink
 title: Father’s Day
 ---
-![father's day 2022](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/fathers-day.jpeg&h=800&output=jpg&q=65)
-<!--more-->
-<span class="date fr">*ink*<span><br>  
   
-  
+   
 > couple of things  
 > my father told to me  
 > you know about opinions  

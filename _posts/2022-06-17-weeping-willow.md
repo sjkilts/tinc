@@ -5,9 +5,8 @@ img-name:
 medium: digital
 title: weeping willow
 ---
-\<!--more--\>
   
-  
+   
 > sterile gravel  
 > stepping stones  
 > where the great willow grew  

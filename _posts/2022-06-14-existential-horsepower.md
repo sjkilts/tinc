@@ -5,12 +5,8 @@ img-name: existential horsepower
 medium: digital
 title: existential hp
 ---
-![existential horsepower](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/ehp/existential-horsepower-dark.png&h=800&output=jpg&q=65bg=transparent)
-<!--more-->
-<span class='date fr'>*adobe fresco*</span><br>
-  
-  
-  
+   
+   
 this phrase comes to me from the title of a [podcast][1] interviewing [john long][2].  links below.
   
 working on solidifying this style of digital painting inspired by watercolor.  this allows me to use a pencil drawing as a rapid prototype, taking about the same amount of time overall as a watercolor sketch  
