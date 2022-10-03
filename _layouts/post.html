@@ -10,36 +10,36 @@ published: true
   
     {% include hamburger.html %}    
     
-      <div class='splash col12' style='padding-bottom: 4.32em; position: relative; display: inline-block;'>
+      <div class='splash col12' style='padding-bottom: 4.32em; position: relative; display: inline-block; border: 1px solid yellow;'>
     
         <img class='splash' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img>  
 
         {% if page.previous.url %}
           <a class='prev date fr' href="{{page.previous.url}}">
-            <span class='prev'>
+            <span class='prev' style='border: 1px solid red;'>
             </span>
           </a>
         {% endif %}
         
         {% if page.next.url %}
           <a class='prev' href="{{page.next.url}}">
-            <span>
+            <span class='next' style='border: 1px solid blue;'>
             </span>
           </a>
         {% endif %}
           
       </div>
 
-      <div class='listing col8 pad4h margin2' style='padding-bottom:2.43em;'>
+      <div class='listing col8 pad4h margin2' style='padding-bottom:2.43em; border: 1px solid black;'>
 
-        <div class='splash' style='padding-bottom: 2em;'>
+        <div class='splash' style='padding-bottom: 2em; border: 1px solid red;'>
             {{ content }}
         </div>
         
       </div>
       
-      <div class='listing col8 pad4h margin2' style='padding-bottom:2.43em;'>  
-          <div style='padding-bottom:2em;'>
+      <div class='listing col8 pad4h margin2' style='padding-bottom:2.43em; border: 1px solid blue;'>  
+          <div style='padding-bottom:2em; border: 1px solid green;'>
             <span class='date fl'>
               {{ page.title }}
             </span>
