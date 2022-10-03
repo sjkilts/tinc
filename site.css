@@ -326,6 +326,8 @@ table {
   max-width:1600px;
   margin:0 auto;
   overflow:hidden;
+  position: relative;
+  min-height: 100vh;
   }
 
 /* Global Style
@@ -375,6 +377,22 @@ table {
   color:#d4d7d9;
   font-weight:normal;
   }
+  
+.prev span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 70%;
+}
+
+.next span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 30%;
+}
   
 .post-nav {
     display: flex;
