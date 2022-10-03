@@ -23,9 +23,15 @@ published: true
         
         <div style='padding-bottom:2em;'>
             <h4 class='item'></h4>
-            <span class='date fl'>{{ page.title }}</span>
-            <span class='date fr'>{{ page.date | date:"%b %d %Y" }}</span>
-            <span class='date float'>{{ page.medium }}</span>
+            <span class='date fl'>
+              {{ page.title }}
+            </span>
+            <span class='date fr'>
+              {{ page.date | date:"%b %d %Y" }}
+            </span>
+            <span class='date' style='text-align: center;'>
+              {{ page.medium }}
+            </span>
         </div>
       
       
