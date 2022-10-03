@@ -5,7 +5,7 @@ published: true
 ---
 
 
-<div class='listing col6 pad4h margin3' style='padding-bottom:6em; border: 1px solid black;'>
+
   {% for item in site.posts %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
   	{% capture url %}{{ item.url }}{% endcapture %}
@@ -13,7 +13,7 @@ published: true
   	
   	{% if forloop.first == true %}
   	
-  	 <div class='splash' style='padding-bottom:6em; display: inline-block; border: 1px solid yellow;'>
+  	 <div class='splash col12' style='position:relative; padding-bottom:6em; display: inline-block; border: 1px solid yellow;'>
         <a class='excerpt show' href="{{site.baseurl}}{{item.url}}"><img class='splash' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img></a>
         <div style='padding-bottom:2em; padding-top:3em;  border: 1px solid red;'>
           {{ item.title }}
@@ -30,23 +30,25 @@ published: true
       </div>
       
   	{% else %}
-  
-    <div class='splash' style='padding-bottom:.42em;'>
-      <div style='padding-bottom:.42em;'>
-        <details>
-          <summary>
-            <a href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
-            <span class='date'>&#152; {{item.date | date:"%b %d %Y"}}</span>
-            <span class='date fr'>&nbsp;&raquo;</span>
-          </summary>
-          <p>
-            <a href="{{site.baseurl}}{{item.url}}"><img class='splash show' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img></a>
-          </p>
-        </details>
-      </div>
-    </div>
+  	
+    <div class='listing col6 pad4h margin3' style='padding-bottom:6em; border: 1px solid black;'>
     
+      <div class='splash' style='padding-bottom:.42em;'>
+        <div style='padding-bottom:.42em;'>
+          <details>
+            <summary>
+              <a href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
+              <span class='date'>&#152; {{item.date | date:"%b %d %Y"}}</span>
+              <span class='date fr'>&nbsp;&raquo;</span>
+            </summary>
+            <p>
+              <a href="{{site.baseurl}}{{item.url}}"><img class='splash show' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img></a>
+            </p>
+          </details>
+        </div>
+      </div>
+      
+    </div>
     {% endif %}
       
   {% endfor %}
-</div>
