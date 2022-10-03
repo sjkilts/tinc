@@ -13,10 +13,10 @@ published: true
   	
   	{% if forloop.first == true %}
   	
-  	 <div class='splash col12' style='position:relative; padding-bottom:6em; display: inline-block; border: 1px solid yellow;'>
+  	 <div class='splash col12' style='position:relative; padding-bottom:6em; display: inline-block;'>
         <a class='excerpt show' href="{{site.baseurl}}{{item.url}}"><img class='splash' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&output=jpg&q=65bg=transparent"</img></a>
       </div>
-      <div class='listing col6 margin3' style='padding-bottom:2em; padding-top:3em;  border: 1px solid red;'>
+      <div class='listing col6 margin3' style='padding-bottom:2em; padding-top:3em;'>
           {{ item.title }}
           <span class='date'>
                &#152; {{item.date | date:"%b %d %Y"}}
@@ -31,7 +31,7 @@ published: true
       
   	{% else %}
   	
-    <div class='listing col6 margin3' style='border: 1px solid black;'>
+    <div class='listing col6 margin3'>
     
       <div class='splash' style='padding-bottom:.42em;'>
         <div style='padding-bottom:.42em;'>
