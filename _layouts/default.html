@@ -4,12 +4,14 @@ published: true
 ---
 {% include head.html %}
 <body>
-  <div class='container'>
-    {% include hamburger.html %}
+  <div class='container' style='padding-bottom: 6em;'>
+  {% include hamburger.html %}
     
-      {{content}}
+    {{content}}
     
-    {% include foot.html %}
   </div>
+  
+  {% include foot.html %}
+      
   <script src='{{site.baseurl}}/site.js'></script>
 </body>
