@@ -1,0 +1,3 @@
+	<p>
+		feel free to email {{ site.email }}
+    </p>
