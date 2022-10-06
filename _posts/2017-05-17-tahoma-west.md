@@ -8,7 +8,7 @@ title: tahoma west
   
   
   
-It was my pleasure to work with the editors at Tahoma West Literary Arts Journal. My role for the 2017 publication was visual arts- information architecture, content curation and layout design. Also resposible for art direction and design of posters and marketing materials used for content generation and events
+It was my pleasure to work with the editors at Tahoma West Literary Arts Journal. My role for the 2017 publication was visual arts and meida. This covered information architecture, content curation, art direction, copyediting, and layout design.  Below are some materials created for marketing and events
   
   
 [Download a copy of Tahoma West v.21][4]! Download provided by [Alexandria Nickerson][5], Tahoma West 2016-2017 Editor in Chief.  
