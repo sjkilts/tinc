@@ -1,0 +1,146 @@
+---
+- name: notes
+
+  priorities:
+  
+  - tenants union
+    freelance
+    business development
+    activism
+    communicate
+    artwork
+    climb
+    jobs
+  
+
+    tenants union:
+
+    - email list:
+      next: |
+            2022-10-06  
+            - activate constant contact (cc) account  
+            - set up landing page  
+            - qr code to landing page  
+      hours: 
+      - date: 2022-10-06
+        time: 1           
+        description:  |
+                      initial setup cc
+                      research cc landing page
+      notes:  
+      - date: 2022-10-06      
+        note: |
+              > client: CONSTANT CONTACT  
+              > email: alexn@tenantsunion.org  
+              > password:
+      
+    - poster:  
+      next: |
+            2022-10-06  
+            - insert QR code  
+            - update design/layout as needed  
+    
+    freelance:  
+
+    - writing:  
+      next: |
+            2022-10-06
+            - amazon descriptions  
+      
+    - copyediting:  
+      next: |  
+            2022-10-06
+            - follow up with french dog people  
+      
+    - website management:  
+      next: |
+            2022-10-06
+            - find additional jobs to apply for   
+      
+    - delivery:    
+      next: |
+            2022-10-06
+            - uber eats  
+  
+    business development:  
+
+    - scottkilts.com:
+      next: |
+            2022-10-06
+            - github authentication
+            - webb photo copyright
+            - printful inital products
+            - printful store setup
+            - add time tracking
+            - setup notes page .css
+            - verify/optimize .yml
+            - streamline image handling
+            - add paper to .yml, recycle
+      hours: 
+      - date: 2022-10-06
+        time: 3
+        description: |
+                     notes.yml
+      notes:  
+      - date: 2022-10-06          
+        note: >
+              github is having some trouble authenticating with working copy.  recurring issue
+              also happening with sethelandfree/freewalls in working copy
+              >
+              rulez would be a great metal print, verify license info for the webb photo
+              >
+              paper list of product ideas has been made, probably ideal to track here
+              >
+              add xml field under each individual project to add/track time spent daily 
+      plans:  
+      - content:  |
+                  notes page and the long subjective journey to personally effective project management
+      - project:  |
+                  rulez sublimation print on metal 16x20"
+      - update:   |
+                  use code to process all your <img> without the messy links everywhere
+                  should be able to type the image handling url once, not every time
+      - update:   |
+                  use the hours data from your .yml to process and track your time
+                  should be real easy with python, may be managable with liquid
+          
+    - thisisnotculture:
+      next: |
+            2022-10-06
+            - determine requirements to build an embroidery file for printful
+            - finish/cleanup photoshop of decolonize
+            - build printful product as denim jacket with embroidered back 
+            - explore one-color version pending pricing
+            - list product plans and ideas here
+      hours:
+      - date: 2022-10-06
+        time: 2
+        description:  |
+                      photoshop decolonize your mind drawing
+        
+    - waves:
+      next: |
+            -  
+  
+    activism:
+
+    - free walls:
+      next: |
+            2022-10-06
+            - finish site setup
+            - link petition
+            - fill in site content
+            - go thru texts / notes and list ideas
+      hours:
+      - date: 2022-10-06
+        time: 2
+        description: |
+                     site setup, stopped by git error   
+            
+    communicate:
+    
+    artwork:
+    
+    climb:
+    
+    jobs:            
