@@ -108,6 +108,7 @@
             - verify/optimize .yml
             - streamline image handling
             - add paper to .yml, recycle
+            - footnotes css overlay
       hours: 
       - date: 2022-10-06
         time: 3
@@ -139,6 +140,8 @@
                   coffee section and info on site
                   product reviews, brewing ideas & direction
                   possibly affiliate links
+      - update:		|
+									use css and markdown footnotes function to create immersive overlay displaying footnotes on touch or hover
           
     - thisisnotculture:
       next: |
