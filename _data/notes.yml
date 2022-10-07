@@ -240,7 +240,7 @@
     
     climb:
     
-    - share
+    - share:
     plans:
     - outline:	|
     		short technical book
