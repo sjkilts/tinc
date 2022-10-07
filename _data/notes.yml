@@ -29,10 +29,10 @@
                       research cc landing page
       notes:  
       - date: 2022-10-06      
-        note: |
-              > client: CONSTANT CONTACT  
-              > email: alexn@tenantsunion.org  
-              > password:
+        note: >
+              client: CONSTANT CONTACT  
+              email: alexn@tenantsunion.org  
+              password:
       
     - poster:  
       next: |
@@ -46,6 +46,38 @@
       next: |
             2022-10-06
             - amazon descriptions  
+      notes:  
+      - date: 2022-10-07          
+        note: >
+              create the best amazon listing possible
+              >
+              cover letter screenshots:
+              3x top amazon descriptions
+              1x google seo result
+              1x amazon seo result
+              >
+              create a successful SEO strategy with top keywords
+              >
+              improve your product ranking on amazon's search results
+              >
+              simple: title, bullet points, description
+              > 
+              highlight top 5 features:
+                ex: dimensions
+                age appropriateness
+                country of origin
+                warranty
+              >
+              - begin each bullet with a capital letter
+              - end with no punctuation
+              - numbers written as numerals (e.g. 'twenty-two' is 22)
+              - separate phrases with a semicolon 
+              - spell out measurements
+              - no hyphens, symbols, !, . 
+              - be specific!
+              - DO NOT INCLUDE PRICES IN DESCRIPTIONS
+              - DO NOT INCLUDE SHIPPING INFO IN DESCRIPTIONS
+              - DO NOT INCLUDE COMPANY INFO IN DESCRIPTIONS
       
     - copyediting:  
       next: |  
@@ -103,6 +135,10 @@
       - update:   |
                   use the hours data from your .yml to process and track your time
                   should be real easy with python, may be managable with liquid
+      - content:  |
+                  coffee section and info on site
+                  product reviews, brewing ideas & direction
+                  possibly affiliate links
           
     - thisisnotculture:
       next: |
@@ -121,6 +157,21 @@
     - waves:
       next: |
             -  
+      hours:
+      - date:
+        time:
+        description:  |
+        
+      notes:
+      - date:
+        note: >
+        
+      plans:
+      - game: |
+      - platform: |
+      - toy:  |
+      - board: |
+      - future: | 
   
     activism:
 
@@ -136,6 +187,49 @@
         time: 2
         description: |
                      site setup, stopped by git error   
+      notes:  
+      - date: 2022-10-06          
+        note: >
+              client: gmail
+              email: setthelandfree@gmail.com
+              passsword: 
+              >
+              client: github
+              user: setthelandfree
+              password: 
+              link: https://github.com/setthelandfree/freewalls.git
+      plans:
+      - content: |
+                 yosar was climbers self regulating alongside NPS
+      - content: |
+                 NPS is forest cops
+      - content: |
+                 scenarios permitting makes some sense:
+                 high risk/alpine
+                 incliment weather/alipine
+                 not truly applicable to el cap 
+                 perhaps in extreme scenarios which weren't planned for
+                 which is the point of a rescue system
+                 otherwise undue buracracy increasing regulation on public land
+      - content: |
+                 NPS is using skewed data 
+                 and international catastrophe                 
+                 to push a police state agenda
+      - content: |
+                 this seems like an attempt to control and gather data
+                 specifically isolates a specific user group 
+                 adds additional cost and complication which primarily impacts low income and minority users
+                 who knows what regulations climbers or others who are respectfully exploring the outdoors could eventually face
+                 |
+                 next up: wear a satellite beacon registered with NPS, nasa and SPACEX
+                 must be worn at all times on public land or face fines and or imprisonment
+                 it's only $1700 for the tracker and the required service is $129.99 a month forever!
+      - content: |
+                 based on nothing but intuition it seems likely that influential people in
+                 NPS, YOSAR and popular Yosemite climbing access groups are seeing benifits from this beyond the impact to everyday climbers
+                 |
+                 at best it's a lazy way to get other people do do their work for them,
+                 while charging us for the privlidge 
             
     communicate:
     
