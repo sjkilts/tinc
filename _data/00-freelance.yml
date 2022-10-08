@@ -1,0 +1,54 @@
+---
+- name: freelance  
+
+  writing:  
+  - next: |
+          2022-10-06
+          - amazon descriptions  
+  - notes:  
+    date: 2022-10-07          
+    note: >
+          create the best amazon listing possible
+          >
+          cover letter screenshots:
+          3x top amazon descriptions
+          1x google seo result
+          1x amazon seo result
+          >
+          create a successful SEO strategy with top keywords
+          >
+          improve your product ranking on amazon's search results
+          >
+          simple: title, bullet points, description
+          > 
+          highlight top 5 features:
+            ex: dimensions
+            age appropriateness
+            country of origin
+            warranty
+          >
+          - begin each bullet with a capital letter
+          - end with no punctuation
+          - numbers written as numerals (e.g. 'twenty-two' is 22)
+          - separate phrases with a semicolon 
+          - spell out measurements
+          - no hyphens, symbols, !, . 
+          - be specific!
+          - DO NOT INCLUDE PRICES IN DESCRIPTIONS
+          - DO NOT INCLUDE SHIPPING INFO IN DESCRIPTIONS
+          - DO NOT INCLUDE COMPANY INFO IN DESCRIPTIONS
+    
+  copyediting:  
+  - next: |  
+          2022-10-06
+          - follow up with french dog people  
+    
+  website management:  
+  - next: |
+          2022-10-06
+          - find additional jobs to apply for   
+    
+  delivery:    
+  - next: |
+          2022-10-06
+          - uber eats  
