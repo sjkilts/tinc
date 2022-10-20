@@ -1,6 +1,6 @@
 url: "http://www.scottkilts.com"
 description: you are the spacetimedistortion
-baseurl: /
+baseurl: ""
 title: scott kilts
 email: sjkilts@gmail.com
 permalink: /:categories/:title/
