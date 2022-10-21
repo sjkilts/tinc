@@ -19,7 +19,8 @@ url: notes/
 {% endfor %}  
 ## hours  
 {% for hours in foo.minutes %}  
-- {{ hours.name }}, {{ hours.date }}, {{ hours.hours }}, {{ hours.description }}  
+- {{ hours.name }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.hours }} 
+  {{ hours.description }}  
 {% endfor %}
 ## notes  
 {% for thought in foo.thoughts %}  
