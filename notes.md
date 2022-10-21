@@ -8,17 +8,20 @@ url: notes/
   {% for client in note.client %}
     - {{ client.client }}
   {% endfor %}
-  {% for project in note.project %}
+  {% for project in note.projects %}
     {{ project.project }}
+    {{ project.client }}
     {{ project.description }}
     {% for todo in project.todo %}
       - {{ todo.todo }}
     {% endfor %}
-    {% for notes in project.notes %}
-      - {{ notes.notes }}
-    {% endfor %}
   {% endfor %}
   {% for minutes in note.minutes %}
     - {{ minutes.minutes }}
+  {% endfor %}
+  {% for note in project.notes %}
+  - date: {{ note.date }} 
+  - project: {{ note.project }}
+  - note: {{ note.note }}
   {% endfor %}
 {% endfor %}
