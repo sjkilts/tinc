@@ -10,15 +10,19 @@ url: notes/
 {% for client in foo.client %}
 - {{ client }}    
 {% endfor %}
-# projects  
+### projects  
 {% for project in foo.projects %}  
-## {{ project.project }}  
-- client: {{ project.client }}  
-- *{{ project.description }}*  
-{% for todo in project.todo %}  
-- {{ todo }}  
-{% endfor %}  
+<details>
+   <summary>
+      {{ project.project }}  
+      <span class='date'>**{{ project.client }}**</span>
+      <span class='date fr'>*{{ project.description }}*</span>      
+   </summary>
+   {% for todo in project.todo %}  
+   - {{ todo }}  
+   {% endfor %}  
 <br>
+</details>
 {% endfor %}  
 
 # hours   
