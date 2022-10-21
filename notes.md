@@ -13,8 +13,8 @@ url: notes/
 # projects  
 {% for project in foo.projects %}  
 ## {{ project.project }}  
-{{ project.client }}  
-{{ project.description }}  
+### {{ project.client }}  
+#### {{ project.description }}  
 {% for todo in project.todo %}  
 - {{ todo }}  
 {% endfor %}  
