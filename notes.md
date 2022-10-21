@@ -18,7 +18,9 @@ url: notes/
 {% endfor %}  
 {% endfor %}  
 ## hours  
-- {{ foo.minutes }}  
+{% for hours in foo.minutes %}  
+- {{ hours.name }}, {{ hours.date }}, {{ hours.hours }}, {{ hours.description }}  
+{% endfor %}
 ## notes  
 {% for thought in foo.thoughts %}  
 - date: {{ thought.date }}  
