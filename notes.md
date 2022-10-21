@@ -13,6 +13,25 @@ client:
 - &std spacetimedistortion
 - &flo wave
 - &ftl free the land
+- &ull ultralightlife
+
+
+project: *utl &013 ullife.me
+  description:  |
+                lifestyle minimalism blog & product reviews
+  todo:
+  - post site
+  - renew domains
+  - make affiliate link decisions, post on skcom blog
+  - bivy reviews
+  - pack reviews
+  - summit pack article
+  - puffy reviews / overview
+  - basics of layering
+  - nano air article
+  - kelty tarp article
+  - windburner article
+  - when site is trafficked request articles from people
 
 
 project: *ftl &012 yosemite
@@ -352,6 +371,8 @@ project: *sjk &001 scottkilts.com
   - add paper to .yml, recycle
   - web3.0
   - ethereum network
+  - move away from google analytics
+  - move away from google
   - footnotes css overlay
   - blog post re notes page and how project managment is super subjective but the best
   - info/thoughts section on site
