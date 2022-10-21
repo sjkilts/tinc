@@ -16,6 +16,14 @@ client:
 - &ull ultralightlife
 
 
+project *std &014 spacetimedistortion.org
+  description:  |
+                you are the spacetimedistortion
+  todo:
+  - post site
+  - design blog
+  - different take on the same ullife gear
+
 project: *utl &013 ullife.me
   description:  |
                 lifestyle minimalism blog & product reviews
