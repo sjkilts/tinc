@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: notes
 url: notes/
 ---
@@ -7,9 +7,7 @@ url: notes/
 ## users  
 {{ foo.user }}  
 ## clients  
-{% for client in foo.client %}  
-- {{ client.client }}  
-{% endfor %}  
+- {{ foo.client }}    
 ## projects  
 {% for project in foo.projects %}  
 {{ project.project }}  
@@ -20,9 +18,7 @@ url: notes/
 {% endfor %}  
 {% endfor %}  
 ## hours  
-{% for hours in foo.minutes %}  
-- {{ hours.minutes }}  
-{% endfor %}  
+- {{ foo.minutes }}  
 ## notes  
 {% for thought in foo.thoughts %}  
 - date: {{ thought.date }}  
