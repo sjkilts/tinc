@@ -358,6 +358,12 @@ project: *sjk &001 scottkilts.com
                 personal website for scott kilts
                 artwork, writing, anarchy
   todo: 
+  - gitea heroku server
+  - - web3.0 frontend, stacked with fleek
+  - - password protect gitea frontend with hash
+  - - unique secure password for heroku backend
+  - - should allow secure self-hosted iterative backend with all the git features we use
+  - - could be a much better way to host and manage all the websites
   - place plantations poem
   - clean up in-post <img> tags cause they are messy af
   - github authentication working copy
