@@ -4,14 +4,15 @@ title: notes
 url: notes/
 ---
 {% for foo in site.data.notes %}  
-## users  
+# users  
 {{ foo.user }}  
-## clients  
-- {{ foo.client }}    
-## projects  
+# clients  
+{% for client in foo.client %}
+### {{ client }}    
+{% endfor %}
+# projects  
 {% for project in foo.projects %}  
-<br>
-### {{ project.project }}  
+## {{ project.project }}  
 {{ project.client }}  
 {{ project.description }}  
 {% for todo in project.todo %}  
@@ -20,21 +21,19 @@ url: notes/
 <br>
 {% endfor %}  
 
-## hours   
+# hours   
    
 {% for hours in foo.minutes %}  
 - {{ hours }},   
 <br>  
 {% endfor %}  
 
-## notes  
+# notes  
 
 {% for thought in foo.thoughts %}  
 - date: {{ thought.date }}  
 - project: {{ thought.project }}  
 - note: {{ thought.note }}  
 <br>    
-<br>   
----  
 {% endfor %}  
 {% endfor %}  
