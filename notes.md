@@ -10,29 +10,31 @@ url: notes/
 - {{ foo.client }}    
 ## projects  
 {% for project in foo.projects %}  
----
+<br>
 ### {{ project.project }}  
 {{ project.client }}  
 {{ project.description }}  
 {% for todo in project.todo %}  
-- {{ todo.todo }}  
-   
+- {{ todo }}  
 {% endfor %}  
-   
-   
+<br>
 {% endfor %}  
-## hours  
+
+## hours   
+   
 {% for hours in foo.minutes %}  
-- {{ hours }}
----  
+- {{ hours }},   
+<br>  
 {% endfor %}  
+
 ## notes  
+
 {% for thought in foo.thoughts %}  
 - date: {{ thought.date }}  
 - project: {{ thought.project }}  
 - note: {{ thought.note }}  
-   
-   
+<br>    
+<br>   
 ---  
 {% endfor %}  
 {% endfor %}  
