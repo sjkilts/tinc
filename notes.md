@@ -3,12 +3,12 @@ layout: page
 title: notes
 url: notes/
 ---
-{% for notes in site.notes %}
-  {{ notes.user }}
-  {% for client in notes.client %}
+{% for note in site.data.notes %}
+  {{ note.user }}
+  {% for client in note.client %}
     - {{ client.client }}
   {% endfor %}
-  {% for project in notes.project %}
+  {% for project in note.project %}
     {{ project.project }}
     {{ project.description }}
     {% for todo in project.todo %}
@@ -18,7 +18,7 @@ url: notes/
       - {{ notes.notes }}
     {% endfor %}
   {% endfor %}
-  {% for minutes in notes.minutes %}
+  {% for minutes in note.minutes %}
     - {{ minutes.minutes }}
   {% endfor %}
 {% endfor %}
