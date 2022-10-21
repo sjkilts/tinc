@@ -300,7 +300,7 @@ project: *tuv &003 email list
                 host contact form to share info
                 host blog and info pages for outreach
   todo: 
-  - favicons, seo
+  - favicons, seo, social preivew
   - analytics
   - set up heroku hosted contact form, ditch formkeep
   - 404, thank you
@@ -322,6 +322,8 @@ project: *tuv &003 email list
           client: FormKeep
           email: alexntenantsunion@gmail.com
           password:
+          |
+          https://tenantsrights.github.io/tacoma/
           
           
 project: *tuv &002 poster  
