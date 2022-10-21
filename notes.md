@@ -14,7 +14,7 @@ url: notes/
 {% for project in foo.projects %}  
 ## {{ project.project }}  
 - client: {{ project.client }}  
-<p>*{{ project.description }}*</p>  
+- *{{ project.description }}*  
 {% for todo in project.todo %}  
 - {{ todo }}  
 {% endfor %}  
@@ -31,9 +31,9 @@ url: notes/
 # notes  
 
 {% for thought in foo.thoughts %}  
-date:     {{ thought.date }}  
-project:  {{ thought.project }}  
-note:     <p>{{ thought.note }}</p>  
+- date:     {{ thought.date }}  
+- project:  {{ thought.project }}  
+note:     {{ thought.note }}  
 <br>    
 {% endfor %}  
 {% endfor %}  
