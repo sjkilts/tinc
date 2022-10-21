@@ -3,7 +3,6 @@ layout: page
 title: notes
 url: notes/
 ---
-# notes
 {% for foo in site.data.notes %}  
 ## users  
 {{ foo.user }}  
