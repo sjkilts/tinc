@@ -18,7 +18,7 @@ clients:
    {% for project in foo.projects %}  
    <details>   
       <summary>   
-         <li>{{ project.project }}<span class='date'>&nbsp{{ project.client }}</span><li>
+         <li>{{ project.project }}<span class='date'>&nbsp;{{ project.client }}</span></li>
          <li><span style="font-style: italic;">{{ project.description }}</span></li>      
       </summary>   
       {% for todo in project.todo %}  
