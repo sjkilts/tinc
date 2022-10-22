@@ -8,7 +8,7 @@ url: notes/
    <h3>users</h3>  
    {{ foo.user }}  
 </div>   
-<div class="fr">
+<div>
    <h3>clients</h3>  
    <ul>
    {% for client in foo.client %}
