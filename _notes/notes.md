@@ -77,7 +77,6 @@ url: notes/
       <li>{{ hours.hours }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.description }}</li>
       {% endfor %}   
     </ul>
-    -->
-  </div>    
+  </div> -->   
 {% endfor %}  
 </div>
