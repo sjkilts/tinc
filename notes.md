@@ -4,11 +4,11 @@ title: notes
 url: notes/
 ---
 {% for foo in site.data.notes %}  
-<div class="fr">
+<div class="fl">
    <h3>users</h3>  
    {{ foo.user }}  
 </div>   
-<div class="fl">
+<div class="fr">
    <h3>clients</h3>  
    <ul>
    {% for client in foo.client %}
@@ -30,7 +30,7 @@ url: notes/
    </details>  
    {% endfor %}  
    </ul>   
-<div>   
+</div>   
 <div>   
    <h3>notes</h3>  
    <ul>
@@ -44,12 +44,12 @@ url: notes/
    </details>   
    {% endfor %}  
    </ul>
-   </div>   
+</div>   
 <div>   
    <h3>hours</h3>  
    {% for hours in foo.minutes %}  
    {{ hours }}   
    <br>  
    {% endfor %}
-<div>   
+</div>   
 {% endfor %}
