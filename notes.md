@@ -46,12 +46,8 @@ url: notes/
     
 - hours:    
   {% for hours in foo.minutes %}    
-  
-  <ul>
-    <li><em>{{ hours }}<em></li>
-  </ul>
-      
-{% endfor %}   
+  - {{ hours.name }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.hours }}, {{ hours.description }}  
+  {% endfor %}   
       
 {% endfor %}  
 </div>
