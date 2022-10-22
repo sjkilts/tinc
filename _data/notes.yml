@@ -26,7 +26,7 @@
   - project: [&015 admin]
     client: *sjk
     description: |
-                 organize *sjk projects & data
+                 organize projects & data
     todo:
     - gitea heroku
     - killer stack, gitea heroku fleek jekyll prose
@@ -42,7 +42,7 @@
   - project:      [&014 spacetimedistortion.org]
     client:       *std
     description:  |
-                  you are the spacetimedistortion
+                  you are spacetimedistortion
     todo:
     - post site
     - design blog
@@ -51,7 +51,7 @@
   - project:      [&013 ullife.me]
     client:       *ull
     description:  |
-                  lifestyle minimalism blog & product reviews
+                  minimalism lifestyle
     todo:
     - post site
     - renew domains
@@ -80,7 +80,7 @@
   - project:      [&011 future]
     client:       *flo
     description:  |
-                  what does building and funding a hoverboard look like irl
+                  how u do dat dat
     todo: 
     - check on e-ink license plate with people
     - smart grant
@@ -89,7 +89,6 @@
   - project:      [&010 wave board]
     client:       *flo 
     description:  |
-                  we all want a hoverboard yes?
                   ride the wave.
     todo:
     - smart grant
@@ -112,8 +111,7 @@
   - project:      [&009 SMART GRANT]
     client:       *flo 
     description:  |
-                  USDOT grant for transportation related businesses
-                  due 2022-11-12
+                  USDOT grant due 2022-11-12
     todo:
     - look at grant, validate dates & requirements
     - e-ink license plate idea
@@ -125,18 +123,16 @@
   - project:      [&008 freelance]
     client:       *sjk
     description:  |
-                  freelance projects for funding
-                  upwork, etc.
+                  freelance contracts
     todo:
+    - check on shopify data entry application 2022-10-22
     - check up on frontend engineer application 2022-10-21
-    - finish academic paper illustration 2022-10-21
+    - finish academic paper illustration 2022-10-22
 
   - project:      [&007 share]
     client:       *bfa 
     description:  |
-                  un-gatekeep the alpine
-                  share and protect the land
-                  de-centralized access and education
+                  de-centralized alpine access and education
     todo:
     - short technical book
     - all ages accessible illustrated book series
@@ -151,7 +147,7 @@
   - project:      [&006 tinc products]
     client:       *tnc
     description:  |
-                  products for tinc store
+                  this is not culture products
     todo:
     - determine requirements to build an embroidery file for printful
     - finish/cleanup photoshop of decolonize
@@ -161,15 +157,14 @@
   - project:      [&005 skcom products]
     client:       *sjk 
     description:  |
-                  products for skcom store
+                  personal art & products
     todo:
     - rulez metal print, printful sublimation print on metal 16x20
 
   - project:      [&004 thisisnotculture.us]
     client:       *tnc
     description:  |
-                  this is not culture
-                  thisisnotculture.us webstore
+                  this is not culture webstore
     todo:
     - determine stack for skcom webstore, follow suite
     - pay for domains for a few years in advance asap
@@ -177,10 +172,7 @@
   - project:      [&003 email list]
     client:       *tuv 
     description:  |
-                  email list for tenant union role
-                  host sign up form to collect emails
-                  host contact form to share info
-                  host blog and info pages for outreach
+                  contact & signup page
     todo: 
     - favicons, seo, social preivew
     - analytics
@@ -190,15 +182,13 @@
   - project:      [&002 poster]
     client:       *tuv 
     description:  |
-                  poster for tenants union workshop
-                  art direction, generate qr code
+                  TU workshop poster
     todo: 
     - check in, possibly finalized
 
   - project:      [&001 scottkilts.com]
     client:       *sjk
     description:  |
-                  personal website for scott kilts
                   artwork, writing, anarchy
     todo: 
     - gitea heroku server
@@ -251,6 +241,7 @@
   - {name: *sjk, date: 2022-10-21, client: *sjk, project: *015, hours: 09.75, description: 'notes',}
   - {name: *sjk, date: 2022-10-21, client: *sjk, project: *015, hours: 00.25, description: 'gitea heroku',}
   - {name: *sjk, date: 2022-10-21, client: *tuv, project: *003, hours: 01.25, description: '.site-title, email-icon .css, readme',}
+  - {name: *sjk, date: 2022-10-22, client: *sjk, project: *008, hours: 01.00, description: 'shopify data entry job application',}
 
 
   thoughts:  
