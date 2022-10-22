@@ -4,7 +4,10 @@ title: notes
 url: notes/
 ---
 {% for foo in site.data.notes %}  
+<div style="font-family: courier new">
+  
 - **users** *{{ foo.user }}* **clients** {% for client in foo.client %}*{{ client }}*{% endfor %}**       
+  
 - projects:   
   {% for project in foo.projects %}  
 
@@ -19,7 +22,7 @@ url: notes/
       </summary>   
       <ul>
         {% for todo in project.todo %}  
-        <li>{{ todo }}</li>  
+        <li>° {{ todo }}</li>  
         {% endfor %}     
       </ul>  
     </details>  
@@ -34,10 +37,10 @@ url: notes/
     <details>  
       <summary>  
         <li>{{ thought.date }}&nbsp;<em>{{ thought.project }}</em></li>  
-      </summary>  
-      <ul>
-        <li>{{ thought.note }}</li>    
-      </ul>
+      </summary>
+      
+      {{ thought.note }}    
+      
     </details>    
   </ul>
   
@@ -53,3 +56,4 @@ url: notes/
 {% endfor %}   
       
 {% endfor %}  
+</div>
