@@ -12,7 +12,7 @@ url: notes/
           <em> {{ foo.user }} </em>
           <strong>clients</strong> 
           {% for client in foo.client %}
-          <em> {{ client }}, </em>
+          <em> * {{ client }} </em>
           {% endfor %}       
       </li>
     </ul>
@@ -49,9 +49,11 @@ url: notes/
   </div>
   <div> <!--hours-->  
     <strong>hours</strong>    
-    {% for hours in foo.minutes %}    
-    <span>{{ hours.name }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.hours }}, {{ hours.description }}</span>  
-    {% endfor %}   
+    <ul>
+      {% for hours in foo.minutes %}    
+      <li>{{ hours.name }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.hours }}, {{ hours.description }}</li>  
+      {% endfor %}   
+    </ul>
   </div>    
 {% endfor %}  
 </div>
