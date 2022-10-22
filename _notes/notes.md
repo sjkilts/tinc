@@ -31,7 +31,7 @@ url: notes/
       </summary>   
       <ul>
         {% for todo in project.todo %}  
-        <li>&nbsp;&nbsp;° {{ todo }}</li>  
+        <li>&nbsp;&nbsp;&nbsp;° {{ todo }}</li>  
         {% endfor %}     
       </ul>  
     </details>  
@@ -42,7 +42,7 @@ url: notes/
       {% for thought in foo.thoughts %}  
       <details>  
         <summary>  
-          <span>&nbsp;&nbsp;&nbsp;{{ thought.date }}</span>&nbsp;<em>{{ thought.project }}</em>  
+          <span>&nbsp;&nbsp;{{ thought.date }}</span>&nbsp;<em>{{ thought.project }}</em>  
         </summary>
         <span>{{ thought.note }}</span>   
       </details>    
