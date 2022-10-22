@@ -48,6 +48,5 @@ url: notes/
 hours:  
 {% for hours in foo.minutes %}  
 {{ hours }}   
-<br>  
 {% endfor %}   
 {% endfor %}
