@@ -27,7 +27,7 @@ url: notes/
           &nbsp;
           <strong>{{ project.project }}</strong>
           <span class="date fr">&nbsp;{{ project.client }}&nbsp;</span>
-          <em>{{ project.description }}</em>
+          <em>>&nbdp;{{ project.description }}</em>
         </li>      
       </summary>   
       <ul>
