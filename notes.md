@@ -6,7 +6,7 @@ url: notes/
 {% for foo in site.data.notes %}  
 <div style="font-family: courier new">
   
-- **users** *{{ foo.user }}* **clients** {% for client in foo.client %}*{{ client }}*{% endfor %}**       
+- **users** *{{ foo.user }}* **clients** {% for client in foo.client %}*{{ client }}* {% endfor %}       
   
 - projects:   
   {% for project in foo.projects %}  
