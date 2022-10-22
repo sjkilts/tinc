@@ -46,7 +46,7 @@ url: notes/
         <span>{{ thought.note }}</span>   
       </details>    
       {% endfor %}    
-  </div><!--
+  </div> {{ comment }} <!--
   <div> <!--hours- ->  
     <strong>hours</strong>    
     {% capture now %}{{'now' | date: '%Y-%m-%d' | plus: 0 }}{% endcapture %}
@@ -77,6 +77,6 @@ url: notes/
       <li>{{ hours.hours }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.description }}</li>
       {% endfor %}   
     </ul>
-  </div> -->   
+  </div> -->{{ comment }}
 {% endfor %}  
 </div>
