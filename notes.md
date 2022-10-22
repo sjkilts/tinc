@@ -17,9 +17,11 @@ clients:
    <ul>
    {% for project in foo.projects %}  
    <details>   
-      <summary>   
+      <summary>
+         <br>
          <li>{{ project.project }}<span class='date'>&nbsp;{{ project.client }}</span></li>
          <li><span style="font-style: italic;">{{ project.description }}</span></li>      
+         <br>
       </summary>   
       {% for todo in project.todo %}  
       <li>{{ todo }}</li>  
@@ -37,7 +39,7 @@ clients:
       <summary>
          <li>{{ thought.date }}<i style="font-style: italic;"> {{ thought.project }}</i></li>  
       </summary>
-      <li>{{ thought.note }}</li>  
+      <p>{{ thought.note }}</p>  
       <br>    
    </details>   
    {% endfor %}  
