@@ -26,7 +26,7 @@ url: notes/
         <li>
           &nbsp;
           <strong>{{ project.project }}</strong>
-          &nbsp;{{ project.client }}&nbsp;
+          <span class="date">&nbsp;{{ project.client }}&nbsp;</span>
           <em>{{ project.description }}</em>
         </li>      
       </summary>   
@@ -44,7 +44,7 @@ url: notes/
       {% for thought in foo.thoughts %}  
       <details>  
         <summary>  
-          <span>&nbsp;&nbsp;{{ thought.date }}</span>&nbsp;<em>{{ thought.project }}</em>  
+          <span class="date">&nbsp;&nbsp;{{ thought.date }}</span>&nbsp;<em class="fr">{{ thought.project }}</em>  
         </summary>
         <span>{{ thought.note }}</span>   
       </details>    
