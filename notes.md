@@ -14,6 +14,7 @@ url: notes/
 {% for project in foo.projects %}  
   
 <details>   
+  
 <summary>  
   
 - **{{ project.project }}** {{ project.client }} *{{ project.description }}*      
@@ -32,6 +33,7 @@ url: notes/
 {% for thought in foo.thoughts %}  
    
 <details>  
+  
 <summary>  
          
 - {{ thought.date }} *{{ thought.project }}*  
