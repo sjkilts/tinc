@@ -47,8 +47,7 @@ url: notes/
         <summary>  
           <span class="date">&nbsp;&nbsp;{{ thought.date }}</span>&nbsp;<em class="fr">{{ thought.project }}</em>  
         </summary>
-        <span>{{ thought.note }}</span>   
-        <br>
+        <span>{{ thought.note }}<br></span>   
       </details>    
       {% endfor %}    
   </div> 
