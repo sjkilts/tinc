@@ -248,16 +248,53 @@
   - {name: *sjk, date: 2022-10-20, client: *sjk, project: *001, hours: 04.50, description: 'notes.yml setup, notes',}
   - {name: *sjk, date: 2022-10-20, client: *sjk, project: *008, hours: 00.50, description: 'frontend engineer contract',}
   - {name: *sjk, date: 2022-10-20, client: *sjk, project: *008, hours: 01.50, description: 'academic paper illustration',}
-  - {name: *sjk, date: 2022-10-21, client: *sjk, project: *015, hours: 07.75, description: 'notes',}
+  - {name: *sjk, date: 2022-10-21, client: *sjk, project: *015, hours: 09.75, description: 'notes',}
   - {name: *sjk, date: 2022-10-21, client: *sjk, project: *015, hours: 00.25, description: 'gitea heroku',}
   - {name: *sjk, date: 2022-10-21, client: *tuv, project: *003, hours: 01.25, description: '.site-title, email-icon .css, readme',}
 
 
   thoughts:  
-  - date:     YYYY-MM-DD
-    project:  project-code
+  - date:     2022-20-21
+    project:  *015
     note:     |          
-              note
+              notes
+              |
+              working code for hours
+              would like to display a line item with the date, total number of hours worked, and projects worked on 
+              this can drop open to show the line items from that day
+              |
+              {{ comment }} <!--
+              <div> <!--hours- ->  
+              <strong>hours</strong>    
+              {% capture now %}{{'now' | date: '%Y-%m-%d' | plus: 0 }}{% endcapture %}
+              {% for hours in foo.minutes %}    
+              {% capture day %}{{ hours.date | date: '%Y-%m-%d' | plus: 0 }}{% endcapture %}
+              {% capture time %}{{ hours.hours | plus: 0 }}{% endcapture %}
+              {% capture project %}{{ hours.project | plus: 0 }}{% endcapture %}
+              <details>
+              <summary>
+              {% for day in hours.date %}
+              {% if day == hours.date %}
+              <li>
+              {{ day | limit: 1 }}            <!-- date - ->
+              {{ time | plus: hours.hours }}  <!-- total hours for date? - ->
+              {{ project }}                   <!-- contributions on date - ->
+              </li>
+              {% endif %}
+              </summary>
+              <li>{{ hours.hours }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.description }}</li>
+              {% endfor %}
+              </details>      
+              < !--
+              hours worked in past two weeks, hours in past month, total hours
+              three most recently contributed to projects
+              stale project(s) (longest time between now and past contribution)
+              <ul>
+              {% for hours in foo.minutes %}    
+              <li>{{ hours.hours }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.description }}</li>
+              {% endfor %}   
+              </ul>
+              </div> -->{{ comment }}
 
   - date:     2022-10-20
     project:  *011
