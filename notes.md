@@ -5,37 +5,29 @@ url: notes/
 ---
 {% for foo in site.data.notes %}  
 - users:      *{{ foo.user }}*  
-- clients:    {% for client in foo.client %}*{{ client }}*{% endfor %}       
+- clients:    {% for client in foo.client %}*{{ client }}*{% endfor %}**       
 - projects:   {% for project in foo.projects %}  
-  
-<details>     
-<summary>  
-  
-#### {{ project.project }} {{ project.client }} *{{ project.description }}*      
-         
-</summary>   
 
 <ul>
+  <details>     
+    <summary>  
+      <li><strong>{{ project.project }}</strong>&nbsp;{{ project.client }}&nbsp;<em>{{ project.description }}</em></li>      
+    </summary>   
+    <ul>
+      {% for todo in project.todo %}  
+      <li>{{ todo }}</li>  
+      {% endfor %}     
+    </ul>  
+  </details>  
+</ul>
+{% endfor %} <!-- /projects -->   
   
-{% for todo in project.todo %}  
-- {{ todo }}  
-{% endfor %}     
-  
-</ul>  
-</details>  
-  
-{% endfor %}   
-  
-- notes:  
-{% for thought in foo.thoughts %}  
+- notes:      {% for thought in foo.thoughts %}  
    
 <details>  
-  
-<summary>  
-         
-- {{ thought.date }} *{{ thought.project }}*  
-  
-</summary>  
+  <summary>  
+    <li>{{ thought.date }}&nbsp;<em>{{ thought.project }}</em></li>  
+  </summary>  
   
 - {{ thought.note }}    
   
