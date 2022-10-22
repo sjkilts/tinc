@@ -6,12 +6,16 @@ url: notes/
 {% for foo in site.data.notes %}  
 <div style="font-family: courier new">
   <div> <!--users, clients-->
-    <strong>users</strong>
-    <em>&nbsp;{{ foo.user }}</em>
-    <strong>clients</strong> 
-    {% for client in foo.client %}
-    <em>&nbsp;* {{ client }}</em>
-    {% endfor %}  
+    <ul>
+      <li><strong>users</strong></li>
+      <li><em>&nbsp;{{ foo.user }}</em></li>
+    </ul>
+    <ul>
+      <li><strong>clients</strong><li>
+      {% for client in foo.client %}
+      <li><em>&nbsp;* {{ client }}</em></li>
+      {% endfor %}  
+    </ul>
   </div>
   <br>
   <div> <!--projects-->
