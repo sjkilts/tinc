@@ -4,39 +4,41 @@ title: notes
 url: notes/
 ---
 {% for foo in site.data.notes %}  
-<div class="fl">
-   ### users  
+<div class="fr">
+   <h3>users</h3>  
    {{ foo.user }}  
 </div>   
-<div class="fr">
-   ### clients  
-   <p>
+<div class="fl">
+   <h3>clients</h3>  
    {% for client in foo.client %}
    - {{ client }}    
-   {% endfor %}   
-   </p>  
+   {% endfor %}     
 </div>   
 ### projects  
+<ul>
 {% for project in foo.projects %}  
 <details>   
    <summary>   
-      - <i>{{ project.project }} </i>{{ project.client }}<span class='date'> {{ project.description }}</span>      
+      <li><i>{{ project.project }} </i>{{ project.client }}<span class='date'> {{ project.description }}</span></li>      
    </summary>   
    {% for todo in project.todo %}  
-      - {{ todo }}  
+   <li>{{ todo }}</li>  
    {% endfor %}     
 </details>  
 {% endfor %}  
+</ul>   
 ### notes  
+<ul>
 {% for thought in foo.thoughts %}  
 <details>
    <summary>
-      - {{ thought.date }}<i> {{ thought.project }}</i>  
+      <li>{{ thought.date }}<i> {{ thought.project }}</i></li>  
    </summary>
-   {{ thought.note }}  
+   <li>{{ thought.note }}</li>  
    <br>    
 </details>   
 {% endfor %}  
+</ul>
 {% endfor %}    
 ### hours  
 {% for hours in foo.minutes %}  
