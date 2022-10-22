@@ -233,24 +233,24 @@
 
 
   minutes: 
-  - { name , date , client , project , hours , description , }
-  - { *sjk , 2022-10-06 , *tuv , *003 , 01.00 , 'initial setup cc, research landing page' , }
-  - { *sjk , 2022-10-06 , *tnc , *006 , 02.00 , 'photoshop decolonize your mind drawing' , }
-  - { *sjk , 2022-10-06 , *sjk , *001 , 03.00 , 'notes.yml setup' , }
-  - { *sjk , 2022-10-06 , *ftl , *012 , 02.00 , 'site setup, stopped by git error' , }
-  - { *sjk , 2022-10-12 , *tuv , *003 , 01.00 , 'site template, approved' , }
-  - { *sjk , 2022-10-13 , *tuv , *003 , 02.00 , 'initate jekyll site' , }
-  - { *sjk , 2022-10-14 , *tuv , *003 , 03.00 , 'landing page, custom styles' , }
-  - { *sjk , 2022-10-15 , *tuv , *003 , 02.00 , 'finalize signup form' , }
-  - { *sjk , 2022-10-18 , *tuv , *003 , 02.00 , 'contact page styles' , }
-  - { *sjk , 2022-10-18 , *tuv , *002 , 01.50 , 'qr code, poster layout' , }
-  - { *sjk , 2022-10-19 , *tuv , *003 , 01.00 , 'cleanup, final styles' , }
-  - { *sjk , 2022-10-20 , *sjk , *001 , 04.50 , 'notes.yml setup, notes' , }
-  - { *sjk , 2022-10-20 , *sjk , *008 , 00.50 , 'frontend engineer contract' , }
-  - { *sjk , 2022-10-20 , *sjk , *008 , 01.50 , 'academic paper illustration' , }
-  - { *sjk , 2022-10-21 , *sjk , *015 , 05.75 , 'notes' , }
-  - { *sjk , 2022-10-21 , *sjk , *015 , 00.25 , 'gitea heroku' , }
-  - { *sjk , 2022-10-21 , *tuv , *003 , 01.25 , '.site-title, email-icon .css, readme' , }
+  - { name, date, client, project, hours, description, }
+  - { *sjk, 2022-10-06, *tuv, *003, 01.00, 'initial setup cc, research landing page', }
+  - { *sjk, 2022-10-06, *tnc, *006, 02.00, 'photoshop decolonize your mind drawing', }
+  - { *sjk, 2022-10-06, *sjk, *001, 03.00, 'notes.yml setup', }
+  - { *sjk, 2022-10-06, *ftl, *012, 02.00, 'site setup, stopped by git error', }
+  - { *sjk, 2022-10-12, *tuv, *003, 01.00, 'site template, approved', }
+  - { *sjk, 2022-10-13, *tuv, *003, 02.00, 'initate jekyll site', }
+  - { *sjk, 2022-10-14, *tuv, *003, 03.00, 'landing page, custom styles', }
+  - { *sjk, 2022-10-15, *tuv, *003, 02.00, 'finalize signup form', }
+  - { *sjk, 2022-10-18, *tuv, *003, 02.00, 'contact page styles', }
+  - { *sjk, 2022-10-18, *tuv, *002, 01.50, 'qr code, poster layout', }
+  - { *sjk, 2022-10-19, *tuv, *003, 01.00, 'cleanup, final styles', }
+  - { *sjk, 2022-10-20, *sjk, *001, 04.50, 'notes.yml setup, notes', }
+  - { *sjk, 2022-10-20, *sjk, *008, 00.50, 'frontend engineer contract', }
+  - { *sjk, 2022-10-20, *sjk, *008, 01.50, 'academic paper illustration', }
+  - { *sjk, 2022-10-21, *sjk, *015, 05.75, 'notes', }
+  - { *sjk, 2022-10-21, *sjk, *015, 00.25, 'gitea heroku', }
+  - { *sjk, 2022-10-21, *tuv, *003, 01.25, '.site-title, email-icon .css, readme', }
 
 
   thoughts:  
