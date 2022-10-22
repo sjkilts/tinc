@@ -12,7 +12,7 @@ url: notes/
    <h3>clients</h3>  
    <ul>
    {% for client in foo.client %}
-   <li>{{ client }}<li>    
+   <li>{{ client }}</li>    
    {% endfor %}     
    </ul>   
 </div>   
