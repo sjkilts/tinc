@@ -11,7 +11,6 @@ url: notes/
 - projects:   
   {% for project in foo.projects %}  
 
-  <ul>
     <details>     
       <summary>  
         <li>
@@ -26,7 +25,6 @@ url: notes/
         {% endfor %}     
       </ul>  
     </details>  
-  </ul>
   
   {% endfor %}   
   
