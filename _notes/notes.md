@@ -26,8 +26,8 @@ url: notes/
         <li>
           &nbsp;
           <strong>{{ project.project }}</strong>
-          <span class="date">&nbsp;{{ project.client }}&nbsp;</span>
-          <em>{{ project.description }}</em>
+          <span class="date fr">&nbsp;{{ project.client }}&nbsp;</span>
+          <em class="fr">>{{ project.description }}</em>
         </li>      
       </summary>   
       <ul>
