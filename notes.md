@@ -14,20 +14,23 @@ url: notes/
    - {{ client }}    
    {% endfor %}     
 </div>   
-### projects  
-<ul>
-{% for project in foo.projects %}  
-<details>   
-   <summary>   
-      <li><i>{{ project.project }} </i>{{ project.client }}<span class='date'> {{ project.description }}</span></li>      
-   </summary>   
-   {% for todo in project.todo %}  
-   <li>{{ todo }}</li>  
-   {% endfor %}     
-</details>  
-{% endfor %}  
-</ul>   
-### notes  
+<div>
+   <h3>projects</h3>  
+   <ul>
+   {% for project in foo.projects %}  
+   <details>   
+      <summary>   
+         <li><i>{{ project.project }} </i>{{ project.client }}<span class='date'> {{ project.description }}</span></li>      
+      </summary>   
+      {% for todo in project.todo %}  
+      <li>{{ todo }}</li>  
+      {% endfor %}     
+   </details>  
+   {% endfor %}  
+   </ul>   
+<div>   
+<div>   
+   <h3>notes</h3>  
 <ul>
 {% for thought in foo.thoughts %}  
 <details>
@@ -39,9 +42,12 @@ url: notes/
 </details>   
 {% endfor %}  
 </ul>
-{% endfor %}    
+</div>   
+<div>   
 ### hours  
 {% for hours in foo.minutes %}  
 {{ hours }}   
 <br>  
-{% endfor %}  
+{% endfor %}
+<div>   
+{% endfor %}
