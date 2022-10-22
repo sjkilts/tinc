@@ -4,12 +4,13 @@ title: notes
 url: notes/
 ---
 {% for foo in site.data.notes %}  
-users:   {{ foo.user }}  
-clients:
+
 <ul>
-{% for client in foo.client %}
-<li>{{ client }}</li>    
-{% endfor %}      
+   <li>users:   {{ foo.user }}</li>  
+   <li>clients:</li>
+   {% for client in foo.client %}
+   <li>{{ client }}</li>    
+   {% endfor %}      
 </ul>    
 
 <div>
