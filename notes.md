@@ -5,12 +5,21 @@ url: notes/
 ---
 {% for foo in site.data.notes %}  
 <div style="font-family: courier new">
-  
-- **users** *{{ foo.user }}* **clients** {% for client in foo.client %}*{{ client }}* {% endfor %}       
-  
-- projects:   
-  {% for project in foo.projects %}  
-
+  <div> <!--users, clients-->
+    <ul>
+      <li>
+          <strong>users</strong>
+          <em> {{ foo.user }} </em>
+          <strong>clients</strong> 
+          {% for client in foo.client %}
+          <em> {{ client }} </em>
+          {% endfor %}       
+      </li>
+    </ul>
+  </div>
+  <div> <!--projects-->
+    <strong>projects</strong>   
+    {% for project in foo.projects %}  
     <details>     
       <summary>  
         <li>
@@ -25,29 +34,24 @@ url: notes/
         {% endfor %}     
       </ul>  
     </details>  
-  
-  {% endfor %}   
-  
-- notes:      
-  {% for thought in foo.thoughts %}  
-  
-  <ul>
-    <details>  
-      <summary>  
-        <li>{{ thought.date }}&nbsp;<em>{{ thought.project }}</em></li>  
-      </summary>
-      
-      {{ thought.note }}    
-      
-    </details>    
-  </ul>
-  
-  {% endfor %}    
-    
-- hours:    
-  {% for hours in foo.minutes %}    
-  - {{ hours.name }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.hours }}, {{ hours.description }}  
-  {% endfor %}   
-      
+    {% endfor %}   
+  </div>
+  <div> <!--notes-->
+    <strong>notes</notes>      
+      {% for thought in foo.thoughts %}  
+      <details>  
+        <summary>  
+          <span>{{ thought.date }}</span>&nbsp;<em>{{ thought.project }}</em>  
+        </summary>
+        <span>{{ thought.note }}</span>   
+      </details>    
+      {% endfor %}    
+  </div>
+  <div> <!--hours-->  
+    <strong>hours</strong>    
+    {% for hours in foo.minutes %}    
+    <span>{{ hours.name }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.hours }}, {{ hours.description }}</span>  
+    {% endfor %}   
+  </div>    
 {% endfor %}  
 </div>
