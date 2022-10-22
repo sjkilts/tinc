@@ -22,15 +22,7 @@ url: notes/
 <br>  
 </details>  
 {% endfor %}  
-  
-### hours 
-{% for hours in foo.minutes %}  
-- {{ hours }},   
-<br>  
-{% endfor %}  
-
 ### notes  
-
 {% for thought in foo.thoughts %}  
 <details>
    <summary>
@@ -40,4 +32,9 @@ url: notes/
    <br>    
 </details>   
 {% endfor %}  
+{% endfor %}    
+### hours  
+{% for hours in foo.minutes %}  
+- {{ hours }},   
+<br>  
 {% endfor %}  
