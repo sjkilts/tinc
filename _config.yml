@@ -11,3 +11,6 @@ excerpt_separator: <!--more-->
 users:
   - login: "sjkilts"
     user: "Scott Kilts"
+
+include: 
+  - _notes
