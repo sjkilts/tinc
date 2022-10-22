@@ -24,8 +24,8 @@ url: notes/
       </summary>   
       {% for todo in project.todo %}  
       <li>{{ todo }}</li>
-      <br>
       {% endfor %}     
+      <br>
    </details>  
    {% endfor %} 
    </ul>    
