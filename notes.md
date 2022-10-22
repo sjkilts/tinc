@@ -12,7 +12,7 @@ url: notes/
           <em> {{ foo.user }} </em>
           <strong>clients</strong> 
           {% for client in foo.client %}
-          <em> {{ client }} </em>
+          <em> {{ client }}, </em>
           {% endfor %}       
       </li>
     </ul>
@@ -37,7 +37,7 @@ url: notes/
     {% endfor %}   
   </div>
   <div> <!--notes-->
-    <strong>notes</notes>      
+    <strong>notes</strong>      
       {% for thought in foo.thoughts %}  
       <details>  
         <summary>  
