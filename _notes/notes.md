@@ -35,6 +35,7 @@ url: notes/
         <li>&nbsp;&nbsp;&nbsp;° {{ todo }}</li>  
         {% endfor %}     
       </ul>  
+      <br>
     </details>  
     {% endfor %}   
   </div>
@@ -47,6 +48,7 @@ url: notes/
           <span class="date">&nbsp;&nbsp;{{ thought.date }}</span>&nbsp;<em class="fr">{{ thought.project }}</em>  
         </summary>
         <span>{{ thought.note }}</span>   
+        <br>
       </details>    
       {% endfor %}    
   </div> 
