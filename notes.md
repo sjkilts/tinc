@@ -51,7 +51,7 @@ url: notes/
     <strong>hours</strong>    
     <ul>
       {% for hours in foo.minutes %}    
-      <li>{{ hours.name }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.hours }}, {{ hours.description }}</li>  
+      <li>{{ hours.hours }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.description }}</li>
       {% endfor %}   
     </ul>
   </div>    
