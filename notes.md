@@ -10,9 +10,11 @@ url: notes/
 </div>   
 <div class="fl">
    <h3>clients</h3>  
+   <ul>
    {% for client in foo.client %}
-   - {{ client }}    
+   <li>{{ client }}<li>    
    {% endfor %}     
+   </ul>   
 </div>   
 <div>
    <h3>projects</h3>  
@@ -31,23 +33,23 @@ url: notes/
 <div>   
 <div>   
    <h3>notes</h3>  
-<ul>
-{% for thought in foo.thoughts %}  
-<details>
-   <summary>
-      <li>{{ thought.date }}<i> {{ thought.project }}</i></li>  
-   </summary>
-   <li>{{ thought.note }}</li>  
-   <br>    
-</details>   
-{% endfor %}  
-</ul>
-</div>   
+   <ul>
+   {% for thought in foo.thoughts %}  
+   <details>
+      <summary>
+         <li>{{ thought.date }}<i> {{ thought.project }}</i></li>  
+      </summary>
+      <li>{{ thought.note }}</li>  
+      <br>    
+   </details>   
+   {% endfor %}  
+   </ul>
+   </div>   
 <div>   
-### hours  
-{% for hours in foo.minutes %}  
-{{ hours }}   
-<br>  
-{% endfor %}
+   <h3>hours</h3>  
+   {% for hours in foo.minutes %}  
+   {{ hours }}   
+   <br>  
+   {% endfor %}
 <div>   
 {% endfor %}
