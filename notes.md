@@ -22,7 +22,8 @@ url: notes/
    {% for project in foo.projects %}  
    <details>   
       <summary>   
-         <li><i style="font-style: italic;">{{ project.project }} </i>{{ project.client }}<span class='date'> {{ project.description }}</span></li>      
+         <li>{{ project.project }}<span class='date'>&nbsp{{ project.client }}</span><li>
+         <li><span style="font-style: italic;">{{ project.description }}</span></li>      
       </summary>   
       {% for todo in project.todo %}  
       <li>{{ todo }}</li>  
