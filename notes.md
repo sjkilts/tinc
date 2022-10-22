@@ -7,15 +7,15 @@ url: notes/
 <div>
    <h3>users</h3>  
    {{ foo.user }}  
-</div> <!-- /divusers -->   
-<div class="fr">
+</div>    
+<div>
    <h3>clients</h3>  
    <ul>
    {% for client in foo.client %}
    <li>{{ client }}</li>    
-   {% endfor %} <!-- /forclients -->     
-   </ul> <!-- /listclients -->   
-</div> <!-- /divclients -->   
+   {% endfor %}      
+   </ul>    
+</div>    
 <div>
    <h3>projects</h3>  
    <ul>
@@ -26,11 +26,11 @@ url: notes/
       </summary>   
       {% for todo in project.todo %}  
       <li>{{ todo }}</li>  
-      {% endfor %} <!-- /fortodo -->     
+      {% endfor %}     
    </details>  
-   {% endfor %} <!-- /forprojects -->
-   </ul> <!-- /projectslist -->   
-</div> <!-- /divprojects -->
+   {% endfor %} 
+   </ul>    
+</div> 
 <div>   
    <h3>notes</h3>  
    <ul>
@@ -44,7 +44,7 @@ url: notes/
    </details>   
    {% endfor %}  
    </ul>
-</div> <!-- /notes -->   
+</div>    
 <div>   
    <h3>hours</h3>  
    {% for hours in foo.minutes %}  
