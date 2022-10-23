@@ -27,7 +27,7 @@ url: notes/
     <strong>projects</strong>   
       {% for project in foo.projects %}  
       <details>     
-        <span>&nbsp;<strong>{{ project.project }}</strong><span class="date fr">&nbsp;{{ project.client }}</span></span>
+        <span>&nbsp;<strong>{{ project.project }}</strong><span class="date fr">&nbsp;{{ project.client }}&nbsp;</span></span>
         <summary>
           <em>&nbsp;>&nbsp;{{ project.description }}</em>      
         </summary>   
@@ -44,7 +44,7 @@ url: notes/
     {% for thought in foo.thoughts %}  
     <details>  
       <summary>  
-        <strong>&nbsp;{{ thought.date }}</strong>&nbsp;<em class="fr">{{ thought.project }}</em>  
+        <strong>&nbsp;{{ thought.date }}</strong>&nbsp;<em class="fr">{{ thought.project }}&nbsp;</em>  
       </summary>
       <br>
       <span markdown="1">{{ thought.note }}</span>
