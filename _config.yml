@@ -24,7 +24,6 @@ include:
   - _note
   
 site_tree.file: map.md
-site_tree.extension: true
   
 prose:
   siteurl: "http://www.scottkilts.com"
