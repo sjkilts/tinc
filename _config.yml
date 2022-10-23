@@ -12,3 +12,77 @@ users:
   - login: "sjkilts"
     user: "Scott Kilts"
 
+include: 
+  - _notes
+  
+collections:
+  notes:
+    output: true
+
+prose:
+  siteurl: "http://www.scottkilts.com"
+  media: "/media"
+  metadata:
+    _posts:
+      - name: "published"
+        field: 
+          element: "button"
+          label: "published"
+          on: "true"
+          off: "false"
+      - name: "img"
+        field:
+          element: "text"
+          label: "image"
+          placeholder: "/media/imagename.png"
+      - name: "img-name"
+        field:
+          element: "text"
+          label:  "image name"
+          placeholder: "image name"
+      - name: "medium"
+        field:
+          element: "text"
+          label:  "medium"
+          placeholder: "medium"
+      - name: "title"
+        field:
+          element: "text"
+          label:  "title"
+          placeholder: "title"
+      - name: "content"
+        field:
+          element: "textarea"
+          label: "post content"
+          placeholder: "text for post"
+    _notes:
+      - name: "project"
+        field: 
+          element: "text"
+          label: "project"
+          placeholder: "project name"
+      - name: "client"
+        field: 
+          element: "multiselect"
+          label: "client"
+          placeholder: "select client"
+          options: 
+            - tenants union
+            - scott j kilts
+            - this is not culture
+            - black flag alpine
+            - spacetimedistortion
+            - wave
+            - free the land
+            - ultralightlife
+      - name: "description"
+        field: 
+          element: "text"
+          label: "description"
+          placeholder: "project description"
+      - name: "todo"
+        field: 
+          element: "multiselect"
+          alterable: true
+          label: "todo"
+          placeholder: "todo"
