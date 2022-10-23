@@ -4,7 +4,9 @@ title: notes
 url: notes/
 ---
 {% for foo in site.data.notes %}  
+
 <div style="font-family: courier new" class="col12 pad1">
+  
   <div> <!--users, clients-->
     <ul>
       <li><strong>users</strong></li>
@@ -18,28 +20,30 @@ url: notes/
     </ul>
   </div>
   <br>
+  
   <div> <!--projects-->
     <ul>
-    <strong>projects</strong>   
-    {% for project in foo.projects %}  
-    <li>&nbsp;<strong>{{ project.project }}</strong><span class="date fr">&nbsp;{{ project.client }}&nbsp;</span></li>
-    <details>     
-      <summary>  
-        <li>
-          <em>>&nbsp;{{ project.description }}</em>
-        </li>      
-      </summary>   
-      <ul>
-        {% for todo in project.todo %}  
-        <li>&nbsp;&nbsp;&nbsp;° {{ todo }}</li>  
-        {% endfor %}     
-      </ul>  
-      <br>
-    </details>  
-    {% endfor %}   
+      <strong>projects</strong>   
+      {% for project in foo.projects %}  
+      <li>&nbsp;<strong>{{ project.project }}</strong><span class="date fr">&nbsp;{{ project.client }}&nbsp;</span></li>
+      <details>     
+        <summary>  
+          <li>
+            <em>>&nbsp;{{ project.description }}</em>
+          </li>      
+        </summary>   
+        <ul>
+          {% for todo in project.todo %}  
+          <li>&nbsp;&nbsp;&nbsp;° {{ todo }}</li>  
+          {% endfor %}     
+        </ul>  
+        <br>
+      </details>  
+      {% endfor %}   
     </ul>  
   </div>
   <br>
+  
   <div> <!--notes-->
     <strong>notes</strong>      
       {% for thought in foo.thoughts %}  
@@ -51,5 +55,7 @@ url: notes/
       </details>    
       {% endfor %}    
   </div> 
-{% endfor %}  
+  
 </div>
+  
+{% endfor %}  
