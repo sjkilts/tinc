@@ -47,11 +47,12 @@ url: notes/
       <summary>  
         <span class="date">&nbsp;&nbsp;{{ thought.date }}</span>&nbsp;<em class="fr">{{ thought.project }}</em>  
       </summary>
+      <br>
       <span markdown="1">{{ thought.note }}</span>
-    <br>
-  </details>    
-  {% endfor %}    
+      <br>
+    </details>    
+    {% endfor %}    
+  </div>
   
-</div>
-  
+</div>  
 {% endfor %}  
