@@ -15,13 +15,13 @@ users:
   - login: "sjkilts"
     user: "Scott Kilts"
 
-collections:
-  note:
-    output: true
-
 include: 
   - _notes
   - _note
+  
+collections:
+  note:
+    output: true  
   
 site_tree.file: map.md
   
