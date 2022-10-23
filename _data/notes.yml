@@ -18,9 +18,9 @@
     client:       *sjk
     description:  'digital list of physical things'
     todo: |
-    - [ ] finish repair of dyneema pack  
-    - [ ] finish repair of rope bag  
-    - [ ] finish putting together yaak-maax    
+      - [ ] finish repair of dyneema pack  
+      - [ ] finish repair of rope bag  
+      - [ ] finish putting together yaak-maax    
 
   - project:      [&015 admin]
     client:       *sjk
