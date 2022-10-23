@@ -20,7 +20,7 @@
     todo: | 
       - [ ] finish repair of dyneema pack
       - [ ] finish repair of rope bag
-      - [ ] finish putting together yaak-maax 
+      - [ ] finish putting together yaak-maax  
 
   - project:      [&015 admin]
     client:       *sjk
@@ -35,15 +35,15 @@
       - [ ] heroku form backend app
       - [ ] consolidate and organize files
       - [ ] secure notes
-      - [ ] time tracking web app
+      - [ ] time tracking web app  
 
   - project:      [&014 spacetimedistortion.org]
     client:       *std
     description:  'you are spacetimedistortion'
-    todo:
-    - post site
-    - design blog
-    - different take on the same ullife gear
+    todo: |
+      - post site
+      - design blog
+      - different take on the same ullife gear  
 
   - project:      [&013 ullife.me]
     client:       *ull
@@ -60,7 +60,7 @@
       - nano air article
       - kelty tarp article
       - windburner article
-      - when site is trafficked request articles from people
+      - when site is trafficked request articles from people  
 
   - project:      [&012 yosemite]
     client:       *ftl 
@@ -70,7 +70,7 @@
       - link petition
       - fill in site content
       - go through texts and notes
-      - list ideas
+      - list ideas  
 
   - project:      [&011 future]
     client:       *flo
@@ -78,7 +78,7 @@
     todo: |
       - check on e-ink license plate with people
       - smart grant
-      - vidya game make an outline, storyline, concepts etc see if your writer frien is interested in helping
+      - vidya game make an outline, storyline, concepts etc see if your writer frien is interested in helping  
 
   - project:      [&010 wave board]
     client:       *flo 
@@ -99,7 +99,7 @@
       - make it bigger
       - fly a cadillac
       - fly your cadillac to your floating rainforest moss island with the bear and falcon
-      - feel accomplished and probably chill
+      - feel accomplished and probably chill  
 
   - project:      [&009 SMART GRANT]
     client:       *flo 
@@ -110,7 +110,7 @@
       - platform proof of concept
       - research ion drive feasibility
       - platform loads & power requirements
-      - future potential to use platform for automotive, recreation, industry use
+      - future potential to use platform for automotive, recreation, industry use  
 
   - project:      [&008 freelance]
     client:       *sjk
@@ -118,7 +118,7 @@
     todo: |
       - check on shopify data entry application 2022-10-22
       - check up on frontend engineer application 2022-10-21
-      - finish academic paper illustration 2022-10-22
+      - finish academic paper illustration 2022-10-22  
 
   - project:      [&007 share]
     client:       *bfa 
@@ -132,7 +132,7 @@
       - make licensed instruction easy and attempt to set an international instruction standard
       - open source collaborative standard - attempt to work with DAV, AAC, AMGA etc
       - anti-corporate organization
-      - instructions for guerrilla instruction, self instruction, low-cost equipment construction
+      - instructions for guerrilla instruction, self instruction, low-cost equipment construction  
 
   - project:      [&006 tinc products]
     client:       *tnc
@@ -141,20 +141,20 @@
       - determine requirements to build an embroidery file for printful
       - finish/cleanup photoshop of decolonize
       - build decolonize printful product as denim jacket with embroidered back
-      - pending pricing, explore one-color version
+      - pending pricing, explore one-color version  
 
   - project:      [&005 skcom products]
     client:       *sjk 
     description:  'personal art & products'
     todo: |
-      - rulez metal print, printful sublimation print on metal 16x20
+      - rulez metal print, printful sublimation print on metal 16x20  
 
   - project:      [&004 thisisnotculture.us]
     client:       *tnc
     description:  'this is not culture webstore'
     todo: |
       - determine stack for skcom webstore, follow suite
-      - pay for domains for a few years in advance asap
+      - pay for domains for a few years in advance asap  
 
   - project:      [&003 email list]
     client:       *tuv 
@@ -163,13 +163,13 @@
       - favicons, seo, social preivew
       - analytics
       - set up heroku hosted contact form, ditch formkeep
-      - 404, thank you
+      - 404, thank you  
 
   - project:      [&002 poster]
     client:       *tuv 
     description:  'TU workshop poster'
     todo: |
-      - check in, possibly finalized
+      - check in, possibly finalized  
 
   - project:      [&001 scottkilts.com]
     client:       *sjk
@@ -203,7 +203,7 @@
       - take a stand on affiliate marketing, write about it and do what you say
       - use your data science skills to visualize your time tracking on the notes page
       - input notes via text? look into it
-      - input notes via notes page form? will have to use .js or set up a heroku style server. could be ideal for also hosting secure notes data
+      - input notes via notes page form? will have to use .js or set up a heroku style server. could be ideal for also hosting secure notes data  
 
 
   thoughts:  
@@ -217,7 +217,7 @@
       this can drop open to show the line items from that day  
         
       ~~~ html
-      {{ comment }} <!--
+      <!--
       <div> <!--hours- ->  
       <strong>hours</strong>    
       {% capture now %}{{'now' | date: '%Y-%m-%d' | plus: 0 }}{% endcapture %}
@@ -248,8 +248,8 @@
       <li>{{ hours.hours }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.description }}</li>
       {% endfor %}   
       </ul>
-      </div> -->{{ comment }}
-      ~~~   
+      </div> -->
+      ~~~     
 
   - date:     2022-10-20
     project:  *011
