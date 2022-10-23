@@ -48,162 +48,162 @@
   - project:      [&013 ullife.me]
     client:       *ull
     description:  'minimalism lifestyle'
-    todo:
-    - post site
-    - renew domains
-    - make affiliate link decisions, post on skcom blog
-    - bivy reviews
-    - pack reviews
-    - summit pack article
-    - puffy reviews / overview
-    - basics of layering
-    - nano air article
-    - kelty tarp article
-    - windburner article
-    - when site is trafficked request articles from people
+    todo: |
+      - post site
+      - renew domains
+      - make affiliate link decisions, post on skcom blog
+      - bivy reviews
+      - pack reviews
+      - summit pack article
+      - puffy reviews / overview
+      - basics of layering
+      - nano air article
+      - kelty tarp article
+      - windburner article
+      - when site is trafficked request articles from people
 
   - project:      [&012 yosemite]
     client:       *ftl 
     description:  'permits are for policing'
-    todo:
-    - post site
-    - link petition
-    - fill in site content
-    - go through texts and notes
-    - list ideas
+    todo: |
+      - post site
+      - link petition
+      - fill in site content
+      - go through texts and notes
+      - list ideas
 
   - project:      [&011 future]
     client:       *flo
     description:  'how u do dat dat'
-    todo: 
-    - check on e-ink license plate with people
-    - smart grant
-    - vidya game make an outline, storyline, concepts etc see if your writer frien is interested in helping
+    todo: |
+      - check on e-ink license plate with people
+      - smart grant
+      - vidya game make an outline, storyline, concepts etc see if your writer frien is interested in helping
 
   - project:      [&010 wave board]
     client:       *flo 
     description:  'ride the wave'
-    todo:
-    - smart grant
-    - model platform w/drone parts
-    - define and code movement software based on skate, snow, surf, ski
-    - consider traditional load carrying ideas ie. dogsled, kayak, skid etc
-    - build a working protoype drone you can fly with pressure from your hand
-    - make it tinyyy
-    - sell it as a modern tech deck
-    - pile money
-    - research ion drive
-    - research sound-based power
-    - make a toy that does that
-    - repeat the sell and profit steps
-    - make it bigger
-    - fly a cadillac
-    - fly your cadillac to your floating rainforest moss island with the bear and falcon
-    - feel accomplished and probably chill
+    todo: |
+      - smart grant
+      - model platform w/drone parts
+      - define and code movement software based on skate, snow, surf, ski
+      - consider traditional load carrying ideas ie. dogsled, kayak, skid etc
+      - build a working protoype drone you can fly with pressure from your hand
+      - make it tinyyy
+      - sell it as a modern tech deck
+      - pile money
+      - research ion drive
+      - research sound-based power
+      - make a toy that does that
+      - repeat the sell and profit steps
+      - make it bigger
+      - fly a cadillac
+      - fly your cadillac to your floating rainforest moss island with the bear and falcon
+      - feel accomplished and probably chill
 
   - project:      [&009 SMART GRANT]
     client:       *flo 
     description:  'USDOT grant due 2022-11-12'
-    todo:
-    - look at grant, validate dates & requirements
-    - e-ink license plate idea
-    - platform proof of concept
-    - research ion drive feasibility
-    - platform loads & power requirements
-    - future potential to use platform for automotive, recreation, industry use
+    todo: |
+      - look at grant, validate dates & requirements
+      - e-ink license plate idea
+      - platform proof of concept
+      - research ion drive feasibility
+      - platform loads & power requirements
+      - future potential to use platform for automotive, recreation, industry use
 
   - project:      [&008 freelance]
     client:       *sjk
     description:  'freelance contracts'
-    todo:
-    - check on shopify data entry application 2022-10-22
-    - check up on frontend engineer application 2022-10-21
-    - finish academic paper illustration 2022-10-22
+    todo: |
+      - check on shopify data entry application 2022-10-22
+      - check up on frontend engineer application 2022-10-21
+      - finish academic paper illustration 2022-10-22
 
   - project:      [&007 share]
     client:       *bfa 
     description:  'de-centralized alpine education & access'
-    todo:
-    - short technical book
-    - all ages accessible illustrated book series
-    - self guided course supplemented with in person teaching and online resource center
-    - license climbing gyms / community centers as instructors on sliding scale
-    - guarantee access in license with proven pay scale structure for gym / center
-    - make licensed instruction easy and attempt to set an international instruction standard
-    - open source collaborative standard - attempt to work with DAV, AAC, AMGA etc
-    - anti-corporate organization
-    - instructions for guerrilla instruction, self instruction, low-cost equipment construction
+    todo: |
+      - short technical book
+      - all ages accessible illustrated book series
+      - self guided course supplemented with in person teaching and online resource center
+      - license climbing gyms / community centers as instructors on sliding scale
+      - guarantee access in license with proven pay scale structure for gym / center
+      - make licensed instruction easy and attempt to set an international instruction standard
+      - open source collaborative standard - attempt to work with DAV, AAC, AMGA etc
+      - anti-corporate organization
+      - instructions for guerrilla instruction, self instruction, low-cost equipment construction
 
   - project:      [&006 tinc products]
     client:       *tnc
     description:  'this is not culture products'
-    todo:
-    - determine requirements to build an embroidery file for printful
-    - finish/cleanup photoshop of decolonize
-    - build decolonize printful product as denim jacket with embroidered back
-    - pending pricing, explore one-color version
+    todo: |
+      - determine requirements to build an embroidery file for printful
+      - finish/cleanup photoshop of decolonize
+      - build decolonize printful product as denim jacket with embroidered back
+      - pending pricing, explore one-color version
 
   - project:      [&005 skcom products]
     client:       *sjk 
     description:  'personal art & products'
-    todo:
-    - rulez metal print, printful sublimation print on metal 16x20
+    todo: |
+      - rulez metal print, printful sublimation print on metal 16x20
 
   - project:      [&004 thisisnotculture.us]
     client:       *tnc
     description:  'this is not culture webstore'
-    todo:
-    - determine stack for skcom webstore, follow suite
-    - pay for domains for a few years in advance asap
+    todo: |
+      - determine stack for skcom webstore, follow suite
+      - pay for domains for a few years in advance asap
 
   - project:      [&003 email list]
     client:       *tuv 
     description:  'contact & signup page'
-    todo: 
-    - favicons, seo, social preivew
-    - analytics
-    - set up heroku hosted contact form, ditch formkeep
-    - 404, thank you
+    todo: |
+      - favicons, seo, social preivew
+      - analytics
+      - set up heroku hosted contact form, ditch formkeep
+      - 404, thank you
 
   - project:      [&002 poster]
     client:       *tuv 
     description:  'TU workshop poster'
-    todo: 
-    - check in, possibly finalized
+    todo: |
+      - check in, possibly finalized
 
   - project:      [&001 scottkilts.com]
     client:       *sjk
     description:  'artwork, writing, anarchy'
-    todo: 
-    - gitea heroku server
-    - - web3.0 frontend, stacked with fleek
-    - - password protect gitea frontend with hash
-    - - unique secure password for heroku backend
-    - - should allow secure self-hosted iterative backend with all the git features we use
-    - - could be a much better way to host and manage all the websites
-    - place plantations poem
-    - clean up in-post <img> tags cause they are messy af
-    - github authentication working copy
-    - webb photo copyright
-    - printful inital products
-    - printful store setup
-    - add time tracking
-    - setup notes page .css
-    - verify/optimize .yml
-    - streamline image handling
-    - add paper to .yml, recycle
-    - web3.0
-    - ethereum network
-    - move away from google analytics
-    - move away from google
-    - footnotes css overlay
-    - blog post re notes page and how project managment is super subjective but the best
-    - info/thoughts section on site
-    - include coffee stuff, the products you use and drinks you make
-    - take a stand on affiliate marketing, write about it and do what you say
-    - use your data science skills to visualize your time tracking on the notes page
-    - input notes via text? look into it
-    - input notes via notes page form? will have to use .js or set up a heroku style server. could be ideal for also hosting secure notes data
+    todo: |
+      - gitea heroku server
+      - - web3.0 frontend, stacked with fleek
+      - - password protect gitea frontend with hash
+      - - unique secure password for heroku backend
+      - - should allow secure self-hosted iterative backend with all the git features we use
+      - - could be a much better way to host and manage all the websites
+      - place plantations poem
+      - clean up in-post <img> tags cause they are messy af
+      - github authentication working copy
+      - webb photo copyright
+      - printful inital products
+      - printful store setup
+      - add time tracking
+      - setup notes page .css
+      - verify/optimize .yml
+      - streamline image handling
+      - add paper to .yml, recycle
+      - web3.0
+      - ethereum network
+      - move away from google analytics
+      - move away from google
+      - footnotes css overlay
+      - blog post re notes page and how project managment is super subjective but the best
+      - info/thoughts section on site
+      - include coffee stuff, the products you use and drinks you make
+      - take a stand on affiliate marketing, write about it and do what you say
+      - use your data science skills to visualize your time tracking on the notes page
+      - input notes via text? look into it
+      - input notes via notes page form? will have to use .js or set up a heroku style server. could be ideal for also hosting secure notes data
 
 
   thoughts:  
