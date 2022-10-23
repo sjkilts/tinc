@@ -5,10 +5,7 @@ url: /note
 ---
 {% comment %}
 {% for p in site.notes %}   
-  {% capture %}{{ p.project }}{% endcapture %}
-  {% capture %}{{ p.client }}{% endcapture %}
-  {% capture %}{{ p.description }}{% endcapture %}
-  {% capture %}{{ p.todo | markdownify }}{% endcapture %}
+{% if p.project %}
 
   project: {{ p.project }}  
   client: {{ p.client }}  
@@ -18,5 +15,6 @@ url: /note
   notes:    
   {{ content }}  
 
+{% endif %}
 {% endfor %}
 {% comment %}
