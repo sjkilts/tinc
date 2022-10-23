@@ -3,7 +3,7 @@ published: true
 layout: default
 url: /note
 ---
-{% for project in site.notes %}   
+{% for project in site.posts %}   
 {% if project.path contains 'projects' %}  
 {% capture project %}{{ project.project }}{% endcapture %}  
 {% capture client %}{{ project.client }}{% endcapture %}  
