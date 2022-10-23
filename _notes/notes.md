@@ -33,11 +33,7 @@ url: notes/
         <span class="fr">{{ project.client }}&nbsp;</span>
       </summary>   
       <br>
-      
-      
-      {{ project.todo }}
-      
-      
+      <span markdown="1">{{ project.todo }}</span>
       <br>
       <hr>
     </details>  
