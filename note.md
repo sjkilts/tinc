@@ -3,8 +3,7 @@ published: true
 layout: default
 url: /note
 ---
-{% for p in site.notes %}   
-{% if p.project %}
+{% for p in site.note %}   
 
   project: {{ p.project }}  
   client: {{ p.client }}  
@@ -14,5 +13,4 @@ url: /note
   notes:    
   {{ content }}  
 
-{% endif %}
 {% endfor %}
