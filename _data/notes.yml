@@ -216,7 +216,7 @@
       would like to display a line item with the date, total number of hours worked, and projects worked on   
       this can drop open to show the line items from that day  
         
-      ```
+      ~~~ html
       {{ comment }} <!--
       <div> <!--hours- ->  
       <strong>hours</strong>    
@@ -249,7 +249,7 @@
       {% endfor %}   
       </ul>
       </div> -->{{ comment }}
-      ```   
+      ~~~   
 
   - date:     2022-10-20
     project:  *011
