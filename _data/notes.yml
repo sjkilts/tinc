@@ -132,7 +132,7 @@
   - project:      [&007 share]
     client:       *bfa 
     description:  |
-                  de-centralized alpine access and education
+                  de-centralized alpine access, education
     todo:
     - short technical book
     - all ages accessible illustrated book series
