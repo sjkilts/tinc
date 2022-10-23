@@ -16,8 +16,7 @@
   projects:
   - project: [&016 home]
     client: *sjk
-    description:  |
-                  digital list of physical things
+    description:  'digital list of physical things'
     todo: 
     - finish repair of dyneema pack
     - finish repair of rope bag
@@ -25,8 +24,7 @@
 
   - project: [&015 admin]
     client: *sjk
-    description: |
-                 organize projects & data
+    description: 'organize projects & data'
     todo:
     - gitea heroku
     - killer stack, gitea heroku fleek jekyll prose
@@ -41,8 +39,7 @@
 
   - project:      [&014 spacetimedistortion.org]
     client:       *std
-    description:  |
-                  you are spacetimedistortion
+    description:  'you are spacetimedistortion'
     todo:
     - post site
     - design blog
@@ -50,8 +47,7 @@
 
   - project:      [&013 ullife.me]
     client:       *ull
-    description:  |
-                  minimalism lifestyle
+    description:  'minimalism lifestyle'
     todo:
     - post site
     - renew domains
@@ -68,8 +64,7 @@
 
   - project:      [&012 yosemite]
     client:       *ftl 
-    description:  |
-                  permits are for policing
+    description:  'permits are for policing'
     todo:
     - post site
     - link petition
@@ -79,8 +74,7 @@
 
   - project:      [&011 future]
     client:       *flo
-    description:  |
-                  how u do dat dat
+    description:  'how u do dat dat'
     todo: 
     - check on e-ink license plate with people
     - smart grant
@@ -88,8 +82,7 @@
 
   - project:      [&010 wave board]
     client:       *flo 
-    description:  |
-                  ride the wave.
+    description:  'ride the wave'
     todo:
     - smart grant
     - model platform w/drone parts
@@ -110,8 +103,7 @@
 
   - project:      [&009 SMART GRANT]
     client:       *flo 
-    description:  |
-                  USDOT grant due 2022-11-12
+    description:  'USDOT grant due 2022-11-12'
     todo:
     - look at grant, validate dates & requirements
     - e-ink license plate idea
@@ -122,8 +114,7 @@
 
   - project:      [&008 freelance]
     client:       *sjk
-    description:  |
-                  freelance contracts
+    description:  'freelance contracts'
     todo:
     - check on shopify data entry application 2022-10-22
     - check up on frontend engineer application 2022-10-21
@@ -131,8 +122,7 @@
 
   - project:      [&007 share]
     client:       *bfa 
-    description:  |
-                  de-centralized alpine education & access
+    description:  'de-centralized alpine education & access'
     todo:
     - short technical book
     - all ages accessible illustrated book series
@@ -146,8 +136,7 @@
 
   - project:      [&006 tinc products]
     client:       *tnc
-    description:  |
-                  this is not culture products
+    description:  'this is not culture products'
     todo:
     - determine requirements to build an embroidery file for printful
     - finish/cleanup photoshop of decolonize
@@ -156,23 +145,20 @@
 
   - project:      [&005 skcom products]
     client:       *sjk 
-    description:  |
-                  personal art & products
+    description:  'personal art & products'
     todo:
     - rulez metal print, printful sublimation print on metal 16x20
 
   - project:      [&004 thisisnotculture.us]
     client:       *tnc
-    description:  |
-                  this is not culture webstore
+    description:  'this is not culture webstore'
     todo:
     - determine stack for skcom webstore, follow suite
     - pay for domains for a few years in advance asap
 
   - project:      [&003 email list]
     client:       *tuv 
-    description:  |
-                  contact & signup page
+    description:  'contact & signup page'
     todo: 
     - favicons, seo, social preivew
     - analytics
@@ -181,15 +167,13 @@
 
   - project:      [&002 poster]
     client:       *tuv 
-    description:  |
-                  TU workshop poster
+    description:  'TU workshop poster'
     todo: 
     - check in, possibly finalized
 
   - project:      [&001 scottkilts.com]
     client:       *sjk
-    description:  |
-                  artwork, writing, anarchy
+    description:  'artwork, writing, anarchy'
     todo: 
     - gitea heroku server
     - - web3.0 frontend, stacked with fleek
@@ -226,255 +210,257 @@
   - date:     2022-20-21
     project:  *015
     note:     |          
-              notes
-              |
-              working code for hours
-              would like to display a line item with the date, total number of hours worked, and projects worked on 
-              this can drop open to show the line items from that day
-              |
-              {{ comment }} <!--
-              <div> <!--hours- ->  
-              <strong>hours</strong>    
-              {% capture now %}{{'now' | date: '%Y-%m-%d' | plus: 0 }}{% endcapture %}
-              {% for hours in foo.minutes %}    
-              {% capture day %}{{ hours.date | date: '%Y-%m-%d' | plus: 0 }}{% endcapture %}
-              {% capture time %}{{ hours.hours | plus: 0 }}{% endcapture %}
-              {% capture project %}{{ hours.project | plus: 0 }}{% endcapture %}
-              <details>
-              <summary>
-              {% for day in hours.date %}
-              {% if day == hours.date %}
-              <li>
-              {{ day | limit: 1 }}            <!-- date - ->
-              {{ time | plus: hours.hours }}  <!-- total hours for date? - ->
-              {{ project }}                   <!-- contributions on date - ->
-              </li>
-              {% endif %}
-              </summary>
-              <li>{{ hours.hours }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.description }}</li>
-              {% endfor %}
-              </details>      
-              < !--
-              hours worked in past two weeks, hours in past month, total hours
-              three most recently contributed to projects
-              stale project(s) (longest time between now and past contribution)
-              <ul>
-              {% for hours in foo.minutes %}    
-              <li>{{ hours.hours }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.description }}</li>
-              {% endfor %}   
-              </ul>
-              </div> -->{{ comment }}
+      notes  
+        
+      working code for hours  
+      would like to display a line item with the date, total number of hours worked, and projects worked on   
+      this can drop open to show the line items from that day  
+        
+      ```
+      {{ comment }} <!--
+      <div> <!--hours- ->  
+      <strong>hours</strong>    
+      {% capture now %}{{'now' | date: '%Y-%m-%d' | plus: 0 }}{% endcapture %}
+      {% for hours in foo.minutes %}    
+      {% capture day %}{{ hours.date | date: '%Y-%m-%d' | plus: 0 }}{% endcapture %}
+      {% capture time %}{{ hours.hours | plus: 0 }}{% endcapture %}
+      {% capture project %}{{ hours.project | plus: 0 }}{% endcapture %}
+      <details>
+      <summary>
+      {% for day in hours.date %}
+      {% if day == hours.date %}
+      <li>
+      {{ day | limit: 1 }}            <!-- date - ->
+      {{ time | plus: hours.hours }}  <!-- total hours for date? - ->
+      {{ project }}                   <!-- contributions on date - ->
+      </li>
+      {% endif %}
+      </summary>
+      <li>{{ hours.hours }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.description }}</li>
+      {% endfor %}
+      </details>      
+      < !--
+      hours worked in past two weeks, hours in past month, total hours
+      three most recently contributed to projects
+      stale project(s) (longest time between now and past contribution)
+      <ul>
+      {% for hours in foo.minutes %}    
+      <li>{{ hours.hours }}, {{ hours.date }}, {{ hours.client }}, {{ hours.project }}, {{ hours.description }}</li>
+      {% endfor %}   
+      </ul>
+      </div> -->{{ comment }}
+      ```
 
   - date:     2022-10-20
     project:  *011
     note:     |
-              - irl we really want the ion drive to work in atmosphere, and we need battery stuff to change dramatically
-              - the sound-based battery system could work very well if we can get it out of the ocean / scale
-              - am not a physicist so actually working on that myself is not really ideal?
-              - will, if necessary. go to school?  would be better to have money to throw at physicists
-              - something like the SMART grant would help
-              - two ideas
-              - 1 not that useful maybe but e-ink license plate. only legal in three states, but new. should be an easy sell
-              - 2 floating load delivery platform proof of concept
-              - - basically just a flat drone to push boxes around on
-              - - could be self-guided eventually, main goal is have it respond to touch input
-              - - so push on a side, it goes that direction
-              - - compensates automatically to not tip when you push, etc.
-              - - trying to build a scale model proof of concept, to move a scale load in the way a forklift typically does
-              - - this inital product would then be roughly a forklift the size of a pallet, hopefully charged long enough to unload a truck
-              - - remote user input to raise a load up into storage safely as an individual
-              - - powered battery base that responds to the same usable touch input so the platform can charge in use unless flying
-              - * e-ink license plate could probably be kickstarted with a render
-              - - - this is a great side project that could mean big money
-              - - - see if people are excited.  if an industrial designer chose to invest a little time this could happen quick
-              - * side scroller game could be a fun way to build interest and make some side money
-              - - start with jank battery powered drone hoverboard
-              - - work up to ion drive, infinite power
-              - - add in other cool things like the flying car, bike, home etc.
-              - - like alto meets hill climb
-              - - minimal ads, like alto
-              - - store with merch etc
-              - - early release a hoverboard through the game one day ;)
-              - * something something floating carbon fiber cadillac luxury camper home
-              - - like, its a whole new world baby
-              - have enough knowledge to build some version of the drone thing, have an industrial designer to help with packaging
-              - could probably get both of those ideas done without too much third party input?
-              - we need third party input for the cool stuff.  
-              - if we can fund a feasibility report from MIT guys about the ion drive and sound based battery
-              - that would be cool and tell us enough to either get big funding or sit on the idea
-              -
-              - blah blah future this could be a floating platform that cleans the air and is powered by sound what do you want
-              - yes, flying surfboard
-              - yes, flying car
-              - your jetsons house is still kinda dumb
-              - yes, floating moss hut
+      - irl we really want the ion drive to work in atmosphere, and we need battery stuff to change dramatically
+      - the sound-based battery system could work very well if we can get it out of the ocean / scale
+      - am not a physicist so actually working on that myself is not really ideal?
+      - will, if necessary. go to school?  would be better to have money to throw at physicists
+      - something like the SMART grant would help
+      - two ideas
+      - 1 not that useful maybe but e-ink license plate. only legal in three states, but new. should be an easy sell
+      - 2 floating load delivery platform proof of concept
+      - - basically just a flat drone to push boxes around on
+      - - could be self-guided eventually, main goal is have it respond to touch input
+      - - so push on a side, it goes that direction
+      - - compensates automatically to not tip when you push, etc.
+      - - trying to build a scale model proof of concept, to move a scale load in the way a forklift typically does
+      - - this inital product would then be roughly a forklift the size of a pallet, hopefully charged long enough to unload a truck
+      - - remote user input to raise a load up into storage safely as an individual
+      - - powered battery base that responds to the same usable touch input so the platform can charge in use unless flying
+      - * e-ink license plate could probably be kickstarted with a render
+      - - - this is a great side project that could mean big money
+      - - - see if people are excited.  if an industrial designer chose to invest a little time this could happen quick
+      - * side scroller game could be a fun way to build interest and make some side money
+      - - start with jank battery powered drone hoverboard
+      - - work up to ion drive, infinite power
+      - - add in other cool things like the flying car, bike, home etc.
+      - - like alto meets hill climb
+      - - minimal ads, like alto
+      - - store with merch etc
+      - - early release a hoverboard through the game one day ;)
+      - * something something floating carbon fiber cadillac luxury camper home
+      - - like, its a whole new world baby
+      - have enough knowledge to build some version of the drone thing, have an industrial designer to help with packaging
+      - could probably get both of those ideas done without too much third party input?
+      - we need third party input for the cool stuff.  
+      - if we can fund a feasibility report from MIT guys about the ion drive and sound based battery
+      - that would be cool and tell us enough to either get big funding or sit on the idea
+      -
+      - blah blah future this could be a floating platform that cleans the air and is powered by sound what do you want
+      - yes, flying surfboard
+      - yes, flying car
+      - your jetsons house is still kinda dumb
+      - yes, floating moss hut  
 
   - date:     2022-10-20
     project:  *008
     note:     |
-              cover letter - frontend engineer
-              |
-              Hello,
-              |
-              |
-              My name is Scott Kilts.  A detail-oriented frontend engineer working in Jekyll, Markdown, JavaScript and Sass.  Excited about writing clean, minimal code.  I would be happy to implement your new pages.
-              |
-              Here is a Jekyll site I worked on recently: https://tenantsrights.github.io/tacoma/
-              |
-              Thanks for your time.  I look forward to hearing from you,
-              |
-              |
-              Scott Kilts
+      cover letter - frontend engineer  
+        
+      Hello,  
+        
+        
+      My name is Scott Kilts.  A detail-oriented frontend engineer working in Jekyll, Markdown, JavaScript and Sass.  Excited about writing clean, minimal code.  I would be happy to implement your new pages.  
+        
+      Here is a Jekyll site I worked on recently: https://tenantsrights.github.io/tacoma/  
+        
+      Thanks for your time.  I look forward to hearing from you,  
+        
+        
+      Scott Kilts  
 
   - date:     2022-10-07
     project:  *008
     note:     |
-              create the best product listing possible
-              |
-              cover letter screenshots:
-              3x top amazon descriptions
-              1x google seo result
-              1x amazon seo result
-              |
-              create a successful SEO strategy with top keywords
-              |
-              improve your product ranking on amazon's search results
-              |
-              simple: title, bullet points, description
-              | 
-              highlight top 5 features:
-                ex: dimensions
-                age appropriateness
-                country of origin
-                warranty
-              |
-              - begin each bullet with a capital letter
-              - end with no punctuation
-              - numbers written as numerals (e.g. 'twenty-two' is 22)
-              - separate phrases with a semicolon 
-              - spell out measurements
-              - no hyphens, symbols, !, . 
-              - be specific!
-              - DO NOT INCLUDE PRICES IN DESCRIPTIONS
-              - DO NOT INCLUDE SHIPPING INFO IN DESCRIPTIONS
-              - DO NOT INCLUDE COMPANY INFO IN DESCRIPTIONS
+      create the best product listing possible  
+        
+      cover letter screenshots:  
+      3x top amazon descriptions  
+      1x google seo result  
+      1x amazon seo result  
+        
+      create a successful SEO strategy with top keywords  
+        
+      improve your product ranking on amazon's search results  
+        
+      simple: title, bullet points, description  
+        
+      highlight top 5 features:  
+        ex: dimensions  
+        age appropriateness  
+        country of origin  
+        warranty  
+          
+      - begin each bullet with a capital letter  
+      - end with no punctuation  
+      - numbers written as numerals (e.g. 'twenty-two' is 22)  
+      - separate phrases with a semicolon   
+      - spell out measurements  
+      - no hyphens, symbols, !, .   
+      - be specific!  
+      - DO NOT INCLUDE PRICES IN DESCRIPTIONS  
+      - DO NOT INCLUDE SHIPPING INFO IN DESCRIPTIONS  
+      - DO NOT INCLUDE COMPANY INFO IN DESCRIPTIONS  
 
   - date:     2022-10-06
     project:  *006
     note:     |
-              explore these phrases in the style of 'ignore alien gender'
-              'dirt is people too'
-              'dust is people too'
-              'grass is people too'
-              'trees are people too'
-              'rocks are people too'
-              'plants are people too'
-              'people are people too'
-              'aliens are people too'
-              'robots are people too'
+      explore these phrases in the style of 'ignore alien gender'  
+      'dirt is people too'  
+      'dust is people too'  
+      'grass is people too'  
+      'trees are people too'  
+      'rocks are people too'  
+      'plants are people too'  
+      'people are people too'  
+      'aliens are people too'  
+      'robots are people too'  
 
   - date:     2022-10-06
     project:  *012
     note:     |
-              client: gmail
-              email: setthelandfree@gmail.com
-              passsword: 
-              |
-              client: github
-              user: setthelandfree
-              password: 
-              link: https://github.com/setthelandfree/freewalls.git 
+      client: gmail  
+      email: setthelandfree@gmail.com  
+      passsword:   
+        
+      client: github  
+      user: setthelandfree  
+      password:   
+      link: https://github.com/setthelandfree/freewalls.git 
 
   - date:     2022-10-06
     project:  *012
     note:     |
-              content:
-              |
-              data suggests (mt blanc) that permits may actually hurt overall rescue numbers
-              not gatekeeping access greatly increases the likelyhood of climbers helping each other
-              this is common, and not accurately reported or reflected in any data
-              adding any cost cap or registration hoop to jump through will restrict people
-              are multi-day big-wall climbers an actual problem?
-              compared to other user groups, my biased personal experience suggests the opposite
-              |
-              yosar was climbers self regulating alongside NPS
-              |
-              NPS is forest cops
-              |
-              scenarios permitting makes some sense:
-              high risk/alpine
-              incliment weather/alipine
-              not truly applicable to el cap 
-              perhaps in extreme scenarios which weren't planned for
-              which is the point of a rescue system
-              otherwise undue buracracy increasing regulation on public land
-              |
-              NPS is using skewed data 
-              and international catastrophe                 
-              to push a police state agenda
-              |
-              this seems like an attempt to control and gather data
-              specifically isolates a specific user group 
-              adds additional cost and complication which primarily impacts low income and minority users
-              who knows what regulations climbers or others who are respectfully exploring the outdoors could eventually face
-              |
-              next up: wear a satellite beacon registered with NPS, nasa and SPACEX
-              must be worn at all times on public land or face fines and or imprisonment
-              it's only $1700 for the tracker and the required service is $129.99 a month forever!
-              |
-              based on nothing but intuition it seems likely that influential people in
-              NPS, YOSAR and popular Yosemite climbing access groups are seeing benifits from this beyond the impact to everyday climbers
-              |
-              at best it's a lazy way to get other people do do their work for them,
-              while charging us for the privlidge 
-              |
-              more negative use cases involve data collection
-              used for marketing, advertising, funding
-              even potentially selling future permits for gatekeeping amounts of money
-              (a permit costs 15,000 euro to climb popular routes on Mont Blanc in 2022, 
-              this is not resolving their rescue problem caused by undereducated, overconfident people)
-              |
-              a likely outcome for this permit system is increasing popularity of big in-a-day climbs
-              this style of climbing is incredibly risky, even when undertaken by pro-level climbers
-              a large increase in popularity of speed climbing has potentially huge negative implications
-              huge future potential for speed climbing to become popular with under or mis-educated masses 
-              this could cause a much larger strain on rescue resources than big wall climbing ever has
+      content:  
+        
+      data suggests (mt blanc) that permits may actually hurt overall rescue numbers  
+      not gatekeeping access greatly increases the likelyhood of climbers helping each other  
+      this is common, and not accurately reported or reflected in any data  
+      adding any cost cap or registration hoop to jump through will restrict people  
+      are multi-day big-wall climbers an actual problem?  
+      compared to other user groups, my biased personal experience suggests the opposite  
+        
+      yosar was climbers self regulating alongside NPS  
+        
+      NPS is forest cops  
+        
+      scenarios permitting makes some sense:  
+      high risk/alpine  
+      incliment weather/alipine  
+      not truly applicable to el cap   
+      perhaps in extreme scenarios which weren't planned for  
+      which is the point of a rescue system  
+      otherwise undue buracracy increasing regulation on public land  
+        
+      NPS is using skewed data   
+      and international catastrophe                   
+      to push a police state agenda  
+        
+      this seems like an attempt to control and gather data  
+      specifically isolates a specific user group   
+      adds additional cost and complication which primarily impacts low income and minority users  
+      who knows what regulations climbers or others who are respectfully exploring the outdoors could eventually face  
+        
+      next up: wear a satellite beacon registered with NPS, nasa and SPACEX  
+      must be worn at all times on public land or face fines and or imprisonment  
+      it's only $1700 for the tracker and the required service is $129.99 a month forever!  
+        
+      based on nothing but intuition it seems likely that influential people in  
+      NPS, YOSAR and popular Yosemite climbing access groups are seeing benifits from this beyond the impact to everyday climbers  
+        
+      at best it's a lazy way to get other people do do their work for them,  
+      while charging us for the privlidge   
+        
+      more negative use cases involve data collection  
+      used for marketing, advertising, funding  
+      even potentially selling future permits for gatekeeping amounts of money  
+      (a permit costs 15,000 euro to climb popular routes on Mont Blanc in 2022,   
+      this is not resolving their rescue problem caused by undereducated, overconfident people)  
+        
+      a likely outcome for this permit system is increasing popularity of big in-a-day climbs  
+      this style of climbing is incredibly risky, even when undertaken by pro-level climbers  
+      a large increase in popularity of speed climbing has potentially huge negative implications  
+      huge future potential for speed climbing to become popular with under or mis-educated masses   
+      this could cause a much larger strain on rescue resources than big wall climbing ever has  
 
   - date:     2022-10-06
     project:  *003
     note:     |
-              client: CONSTANT CONTACT  
-              email: alexn@tenantsunion.org  
-              password: 
-              |
-              client: Google
-              email: alexntenantsunion@gmail.com
-              password: 
-              |
-              client: Github
-              email: alexntenantsunion@gmail.com
-              password:
-              |
-              client: FormKeep
-              email: alexntenantsunion@gmail.com
-              password:
-              |
-              https://tenantsrights.github.io/tacoma/
+      client: CONSTANT CONTACT  
+      email: alexn@tenantsunion.org   
+      password:   
+        
+      client: Google  
+      email: alexntenantsunion@gmail.com  
+      password:   
+        
+      client: Github  
+      email: alexntenantsunion@gmail.com  
+      password:  
+        
+      client: FormKeep  
+      email: alexntenantsunion@gmail.com  
+      password:  
+        
+      https://tenantsrights.github.io/tacoma/
 
   - date:     2022-10-06
     project:  *001
     note:     |
-              github is having some trouble authenticating with working copy.  recurring issue
-              also happening with sethelandfree/freewalls in working copy
-              |
-              rulez would be a great metal print, verify license info for the webb photo
-              |
-              paper list of product ideas has been made, probably ideal to track here
-              |
-              add xml field under each individual project to add/track time spent daily 
-              |
-              css and markdown footnotes function 
-              create immersive overlay displaying footnotes on touch or hover
+      github is having some trouble authenticating with working copy.  recurring issue  
+      also happening with sethelandfree/freewalls in working copy  
+        
+      rulez would be a great metal print, verify license info for the webb photo  
+        
+      paper list of product ideas has been made, probably ideal to track here  
+        
+      add xml field under each individual project to add/track time spent daily   
+        
+      css and markdown footnotes function   
+      create immersive overlay displaying footnotes on touch or hover  
 
 
   minutes: 
