@@ -3,5 +3,5 @@ gem 'github-pages'
 gem 'jekyll'
 
 group :jekyll_plugins do
-  gem 'jekyll-site-tree'
+  gem 'jekyll-sitemap'
 end
