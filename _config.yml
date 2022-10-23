@@ -17,10 +17,9 @@ users:
 
 include: 
   - _notes
-  - _note
   
 collections:
-  note:
+  notes:
     output: true  
   
 site_tree.file: map.md
