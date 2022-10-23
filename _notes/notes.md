@@ -24,25 +24,21 @@ url: notes/
   <br>
   
   <div> <!--projects-->
-    <ul>
-      <strong>projects</strong>   
+    <strong>projects</strong>   
+    <div>
       {% for project in foo.projects %}  
-      <li>&nbsp;<strong>{{ project.project }}</strong><span class="date fr">&nbsp;{{ project.client }}&nbsp;</span></li>
+      <span>>&nbsp;<strong>{{ project.project }}</strong><span class="date fr">&nbsp;{{ project.client }}&nbsp;</span></span>>
       <details>     
-        <summary>  
-          <li>
-            <em>&nbsp;>&nbsp;{{ project.description }}</em>
-          </li>      
+        <summary>
+          <em>&nbsp;>&nbsp;{{ project.description }}</em>      
         </summary>   
-        <ul>
-          {% for todo in project.todo %}  
-          <li markdown="1">&nbsp;&nbsp;&nbsp;° {{ todo }}</li>  
-          {% endfor %}     
-        </ul>  
+        {% for todo in project.todo %}  
+        <span markdown="1">{{ todo }}</span>  
+        {% endfor %}     
         <br>
       </details>  
       {% endfor %}   
-    </ul>  
+    </div>  
   </div>
   <br>
  
@@ -53,11 +49,7 @@ url: notes/
       <summary>  
         <span class="date">&nbsp;&nbsp;{{ thought.date }}</span>&nbsp;<em class="fr">{{ thought.project }}</em>  
       </summary>
-      <span markdown="1">
-    
-      {{ thought.note }}
-      
-      </span>
+      <span markdown="1">{{ thought.note }}</span>
     <br>
   </details>    
   {% endfor %}    
