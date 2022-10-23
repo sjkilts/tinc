@@ -3,7 +3,7 @@ layout: default
 title: notes
 url: notes/
 ---
-{% for foo in site.data.notes %}  
+{% for foo in site.data.notes.notes %}  
 
 <div style="font-family: courier new" class="col12 pad1">
   
