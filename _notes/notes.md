@@ -36,7 +36,7 @@ url: notes/
       </summary>   
       <br>
       {% for todo in project.todo %}
-      <span markdown="1">{{ todo }}</span>
+      <span>{{ todo }}</span>
       {% endfor %}
       <br>
       <hr>
