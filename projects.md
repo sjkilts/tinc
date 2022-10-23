@@ -3,7 +3,7 @@ published: true
 layout: default
 ---
 
-{% for p in site.note %}   
+{% for p in site.notes %}   
 <div>
   <ul>
     <li>project: {{ p.project }}</li>  
