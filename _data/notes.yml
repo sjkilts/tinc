@@ -14,17 +14,17 @@
 
 
   projects:
-  - project: [&016 home]
-    client: *sjk
+  - project:      [&016 home]
+    client:       *sjk
     description:  'digital list of physical things'
     todo: | 
-    - [ ] finish repair of dyneema pack
-    - [ ] finish repair of rope bag
-    - [ ] finish putting together yaak-maax 
+      - [ ] finish repair of dyneema pack
+      - [ ] finish repair of rope bag
+      - [ ] finish putting together yaak-maax 
 
-  - project: [&015 admin]
-    client: *sjk
-    description: 'organize projects & data'
+  - project:      [&015 admin]
+    client:       *sjk
+    description:  'organize projects & data'
     todo:
     - gitea heroku
     - killer stack, gitea heroku fleek jekyll prose
