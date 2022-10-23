@@ -31,8 +31,8 @@ url: notes/
     <details>     
       <summary>
         <ul>
-          <li>&nbsp;{{ project.client }}</li>   
-          <li>&nbsp;/&nbsp;{{ project.project }}&nbsp;<em>/&nbsp;{{ project.description }}</em></li>
+          <li>&nbsp;<em>{{ project.client }}</em></li>   
+          <li>&nbsp;&nbsp;{{ project.project }}&nbsp;<em>/&nbsp;{{ project.description }}</em></li>
         </ul>
       </summary>   
       <br>
