@@ -3,7 +3,6 @@ published: true
 layout: default
 url: /note
 ---
-{% comment %}
 {% for p in site.notes %}   
 {% if p.project %}
 
@@ -17,4 +16,3 @@ url: /note
 
 {% endif %}
 {% endfor %}
-{% comment %}
