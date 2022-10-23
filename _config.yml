@@ -15,9 +15,6 @@ users:
 include: 
   - _notes
 
-collections:
-  - notes
-
 prose:
   siteurl: "http://www.scottkilts.com"
   media: "/media"
