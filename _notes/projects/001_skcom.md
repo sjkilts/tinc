@@ -9,7 +9,7 @@ todo:
 ---
 ![stompact compact skateboard concept]({{site.baseurl}}/media/stompact-working.GIF)
  layup:
- 	- top to bottom
+  - top to bottom
     - fine fiberglass mat
     - maple
     - heavy fiberglass mat
