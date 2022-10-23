@@ -46,16 +46,18 @@ url: notes/
   </div>
   <br>
  
-  **notes**
-  
-  {% for thought in foo.thoughts %}  
-  <details>  
-    <summary>  
-      <span class="date">&nbsp;&nbsp;{{ thought.date }}</span>&nbsp;<em class="fr">{{ thought.project }}</em>  
-    </summary>
+  <div> <!--notes-->
+    <strong>notes</strong>
+    {% for thought in foo.thoughts %}  
+    <details>  
+      <summary>  
+        <span class="date">&nbsp;&nbsp;{{ thought.date }}</span>&nbsp;<em class="fr">{{ thought.project }}</em>  
+      </summary>
+      <span markdown="1">
     
-    {{ thought.note }}
-    
+      {{ thought.note }}
+      
+      </span>
     <br>
   </details>    
   {% endfor %}    
