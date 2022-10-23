@@ -61,6 +61,7 @@ prose:
         field: 
           element: "multiselect"
           label: "client"
+          placeholder: "select client"
           options: 
             - tenants union
             - scott j kilts
