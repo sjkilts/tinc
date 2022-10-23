@@ -249,51 +249,51 @@
       {% endfor %}   
       </ul>
       </div> -->{{ comment }}
-      ```
+      ```   
 
   - date:     2022-10-20
     project:  *011
     note:     |
-      - irl we really want the ion drive to work in atmosphere, and we need battery stuff to change dramatically
-      - the sound-based battery system could work very well if we can get it out of the ocean / scale
-      - am not a physicist so actually working on that myself is not really ideal?
-      - will, if necessary. go to school?  would be better to have money to throw at physicists
-      - something like the SMART grant would help
-      - two ideas
-      - 1 not that useful maybe but e-ink license plate. only legal in three states, but new. should be an easy sell
-      - 2 floating load delivery platform proof of concept
-      - - basically just a flat drone to push boxes around on
-      - - could be self-guided eventually, main goal is have it respond to touch input
-      - - so push on a side, it goes that direction
-      - - compensates automatically to not tip when you push, etc.
-      - - trying to build a scale model proof of concept, to move a scale load in the way a forklift typically does
-      - - this inital product would then be roughly a forklift the size of a pallet, hopefully charged long enough to unload a truck
-      - - remote user input to raise a load up into storage safely as an individual
-      - - powered battery base that responds to the same usable touch input so the platform can charge in use unless flying
-      - * e-ink license plate could probably be kickstarted with a render
-      - - - this is a great side project that could mean big money
-      - - - see if people are excited.  if an industrial designer chose to invest a little time this could happen quick
-      - * side scroller game could be a fun way to build interest and make some side money
-      - - start with jank battery powered drone hoverboard
-      - - work up to ion drive, infinite power
-      - - add in other cool things like the flying car, bike, home etc.
-      - - like alto meets hill climb
-      - - minimal ads, like alto
-      - - store with merch etc
-      - - early release a hoverboard through the game one day ;)
-      - * something something floating carbon fiber cadillac luxury camper home
-      - - like, its a whole new world baby
-      - have enough knowledge to build some version of the drone thing, have an industrial designer to help with packaging
-      - could probably get both of those ideas done without too much third party input?
-      - we need third party input for the cool stuff.  
-      - if we can fund a feasibility report from MIT guys about the ion drive and sound based battery
-      - that would be cool and tell us enough to either get big funding or sit on the idea
-      -
-      - blah blah future this could be a floating platform that cleans the air and is powered by sound what do you want
-      - yes, flying surfboard
-      - yes, flying car
-      - your jetsons house is still kinda dumb
-      - yes, floating moss hut  
+      - irl we really want the ion drive to work in atmosphere, and we need battery stuff to change dramatically  
+      - the sound-based battery system could work very well if we can get it out of the ocean / scale  
+      - am not a physicist so actually working on that myself is not really ideal?  
+      - will, if necessary. go to school?  would be better to have money to throw at physicists  
+      - something like the SMART grant would help  
+      - two ideas  
+      - 1 not that useful maybe but e-ink license plate. only legal in three states, but new. should be an easy sell  
+      - 2 floating load delivery platform proof of concept  
+      - - basically just a flat drone to push boxes around on  
+      - - could be self-guided eventually, main goal is have it respond to touch input  
+      - - so push on a side, it goes that direction  
+      - - compensates automatically to not tip when you push, etc.  
+      - - trying to build a scale model proof of concept, to move a scale load in the way a forklift typically does  
+      - - this inital product would then be roughly a forklift the size of a pallet, hopefully charged long enough to unload a truck  
+      - - remote user input to raise a load up into storage safely as an individual  
+      - - powered battery base that responds to the same usable touch input so the platform can charge in use unless flying  
+      - * e-ink license plate could probably be kickstarted with a render  
+      - - - this is a great side project that could mean big money  
+      - - - see if people are excited.  if an industrial designer chose to invest a little time this could happen quick  
+      - * side scroller game could be a fun way to build interest and make some side money  
+      - - start with jank battery powered drone hoverboard  
+      - - work up to ion drive, infinite power  
+      - - add in other cool things like the flying car, bike, home etc.  
+      - - like alto meets hill climb  
+      - - minimal ads, like alto  
+      - - store with merch etc  
+      - - early release a hoverboard through the game one day ;)  
+      - * something something floating carbon fiber cadillac luxury camper home  
+      - - like, its a whole new world baby  
+      - have enough knowledge to build some version of the drone thing, have an industrial designer to help with packaging  
+      - could probably get both of those ideas done without too much third party input?  
+      - we need third party input for the cool stuff.    
+      - if we can fund a feasibility report from MIT guys about the ion drive and sound based battery  
+      - that would be cool and tell us enough to either get big funding or sit on the idea  
+      -  
+      - blah blah future this could be a floating platform that cleans the air and is powered by sound what do you want  
+      - yes, flying surfboard  
+      - yes, flying car  
+      - your jetsons house is still kinda dumb  
+      - yes, floating moss hut    
 
   - date:     2022-10-20
     project:  *008
@@ -369,7 +369,7 @@
       client: github  
       user: setthelandfree  
       password:   
-      link: https://github.com/setthelandfree/freewalls.git 
+      link: https://github.com/setthelandfree/freewalls.git  
 
   - date:     2022-10-06
     project:  *012
@@ -445,7 +445,7 @@
       email: alexntenantsunion@gmail.com  
       password:  
         
-      https://tenantsrights.github.io/tacoma/
+      https://tenantsrights.github.io/tacoma/  
 
   - date:     2022-10-06
     project:  *001
