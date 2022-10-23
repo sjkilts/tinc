@@ -3,14 +3,17 @@ published: true
 layout: default
 url: /note
 ---
+
 {% for p in site.note %}   
-
-  project: {{ p.project }}  
-  client: {{ p.client }}  
-  description: {{ p.description }}  
-  todo:  
-  {{ p.todo }}  
-  notes:    
-  {{ p.content }}  
-
+<div>
+  <ul>
+    <li>project: {{ p.project }}</li>  
+    <li>client: {{ p.client }}</li>  
+    <li>description: {{ p.description }}</li>  
+    <li>todo:</li>  
+    <li>{{ p.todo }}</li>  
+    <li>notes:</li>    
+    <li>{{ p.content | markdownify }}</li>  
+  </ul>
+</div>  
 {% endfor %}
