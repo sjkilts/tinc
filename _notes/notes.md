@@ -29,7 +29,7 @@ url: notes/
       <details>     
         <summary>  
           <li>
-            <em>>&nbsp;{{ project.description }}</em>
+            <em>&nbsp;>&nbsp;{{ project.description }}</em>
           </li>      
         </summary>   
         <ul>
