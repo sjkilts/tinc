@@ -20,6 +20,10 @@ include:
   - _notes
   - _note
   
+site_tree:
+	file: map.md
+    extension: true
+  
 prose:
   siteurl: "http://www.scottkilts.com"
   media: "/media"
