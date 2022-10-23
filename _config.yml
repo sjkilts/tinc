@@ -61,7 +61,15 @@ prose:
         field: 
           element: "multiselect"
           label: "client"
-          options: { "tenants union", "scott j kilts", "this is not culture", "black flag alpine", "spacetimedistortion", "wave", "free the land", "ultralightlife" }
+          options: 
+            - tenants union
+            - scott j kilts
+            - this is not culture
+            - black flag alpine
+            - spacetimedistortion
+            - wave
+            - free the land
+            - ultralightlife
       - name: "description"
         field: 
           element: "text"
