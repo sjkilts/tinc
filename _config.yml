@@ -14,6 +14,11 @@ users:
 
 include: 
   - _notes
+  
+collections:
+  notes:
+    output: true
+    permalink: /notes/:title/  
 
 prose:
   siteurl: "http://www.scottkilts.com"
