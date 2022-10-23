@@ -45,7 +45,6 @@ url: notes/
  
   <div> <!--notes-->
     <strong>notes</strong>
-    <div>
       {% for thought in foo.thoughts %}  
       <details>  
         <summary>  
@@ -58,7 +57,6 @@ url: notes/
         <br>
       </details>    
       {% endfor %}    
-    </div>  
   </div>
   
 </div>  
