@@ -5,7 +5,7 @@ url: /note
 ---
 {% assign project = site.posts %}  
 {% for project in site.posts %}   
-{% if project.path contains projects %}  
+{% if project.path contains project %}  
   
 project: {{ project.project }}  
 client: {{ project.client }}  
