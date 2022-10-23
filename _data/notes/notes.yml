@@ -465,7 +465,7 @@
 
 
   minutes: 
-  - {name: *sjk, date: 2022-10-22, client: *sjk, project: *015, hours: 06.00, description: 'notes',}
+  - {name: *sjk, date: 2022-10-22, client: *sjk, project: *015, hours: 08.00, description: 'notes',}
   - {name: *sjk, date: 2022-10-22, client: *sjk, project: *016, hours: 01.00, description: 'dyneema pack repair',}
   - {name: *sjk, date: 2022-10-22, client: *sjk, project: *008, hours: 01.00, description: 'shopify data entry job application',}  
   - {name: *sjk, date: 2022-10-21, client: *tuv, project: *003, hours: 01.25, description: '.site-title, email-icon .css, readme',}  
