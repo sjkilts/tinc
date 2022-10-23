@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 project: scottkilts.com
 client:
   - scott j kilts
