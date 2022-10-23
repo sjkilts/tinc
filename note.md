@@ -3,15 +3,14 @@ published: true
 layout: default
 url: /note
 ---
-{% assign project = site.posts %}  
-{% for project in site.posts %}   
-{% if project.path contains project %}  
+{% for p in site.posts %}   
+{% if p.path contains 'project' %}  
   
-project: {{ project.project }}  
-client: {{ project.client }}  
-description: {{ project.description }}  
+project: {{ p.project }}  
+client: {{ p.client }}  
+description: {{ p.description }}  
 todo:  
-{{ project.todo | markdownify }}  
+{{ p.todo | markdownify }}  
 notes:    
 {{ content }}  
   
