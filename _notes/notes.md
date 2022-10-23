@@ -30,13 +30,13 @@ url: notes/
       <summary>
         <span>&nbsp;{{ project.project }}&nbsp;<em>&nbsp;>&nbsp;{{ project.description }}</em><span class="fr">{{ project.client }}&nbsp;</span></span>
       </summary>   
-      <div>
+      <ul>
         <li markdown="1">
 
           {{ project.todo }}
 
         </li>      
-      </div>  
+      </ul>  
       <br>
     </details>  
     {% endfor %}   
