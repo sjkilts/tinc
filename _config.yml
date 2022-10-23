@@ -12,13 +12,14 @@ users:
   - login: "sjkilts"
     user: "Scott Kilts"
 
-include: 
-  - _notes
-  
 collections:
   note:
     output: true
 
+include: 
+  - _notes
+  - _note
+  
 prose:
   siteurl: "http://www.scottkilts.com"
   media: "/media"
