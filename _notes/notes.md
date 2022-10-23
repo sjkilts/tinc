@@ -44,7 +44,7 @@ url: notes/
     {% for thought in foo.thoughts %}  
     <details>  
       <summary>  
-        <strong>&nbsp;&nbsp;{{ thought.date }}</strong>&nbsp;<em class="fr">{{ thought.project }}</em>  
+        <strong>&nbsp;{{ thought.date }}</strong>&nbsp;<em class="fr">{{ thought.project }}</em>  
       </summary>
       <br>
       <span markdown="1">{{ thought.note }}</span>
