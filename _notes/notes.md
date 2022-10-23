@@ -19,6 +19,7 @@ url: notes/
   </div>
   <br>
   <div> <!--projects-->
+    <ul>
     <strong>projects</strong>   
     {% for project in foo.projects %}  
     <li>&nbsp;<strong>{{ project.project }}</strong><span class="date fr">&nbsp;{{ project.client }}&nbsp;</span></li>
@@ -36,6 +37,7 @@ url: notes/
       <br>
     </details>  
     {% endfor %}   
+    </ul>  
   </div>
   <br>
   <div> <!--notes-->
