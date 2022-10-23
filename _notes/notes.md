@@ -35,7 +35,7 @@ url: notes/
         <span class="fr">{{ project.client }}&nbsp;</span>
       </summary>   
       <br>
-      <span markdown="1">{{ project.todo }}</span>
+      {{ project.todo | markdownify }}
       <br>
       <hr>
     </details>  
@@ -53,7 +53,7 @@ url: notes/
         </summary>
         <br>
         <hr>
-        <span markdown="1">{{ thought.note }}</span>
+        {{ thought.note | markdownify }}
         <br>
       </details>    
       {% endfor %}    
