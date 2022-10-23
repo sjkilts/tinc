@@ -25,18 +25,17 @@ url: notes/
   
   <div> <!--projects-->
     <strong>projects</strong>   
-    <div>
       {% for project in foo.projects %}  
-      <span>&nbsp;<strong>{{ project.project }}</strong><span class="date fr">&nbsp;{{ project.client }}</span></span>
       <details>     
+        <span>&nbsp;<strong>{{ project.project }}</strong><span class="date fr">&nbsp;{{ project.client }}</span></span>
         <summary>
           <em>&nbsp;>&nbsp;{{ project.description }}</em>      
         </summary>   
+        <br>
         <span markdown="1">{{ project.todo }}</span>      
         <br>
       </details>  
       {% endfor %}   
-    </div>  
   </div>
   <br>
  
@@ -45,7 +44,7 @@ url: notes/
     {% for thought in foo.thoughts %}  
     <details>  
       <summary>  
-        <span class="date">&nbsp;&nbsp;{{ thought.date }}</span>&nbsp;<em class="fr">{{ thought.project }}</em>  
+        <strong>&nbsp;&nbsp;{{ thought.date }}</strong>&nbsp;<em class="fr">{{ thought.project }}</em>  
       </summary>
       <br>
       <span markdown="1">{{ thought.note }}</span>
