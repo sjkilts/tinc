@@ -3,12 +3,13 @@ published: true
 layout: default
 url: /note
 ---
-{% for project in site.notes.projects %}  
-{% capture project %}{{ project.project }}{% endcapture %}
-{% capture client %}{{ project.client }}{% endcapture %}
-{% capture description %}{{ project.description }}{% endcapture %}
-{% capture todo %}{{ project.todo }}{% endcapture %}
-
+{% for project in site.notes %}   
+{% if project.path contains 'projects' %}  
+{% capture project %}{{ project.project }}{% endcapture %}  
+{% capture client %}{{ project.client }}{% endcapture %}  
+{% capture description %}{{ project.description }}{% endcapture %}  
+{% capture todo %}{{ project.todo }}{% endcapture %}  
+  
 project: {{ project.project }}  
 client: {{ project.client }}  
 description: {{ project.description }}  
@@ -17,4 +18,5 @@ todo:
 notes:    
 {{ content }}  
   
+{% endif %}  
 {% endfor %}
