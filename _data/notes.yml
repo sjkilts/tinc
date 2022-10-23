@@ -14,14 +14,14 @@
 
 
   projects:
-  - project: [project-code project]
-    client: client-code
+  - project: [&016 home]
+    client: *sjk
     description:  |
-                  project description
+                  digital list of physical things
     todo: 
-    - todo 1
-    - todo 2
-    - todo 3
+    - finish repair of dyneema pack
+    - finish repair of rope bag
+    - finish putting together yaak-maax 
 
   - project: [&015 admin]
     client: *sjk
@@ -220,28 +220,6 @@
     - use your data science skills to visualize your time tracking on the notes page
     - input notes via text? look into it
     - input notes via notes page form? will have to use .js or set up a heroku style server. could be ideal for also hosting secure notes data
-
-
-  minutes: 
-  - {name, date, client, project, hours, description,}
-  - {name: *sjk, date: 2022-10-06, client: *tuv, project: *003, hours: 01.00, description: 'initial setup cc, research landing page',}
-  - {name: *sjk, date: 2022-10-06, client: *tnc, project: *006, hours: 02.00, description: 'photoshop decolonize your mind drawing',}
-  - {name: *sjk, date: 2022-10-06, client: *sjk, project: *001, hours: 03.00, description: 'notes.yml setup',}
-  - {name: *sjk, date: 2022-10-06, client: *ftl, project: *012, hours: 02.00, description: 'site setup, stopped by git error',}
-  - {name: *sjk, date: 2022-10-12, client: *tuv, project: *003, hours: 01.00, description: 'site template, approved',}
-  - {name: *sjk, date: 2022-10-13, client: *tuv, project: *003, hours: 02.00, description: 'initate jekyll site',}
-  - {name: *sjk, date: 2022-10-14, client: *tuv, project: *003, hours: 03.00, description: 'landing page, custom styles',}
-  - {name: *sjk, date: 2022-10-15, client: *tuv, project: *003, hours: 02.00, description: 'finalize signup form',}
-  - {name: *sjk, date: 2022-10-18, client: *tuv, project: *003, hours: 02.00, description: 'contact page styles',}
-  - {name: *sjk, date: 2022-10-18, client: *tuv, project: *002, hours: 01.50, description: 'qr code, poster layout',}
-  - {name: *sjk, date: 2022-10-19, client: *tuv, project: *003, hours: 01.00, description: 'cleanup, final styles',}
-  - {name: *sjk, date: 2022-10-20, client: *sjk, project: *001, hours: 04.50, description: 'notes.yml setup, notes',}
-  - {name: *sjk, date: 2022-10-20, client: *sjk, project: *008, hours: 00.50, description: 'frontend engineer contract',}
-  - {name: *sjk, date: 2022-10-20, client: *sjk, project: *008, hours: 01.50, description: 'academic paper illustration',}
-  - {name: *sjk, date: 2022-10-21, client: *sjk, project: *015, hours: 09.75, description: 'notes',}
-  - {name: *sjk, date: 2022-10-21, client: *sjk, project: *015, hours: 00.25, description: 'gitea heroku',}
-  - {name: *sjk, date: 2022-10-21, client: *tuv, project: *003, hours: 01.25, description: '.site-title, email-icon .css, readme',}
-  - {name: *sjk, date: 2022-10-22, client: *sjk, project: *008, hours: 01.00, description: 'shopify data entry job application',}
 
 
   thoughts:  
@@ -497,3 +475,27 @@
               |
               css and markdown footnotes function 
               create immersive overlay displaying footnotes on touch or hover
+
+
+  minutes: 
+  - {name, date, client, project, hours, description,}
+  - {name: *sjk, date: 2022-10-06, client: *tuv, project: *003, hours: 01.00, description: 'initial setup cc, research landing page',}
+  - {name: *sjk, date: 2022-10-06, client: *tnc, project: *006, hours: 02.00, description: 'photoshop decolonize your mind drawing',}
+  - {name: *sjk, date: 2022-10-06, client: *sjk, project: *001, hours: 03.00, description: 'notes.yml setup',}
+  - {name: *sjk, date: 2022-10-06, client: *ftl, project: *012, hours: 02.00, description: 'site setup, stopped by git error',}
+  - {name: *sjk, date: 2022-10-12, client: *tuv, project: *003, hours: 01.00, description: 'site template, approved',}
+  - {name: *sjk, date: 2022-10-13, client: *tuv, project: *003, hours: 02.00, description: 'initate jekyll site',}
+  - {name: *sjk, date: 2022-10-14, client: *tuv, project: *003, hours: 03.00, description: 'landing page, custom styles',}
+  - {name: *sjk, date: 2022-10-15, client: *tuv, project: *003, hours: 02.00, description: 'finalize signup form',}
+  - {name: *sjk, date: 2022-10-18, client: *tuv, project: *003, hours: 02.00, description: 'contact page styles',}
+  - {name: *sjk, date: 2022-10-18, client: *tuv, project: *002, hours: 01.50, description: 'qr code, poster layout',}
+  - {name: *sjk, date: 2022-10-19, client: *tuv, project: *003, hours: 01.00, description: 'cleanup, final styles',}
+  - {name: *sjk, date: 2022-10-20, client: *sjk, project: *001, hours: 04.50, description: 'notes.yml setup, notes',}
+  - {name: *sjk, date: 2022-10-20, client: *sjk, project: *008, hours: 00.50, description: 'frontend engineer contract',}
+  - {name: *sjk, date: 2022-10-20, client: *sjk, project: *008, hours: 01.50, description: 'academic paper illustration',}
+  - {name: *sjk, date: 2022-10-21, client: *sjk, project: *015, hours: 09.75, description: 'notes',}
+  - {name: *sjk, date: 2022-10-21, client: *sjk, project: *015, hours: 00.25, description: 'gitea heroku',}
+  - {name: *sjk, date: 2022-10-21, client: *tuv, project: *003, hours: 01.25, description: '.site-title, email-icon .css, readme',}
+  - {name: *sjk, date: 2022-10-22, client: *sjk, project: *008, hours: 01.00, description: 'shopify data entry job application',}
+  - {name: *sjk, date: 2022-10-22, client: *sjk, project: *016, hours: 01.00, description: 'dyneema pack repair',}
+  - {name: *sjk, date: 2022-10-22, client: *sjk, project: *015, hours: 01.00, description: 'notes',}
