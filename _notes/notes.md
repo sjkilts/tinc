@@ -14,6 +14,7 @@ url: notes/
     </ul>
     <br>
   </div>  
+  
   <div> <!--clients-->
     <ul>
       <li><strong>clients</strong></li>
@@ -21,8 +22,8 @@ url: notes/
       <li><em>&nbsp;* {{ client }}</em></li>
       {% endfor %}  
     </ul>
+    <br>
   </div>
-  <br>
   
   <div> <!--projects-->
     <strong>projects</strong>   
@@ -34,7 +35,7 @@ url: notes/
         <span class="fr">{{ project.client }}&nbsp;</span>
       </summary>   
       <br>
-      {% for todo in project.todo
+      {% for todo in project.todo %}
       <span markdown="1">{{ todo }}</span>
       {% endfor %}
       <br>
