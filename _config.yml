@@ -6,6 +6,9 @@ email: sjkilts@gmail.com
 permalink: /:categories/:title/
 markdown: Kramdown
 
+plugins:
+  - jekyll-site-tree
+
 excerpt_separator: <!--more-->
 
 users:
