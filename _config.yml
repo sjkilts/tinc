@@ -7,7 +7,7 @@ permalink: /:categories/:title/
 markdown: Kramdown
 
 plugins:
-  - jekyll-site-tree
+	- jekyll-site-tree
 
 excerpt_separator: <!--more-->
 
