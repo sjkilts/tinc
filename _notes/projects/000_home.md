@@ -47,5 +47,8 @@ notes
         - if successful
         - import remaining projects, notes
     missing anything?
-        
-        
+    bonus:
+    	- shoould be able to pull all the todos from every project 
+        - sort / display them together
+        - free the world
+        - etc.
