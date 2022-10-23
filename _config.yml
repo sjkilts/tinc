@@ -55,7 +55,7 @@ prose:
           element: "textarea"
           label: "post content"
           placeholder: "text for post"
-    _notes/projects:
+    _notes:
       - name: "project"
         field: 
           element: "text"
