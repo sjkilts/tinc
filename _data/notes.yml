@@ -18,7 +18,6 @@
     client:       *sjk
     description:  'digital list of physical things'
     todo: |
-    
     - [ ] finish repair of dyneema pack  
     - [ ] finish repair of rope bag  
     - [ ] finish putting together yaak-maax    
