@@ -1,7 +1,6 @@
 ---
 published: true
 layout: default
-url: /notes
 ---
 
 {% for p in site.note %}   
