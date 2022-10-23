@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
 gem 'github-pages'
 gem 'jekyll'
-gem 'jekyll-site-tree'
+
+group :jekyll_plugins do
+  gem 'jekyll-site-tree'
+end
