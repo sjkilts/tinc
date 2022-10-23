@@ -3,6 +3,7 @@ published: true
 layout: default
 url: /note
 ---
+{% comment %}
 {% for p in site.notes %}   
   {% capture %}{{ p.project }}{% endcapture %}
   {% capture %}{{ p.client }}{% endcapture %}
@@ -18,3 +19,4 @@ url: /note
   {{ content }}  
 
 {% endfor %}
+{% comment %}
