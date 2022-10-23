@@ -7,13 +7,14 @@ url: notes/
 
 <div style="font-family: courier new" class="col12 pad1">
   
-  <div> <!--users, clients-->
+  <div> <!--users-->
     <ul>
       <li><strong>users</strong></li>
       <li><em>&nbsp;{{ foo.user }}</em></li>
     </ul>
     <br>
-    
+  </div>  
+  <div> <!--clients-->
     <ul>
       <li><strong>clients</strong></li>
       {% for client in foo.client %}
@@ -33,7 +34,9 @@ url: notes/
         <span class="fr">{{ project.client }}&nbsp;</span>
       </summary>   
       <br>
-      <span markdown="1">{{ project.todo }}</span>
+      {% for todo in project.todo
+      <span markdown="1">{{ todo }}</span>
+      {% endfor %}
       <br>
       <hr>
     </details>  
