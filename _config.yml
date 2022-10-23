@@ -16,8 +16,7 @@ include:
   - _notes
   
 collections:
-  notes:
-    output: true
+  - notes
 
 prose:
   siteurl: "http://www.scottkilts.com"
