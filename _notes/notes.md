@@ -4,7 +4,7 @@ title: notes
 url: notes/
 ---
 {% for foo in site.data.notes %}  
-<div style="font-family: courier new" class="col10 pad1">
+<div style="font-family: courier new" class="col12 pad1">
   <div> <!--users, clients-->
     <ul>
       <li><strong>users</strong></li>
@@ -21,7 +21,7 @@ url: notes/
   <div> <!--projects-->
     <strong>projects</strong>   
     {% for project in foo.projects %}  
-    &nbsp;<strong>{{ project.project }}</strong><span class="date fr">&nbsp;{{ project.client }}&nbsp;</span>
+    <li>&nbsp;<strong>{{ project.project }}</strong><span class="date fr">&nbsp;{{ project.client }}&nbsp;</span></li>
     <details>     
       <summary>  
         <li>
