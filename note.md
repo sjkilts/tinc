@@ -11,6 +11,6 @@ url: /note
   todo:  
   {{ p.todo }}  
   notes:    
-  {{ content }}  
+  {{ p.content }}  
 
 {% endfor %}
