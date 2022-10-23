@@ -3,6 +3,7 @@ published: true
 layout: default
 url: /note
 ---
+{% assign project = site.posts %}
 {% for project in site.posts %}   
 {% if project.path contains projects %}  
   
