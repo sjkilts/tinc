@@ -28,10 +28,10 @@ url: notes/
     {% for project in foo.projects %}  
     <details>     
       <summary>
-        <span>&nbsp;<strong>{{ project.project }}</strong><span class="date fr">&nbsp;{{ project.client }}&nbsp;</span></span>
-        <em>&nbsp;>&nbsp;{{ project.description }}</em>      
+        <em>&nbsp;>&nbsp;{{ project.description }}</em><span class="date fr">{{ project.project }}</span>      
       </summary>   
       <br>
+      <span>{{ project.client }}</span>
       <span markdown="1">{{ project.todo }}</span>      
       <br>
     </details>  
