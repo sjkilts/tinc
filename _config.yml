@@ -17,6 +17,7 @@ include:
 
 prose:
   siteurl: "http://www.scottkilts.com"
+  media: "/media"
   metadata:
     _posts:
       - name: "published"
@@ -50,3 +51,25 @@ prose:
           element: "textarea"
           label: "post content"
           placeholder: "text for post"
+    _notes/projects:
+      - name: "project"
+        field: 
+          element: "text"
+          label: "project"
+          placeholder: "project name"
+      - name: "client"
+        field: 
+          element: "multiselect"
+          label: "client"
+          options: { "tenants union", "scott j kilts", "this is not culture", "black flag alpine", "spacetimedistortion", "wave", "free the land", "ultralightlife" }
+      - name: "description"
+        field: 
+          element: "text"
+          label: "description"
+          placeholder: "project description"
+      - name: "todo"
+        field: 
+          element: "multiselect"
+          alterable: true
+          label: "todo"
+          placeholder: "todo"
