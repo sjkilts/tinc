@@ -4,7 +4,7 @@ layout: default
 url: /note
 ---
 {% for project in site.posts %}   
-{% if project.path contains 'projects' %}  
+{% if project.path contains projects %}  
   
 project: {{ project.project }}  
 client: {{ project.client }}  
