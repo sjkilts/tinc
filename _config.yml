@@ -90,4 +90,3 @@ prose:
           element: "textarea"
           alterable: true
           label: "todo"
-          placeholder: "todo"
