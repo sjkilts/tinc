@@ -5,17 +5,6 @@ project: admin
 description: organize projects & data
 client:
   - scott j kilts
-todo: |
-  - [ ] gitea heroku  
-  - [ ] killer stack, gitea heroku fleek jekyll prose  
-  - [ ] jekyll template  
-  - [ ] detailed prose setup  
-  - [ ] update essentials via jekyll or theme?  
-  - [ ] css baseline template  
-  - [ ] heroku form backend app  
-  - [ ] consolidate and organize files  
-  - [ ] secure notes  
-  - [ ] time tracking web app
 ---
 **notes**
 
