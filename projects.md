@@ -39,9 +39,11 @@ layout: default
         </ul>
       </summary>   
       <br>
+      <ul>
       {% for todo in p.todo %}
-      - {{ todo }}
+        <li>- {{ todo }}</li>
       {% endfor %}
+      </ul>  
       <br>
       <details>
         <summary>
