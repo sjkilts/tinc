@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: this is not culture
 todo: |
   - [ ] decolonize embroidered denim jacket
