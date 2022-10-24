@@ -94,3 +94,8 @@ prose:
           element: "text"
           label: "description"
           placeholder: "project description"
+    _notes/hours:
+      - name: "title"
+        field:
+        element: "text"
+        label: "title"
