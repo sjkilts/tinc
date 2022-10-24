@@ -34,13 +34,13 @@ layout: default
     <details>     
       <summary>
         <ul>
-          <li>&nbsp;{{ p.project }}&nbsp;<em>/&nbsp;{{ p.description }}</em>&nbsp;<em class='fr'>{{ p.client }}&nbsp;</em></li>
+          <li>&nbsp;<strong>{{ p.project }}</strong>&nbsp;<strong><em>/&nbsp;{{ p.description }}</em></strong>&nbsp;<em class='fr'>{{ p.client }}&nbsp;</em></li>
         </ul>
       </summary>   
       <br>
       {{ p.todo | markdownify }}
       <br>
-      {% if p.content %}
+      {% if p.content.size > 10 %}
       <details>
         <summary>
           <span>&nbsp;&nbsp;notes&nbsp;></span>
