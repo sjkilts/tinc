@@ -1,20 +1,55 @@
 ---
 published: true
 layout: default
----
-
-{% for p in site.notes %}   
+--- 
 <div style="font-family: courier new" class="col12 pad1">
-  {% if p.path contains 'projects' %}
-  <ul>
-    <li>project: {{ p.project }}</li>  
-    <li>client: {{ p.client }}</li>  
-    <li>description: {{ p.description }}</li>  
-    <li>todo:</li>  
-    <li>{{ p.todo }}</li>  
-    <li>notes:</li>    
-    <li>{{ p.content | markdownify }}</li>  
-  </ul>
-  {% endif %}
-</div>  
-{% endfor %}
+  
+{% for foo in site.data.notes.notes %}    
+  
+  <div> <!--users-->
+    <ul>
+      <li><strong>users</strong></li>
+      <li><em>&nbsp;{{ foo.user }}</em></li>
+    </ul>
+    <br>
+  </div>  
+  
+  <div> <!--clients-->
+    <ul>
+      <li><strong>clients</strong></li>
+      {% for client in foo.client %}
+      <li><em>&nbsp;* {{ client }}</em></li>
+      {% endfor %}  
+    </ul>
+    <br>
+  </div>
+
+{% endfor %}  
+  
+  <div> <!--projects-->
+    <strong>projects</strong>
+    {% for p in site.notes %}
+    {% if p.path contains 'projects' %}
+    <details>     
+      <summary>
+        <ul>
+          <li>&nbsp;<em>{{ p.client }}</em></li>   
+          <li>&nbsp;&nbsp;{{ p.project }}&nbsp;<em>/&nbsp;{{ p.description }}</em></li>
+        </ul>
+      </summary>   
+      <br>
+      {{ p.todo | markdownify }}
+      <br>
+      <details>
+        <summary>
+          <strong>notes:</strong>
+        </summary
+          {{ p.content | markdownify }}
+      </details>
+      <hr>
+    </details>
+    {% endif %}
+    {% endfor %}
+  </div>  
+
+</div>      
