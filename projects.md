@@ -43,7 +43,7 @@ layout: default
       <details>
         <summary>
           <strong>notes:</strong>
-        </summary
+        </summary>
           {{ p.content | markdownify }}
       </details>
       <hr>
