@@ -44,7 +44,7 @@ title: Untitled
       {% if p.content.size > 10 %}
       <details>
         <summary>
-          <span>&nbsp;&nbsp;notes&nbsp;></span><span class='fr'>*</span>
+          <span>&nbsp;&nbsp;notes&nbsp;></span><span class='fr'>*&nbsp;</span>
         </summary>
           <br>
           {{ p.content | markdownify }}
