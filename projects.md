@@ -49,6 +49,7 @@ layout: default
         <summary>
           <span>&nbsp;&nbsp;notes:</span>
         </summary>
+          <br>
           {{ p.content | markdownify }}
       </details>
       <br>
