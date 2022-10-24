@@ -34,7 +34,7 @@ layout: default
     <details>     
       <summary>
         <ul>
-          <li>&nbsp;<strong>{{ p.project }}</strong>&nbsp;<strong><em>/&nbsp;{{ p.description }}</em></strong>&nbsp;<em class='fr'>{{ p.client }}&nbsp;</em></li>
+          <li>&nbsp;{{ p.project }}&nbsp;<strong><em>/&nbsp;{{ p.description }}</em></strong>&nbsp;<em class='fr'>{{ p.client }}&nbsp;</em></li>
         </ul>
       </summary>   
       <br>
