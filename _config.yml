@@ -88,6 +88,7 @@ prose:
             - wave
             - free the land
             - ultralightlife
+            - jupiter card
       - name: "description"
         field: 
           element: "text"
