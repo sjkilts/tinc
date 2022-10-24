@@ -1,7 +1,7 @@
 ---
 published: true
 title: freelance
-project: Freelance
+project: freelance
 client:
   - scott j kilts
 description: freelance projects
