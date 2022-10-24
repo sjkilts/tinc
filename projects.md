@@ -40,6 +40,7 @@ layout: default
       <br>
       {{ p.todo | markdownify }}
       <br>
+      {% if p.content %}
       <details>
         <summary>
           <span>&nbsp;&nbsp;notes&nbsp;></span>
@@ -47,6 +48,7 @@ layout: default
           <br>
           {{ p.content | markdownify }}
       </details>
+      {% endif %}
       <br>
       <hr>
     </details>
