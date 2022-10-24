@@ -13,20 +13,20 @@ description: 'writing, artwork, anarchy'
     - maple
     - heavy fiberglass mat
     - maple
-    - heavy kevlar mat
-
+    - heavy kevlar mat  
+  
 product ideas:      
-	- rulez metal print, printful sublimation print on metal 16x20   
+- rulez metal print, printful sublimation print on metal 16x20   
+  - verify license info for the webb photo  
+- doom metal print
+  - contact family, send them one if psyched, send them profits
+  - don't sell it if they aren't stoked, obv  
    
 notes:
-      2022-10-06: github is having some trouble authenticating with working copy.  recurring issue  
-      also happening with sethelandfree/freewalls in working copy  
-        
-      rulez would be a great metal print, verify license info for the webb photo  
-        
-      paper list of product ideas has been made, probably ideal to track here  
-        
-      add xml field under each individual project to add/track time spent daily   
-        
-      css and markdown footnotes function   
-      > create immersive overlay displaying footnotes on touch or hover
+  2022-10-06: 
+  github is having some trouble authenticating with working copy.  
+  recurring issue  
+  also happening with sethelandfree/freewalls in working copy    
+    
+  build css and markdown footnotes function     
+  create immersive overlay displaying footnotes on touch or hover  
