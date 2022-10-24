@@ -1,7 +1,8 @@
 ---
 published: true
 layout: default
---- 
+---
+ 
 <div style="font-family: courier new" class="col12 pad1">
   
 {% for foo in site.data.notes.notes %}    
@@ -38,7 +39,7 @@ layout: default
         </ul>
       </summary>   
       <br>
-      {{ p.todo | markdownify }}
+      {{ p.todo }}
       <br>
       <details>
         <summary>
@@ -53,4 +54,4 @@ layout: default
     {% endfor %}
   </div>  
 
-</div>      
+</div>
