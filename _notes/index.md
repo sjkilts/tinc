@@ -1,7 +1,7 @@
 ---
 published: true
 layout: default
-title: Untitled
+title: notes
 ---
  
 <div style="font-family: courier new" class="col12 pad1">
