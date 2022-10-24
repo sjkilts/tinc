@@ -1,3 +1,5 @@
+published: true
+title: hours
 minutes: 
   - {name: *sjk, date: 2022-10-23, client: *sjk, project: *015, hours: 14.00, description: 'notes',}  
   - {name: *sjk, date: 2022-10-22, client: *sjk, project: *015, hours: 08.00, description: 'notes',}
