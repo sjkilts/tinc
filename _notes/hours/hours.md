@@ -1,26 +1,4 @@
 ---
-published: true
+published: false
 title: hours
-minutes: 
-  - {name: *sjk, date: 2022-10-23, client: *sjk, project: *015, hours: 14.00, description: 'notes',}  
-  - {name: *sjk, date: 2022-10-22, client: *sjk, project: *015, hours: 08.00, description: 'notes',}
-  - {name: *sjk, date: 2022-10-22, client: *sjk, project: *016, hours: 01.00, description: 'dyneema pack repair',}
-  - {name: *sjk, date: 2022-10-22, client: *sjk, project: *008, hours: 01.00, description: 'shopify data entry job application',}  
-  - {name: *sjk, date: 2022-10-21, client: *tuv, project: *003, hours: 01.25, description: '.site-title, email-icon .css, readme',}  
-  - {name: *sjk, date: 2022-10-21, client: *sjk, project: *015, hours: 00.25, description: 'gitea heroku',}  
-  - {name: *sjk, date: 2022-10-21, client: *sjk, project: *015, hours: 09.75, description: 'notes',}  
-  - {name: *sjk, date: 2022-10-20, client: *sjk, project: *008, hours: 01.50, description: 'academic paper illustration',}  
-  - {name: *sjk, date: 2022-10-20, client: *sjk, project: *008, hours: 00.50, description: 'frontend engineer contract',}  
-  - {name: *sjk, date: 2022-10-20, client: *sjk, project: *001, hours: 04.50, description: 'notes.yml setup, notes',}  
-  - {name: *sjk, date: 2022-10-19, client: *tuv, project: *003, hours: 01.00, description: 'cleanup, final styles',}
-  - {name: *sjk, date: 2022-10-18, client: *tuv, project: *002, hours: 01.50, description: 'qr code, poster layout',}
-  - {name: *sjk, date: 2022-10-18, client: *tuv, project: *003, hours: 02.00, description: 'contact page styles',}
-  - {name: *sjk, date: 2022-10-15, client: *tuv, project: *003, hours: 02.00, description: 'finalize signup form',}
-  - {name: *sjk, date: 2022-10-14, client: *tuv, project: *003, hours: 03.00, description: 'landing page, custom styles',}  
-  - {name: *sjk, date: 2022-10-13, client: *tuv, project: *003, hours: 02.00, description: 'initate jekyll site',}
-  - {name: *sjk, date: 2022-10-12, client: *tuv, project: *003, hours: 01.00, description: 'site template, approved',}
-  - {name: *sjk, date: 2022-10-06, client: *ftl, project: *012, hours: 02.00, description: 'site setup, stopped by git error',}
-  - {name: *sjk, date: 2022-10-06, client: *sjk, project: *001, hours: 03.00, description: 'notes.yml setup',}
-  - {name: *sjk, date: 2022-10-06, client: *tnc, project: *006, hours: 02.00, description: 'photoshop decolonize your mind drawing',}
-  - {name: *sjk, date: 2022-10-06, client: *tuv, project: *003, hours: 01.00, description: 'initial setup cc, research landing page',}
- ---
+---
