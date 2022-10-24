@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: jupiter card
 description: 'cardology, astrology, divination'
 project: jupiter card
