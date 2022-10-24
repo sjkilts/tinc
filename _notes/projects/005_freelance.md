@@ -1,6 +1,14 @@
 ---
 published: false
 ---
+  - project:      [&008 freelance]
+    client:       *sjk
+    description:  'freelance contracts'
+    todo: |
+      - check on shopify data entry application 2022-10-22  
+      - check up on frontend engineer application 2022-10-21  
+      - finish academic paper illustration 2022-10-22    
+
 
   - date:     2022-10-20
     project:  *008
