@@ -87,6 +87,6 @@ prose:
           placeholder: "project description"
       - name: "todo"
         field: 
-          element: "textarea"
+          element: "multiselect"
           alterable: true
           label: "todo"
