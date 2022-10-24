@@ -1,6 +1,7 @@
 ---
 published: true
 layout: default
+title: Untitled
 ---
  
 <div style="font-family: courier new" class="col12 pad1">
@@ -43,7 +44,7 @@ layout: default
       {% if p.content.size > 10 %}
       <details>
         <summary>
-          <span>&nbsp;&nbsp;notes&nbsp;></span>
+          <span>&nbsp;&nbsp;notes&nbsp;></span><span class='fr'>*</span>
         </summary>
           <br>
           {{ p.content | markdownify }}
