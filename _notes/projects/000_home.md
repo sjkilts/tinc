@@ -4,10 +4,11 @@ project: home
 client:
   - scott j kilts
 description: bits n pieces
-todo: 
-  - finish repair of dyneema pack
-  - finish repair of rope bag
-  - finish putting together yaak-maax
+todo: |
+  - [ ] finish repair of dyneema pack
+  - [ ] finish repair of rope bag
+  - [ ] finish putting together yaak-maax
+title: home
 ---
 **dyneema pack**  
 current: 
@@ -63,4 +64,4 @@ bonus:
   - shoould be able to pull all the todos from every project 
   - sort / display them together
   - free the world
-  - etc.  
+  - etc.
