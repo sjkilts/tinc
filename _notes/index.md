@@ -54,12 +54,16 @@ title: notes
       <hr>
     </details>
     {% endif %}
-    {% if p.path contains 'hours' %}
+  </div>
+    
+  {% if p.path contains 'hours' %}
+  <div>
     hours:
     <br>>  
     {{ p.content }}
-    {% endif%}
-    {% endfor %}
-  </div>  
-
+  </div>
+  {% endif%}
+  
+  {% endfor %}
+  
 </div>
