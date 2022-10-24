@@ -29,6 +29,10 @@ prose:
   media: "/media"
   metadata:
     _posts:
+      - name: "title"
+        field:
+        element: "text"
+        label: "title"
       - name: "published"
         field: 
           element: "button"
@@ -61,6 +65,10 @@ prose:
           label: "post content"
           placeholder: "text for post"
     _notes:
+      - name: "title"
+        field:
+        element: "text"
+        label: "title"
       - name: "project"
         field: 
           element: "text"
@@ -85,9 +93,3 @@ prose:
           element: "text"
           label: "description"
           placeholder: "project description"
-      - name: "todo"
-        field: 
-          element: "multiselect"
-          alterable: true
-          label: "todo"
-          placeholder: "todo"
