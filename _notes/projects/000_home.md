@@ -5,9 +5,9 @@ client:
   - scott j kilts
 description: bits n pieces
 todo: |
-  - [ ] finish repair of dyneema pack
-  - [ ] finish repair of rope bag
-  - [ ] finish putting together yaak-maax
+  - [ ] dyneema pack repair
+  - [ ] rope bag repair
+  - [ ] yaak-maax
 title: home
 ---
 **dyneema pack**  
@@ -34,7 +34,7 @@ current:
 priority:
   - get psyched  
           
-**notes**  
+
 current:
   - attempting to streamline notes.yml / notes.md  
   - currently renders pretty well  
