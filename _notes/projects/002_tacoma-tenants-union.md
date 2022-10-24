@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: tacoma tenants rights
 project: tenants union
 client:
