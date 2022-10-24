@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: spacetimedistortion
 description: you are spacetimedistortion
 todo: |
@@ -10,8 +10,5 @@ client:
   - spacetimedistortion
 project: spacetimedistortion
 ---
-  - project:      [&014 spacetimedistortion.org]
-    client:       *std
-    description:  'you are spacetimedistortion'
-    todo: |
+
 
