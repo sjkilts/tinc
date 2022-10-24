@@ -4,8 +4,8 @@ project: scottkilts.com
 client:
   - scott j kilts
 description: 'writing, artwork, anarchy'
-todo:
-  - anarchy
+todo: |
+  - [ ] anarchy
 ---
 ![stompact compact skateboard concept]({{site.baseurl}}/media/stompact-working.GIF)
  layup:
