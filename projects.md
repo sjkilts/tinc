@@ -46,6 +46,7 @@ layout: default
         </summary>
           {{ p.content | markdownify }}
       </details>
+      <br>
       <hr>
     </details>
     {% endif %}
