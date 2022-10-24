@@ -4,6 +4,31 @@ project: scottkilts.com
 client:
   - scott j kilts
 description: 'writing, artwork, anarchy'
+title: scottkilts.com
+notes: |
+  - [ ] gitea heroku server  
+  - [ ] web3.0 frontend, fleek  
+  - [ ] place plantations poem  
+  - [ ] clean up in-post <img> tags
+  - [ ] github authentication, working copy  
+  - [ ] webb photo copyright  
+  - [ ] printful inital products  
+  - [ ] printful store setup  
+  - [ ] time tracking  
+  - [ ] notes page
+  - [ ] add paper to .yml, recycle  
+  - [ ] ethereum 
+  - [ ] move away from google analytics  
+  - [ ] move away from google  
+  - [ ] footnotes css overlay  
+  - [ ] project management blog post, notes
+  - [ ] blog/info/thoughts section on site  
+  - [ ] posts directory structure
+  - [ ] coffee section, products, drinks  
+  - [ ] affiliate marketing stance, blog
+  - [ ] time tracking visuals, python
+  - [ ] input notes and yml via text?
+  - [ ] onsite notes form, worth it?
 ---
 ![stompact compact skateboard concept]({{site.baseurl}}/media/stompact-working.GIF)   
    
@@ -31,4 +56,4 @@ notes:
   2022-10-06: 
   github is having some trouble authenticating with working copy.  
   recurring issue  
-  also happening with sethelandfree/freewalls in working copy    
+  also happening with sethelandfree/freewalls in working copy
