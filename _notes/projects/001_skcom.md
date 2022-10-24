@@ -7,7 +7,8 @@ description: 'writing, artwork, anarchy'
 todo: |
   - [ ] anarchy
 ---
-![stompact compact skateboard concept]({{site.baseurl}}/media/stompact-working.GIF)
+![stompact compact skateboard concept]({{site.baseurl}}/media/stompact-working.GIF)   
+   
  layup:
   - top to bottom
     - fine fiberglass mat
