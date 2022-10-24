@@ -82,3 +82,5 @@ a large increase in popularity of speed climbing has potentially huge negative i
 huge future potential for speed climbing to become popular with under or mis-educated masses   
 this could cause a much larger strain on rescue resources than big wall climbing ever has  
   
+   
+-    
