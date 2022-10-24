@@ -29,4 +29,4 @@ notes:
   also happening with sethelandfree/freewalls in working copy    
     
   build css and markdown footnotes function     
-  create immersive overlay displaying footnotes on touch or hover  
+  create immersive overlay displaying footnotes on touch or hover
