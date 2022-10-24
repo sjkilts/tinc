@@ -90,3 +90,4 @@ prose:
           element: "multiselect"
           alterable: true
           label: "todo"
+          placeholder: "todo"
