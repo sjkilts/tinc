@@ -39,7 +39,7 @@ layout: default
         </ul>
       </summary>   
       <br>
-      {{ p.todo }}
+      {{ p.todo | markdownify }}
       <br>
       <details>
         <summary>
