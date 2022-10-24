@@ -5,12 +5,12 @@ project: tenants union
 client:
   - tenants union
 todo: |
-  - favicons, seo, social preivew  
-  - analytics  
-  - set up heroku hosted contact form, ditch formkeep  
-  - 404, thank you    
-  - send login info
-  - check in on poster, workshop
+  - [ ] favicons, seo, social preivew  
+  - [ ] analytics  
+  - [ ] set up heroku hosted contact form, ditch formkeep  
+  - [ ] 404, thank you    
+  - [ ] send login info
+  - [ ] check in on poster, workshop
 description: 'tenants rights - organize, educate'
 ---
 **landing page**  
@@ -40,4 +40,4 @@ client: FormKeep
 email: alexntenantsunion@gmail.com  
 password:    
   
-https://tenantsrights.github.io/tacoma/  
+https://tenantsrights.github.io/tacoma/
