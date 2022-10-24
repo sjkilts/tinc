@@ -5,4 +5,6 @@ description: 'cardology, astrology, divination'
 project: jupiter card
 todo: |
   - [ ] outline
+client:
+  - jupiter card
 ---
