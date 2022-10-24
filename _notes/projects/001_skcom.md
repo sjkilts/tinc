@@ -21,12 +21,14 @@ product ideas:
 - doom metal print
   - contact family, send them one if psyched, send them profits
   - don't sell it if they aren't stoked, obv  
+  
+site plans:  
+- build css and markdown footnotes function       
+  - immersive overlay displaying footnotes on touch or hover  
+  
    
 notes:
   2022-10-06: 
   github is having some trouble authenticating with working copy.  
   recurring issue  
   also happening with sethelandfree/freewalls in working copy    
-    
-  build css and markdown footnotes function     
-  create immersive overlay displaying footnotes on touch or hover
