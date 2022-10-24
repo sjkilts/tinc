@@ -5,7 +5,7 @@ client:
   - scott j kilts
 description: 'writing, artwork, anarchy'
 title: scottkilts.com
-notes: |
+todo: |
   - [ ] gitea heroku server  
   - [ ] web3.0 frontend w fleek  
   - [ ] place plantations poem  
