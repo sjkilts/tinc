@@ -1,6 +1,6 @@
 ---
 published: true
-title: reelance
+title: freelance
 project: Freelance
 client:
   - scott j kilts
