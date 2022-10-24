@@ -67,8 +67,8 @@ prose:
     _notes/projects:
       - name: "title"
         field:
-        element: "text"
-        label: "title"
+         element: "text"
+         label: "title"
       - name: "project"
         field: 
           element: "text"
@@ -97,5 +97,5 @@ prose:
     _notes/hours:
       - name: "title"
         field:
-        element: "text"
-        label: "title"
+          element: "text"
+          label: "title"
