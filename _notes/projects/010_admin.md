@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: admin
 project: admin
 description: organize projects & data
