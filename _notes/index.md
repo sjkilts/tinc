@@ -54,6 +54,12 @@ title: notes
       <hr>
     </details>
     {% endif %}
+    {% if p.path contains 'hours' %}
+    {% if p.minutes %}
+    <br>
+    {{ p.minutes }}
+    {% endif %}
+    {% endif%}
     {% endfor %}
   </div>  
 
