@@ -63,9 +63,9 @@ title: notes
   <br>
   <br>
   <div>
-    hours&nbsp;/
+    <strong>hours</strong>
     <br>  
-    {{ p.content }}
+    {{ p.content}}
   </div>
   {% endif%}
   {% endfor %}
