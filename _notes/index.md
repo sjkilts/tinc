@@ -65,7 +65,7 @@ title: notes
   <div>
     <strong>hours</strong>
     <br>  
-    {{ p.content}}
+    {{ t.content | sort_natural | join: ", " }}
   </div>
   {% endif%}
   {% endfor %}
