@@ -60,10 +60,12 @@ title: notes
   
   {% for t in site.notes %}
   {% if t.path contains 'hours' %}
+  <br>
+  <br>
   <div>
-    hours:
-    <br>>  
-    {{ p.content | sort_natural | join: ", " }}
+    hours&nbsp;/
+    <br>  
+    {{ p.content }}
   </div>
   {% endif%}
   {% endfor %}
