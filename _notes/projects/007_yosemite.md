@@ -25,14 +25,15 @@ user: setthelandfree
 password: bitwarden   
 link: https://github.com/setthelandfree/freewalls.git  
   
-alt email
-client: gmail
-email: freewallsyos@gmail.com
-password: bitwarden
+alt email  
+client: gmail  
+email: freewallsyos@gmail.com  
+password: bitwarden  
+   
+---  
   
--  
-  
-*2022-10-06*  
+*2022-10-06*
+---
   
 content:    
   
@@ -43,7 +44,7 @@ adding any cost cap or registration hoop to jump through will restrict people
 are multi-day big-wall climbers an actual problem?  
 compared to other user groups, my biased personal experience suggests the opposite  
   
-yosar was climbers self regulating alongside NPS  
+[yosar was climbers self regulating alongside NPS](https://setthelandfree.github.io/freewalls/wall-permit/yosar.html)  
   
 NPS is forest cops  
   
@@ -87,4 +88,4 @@ huge future potential for speed climbing to become popular with under or mis-edu
 this could cause a much larger strain on rescue resources than big wall climbing ever has  
   
    
--
+---
