@@ -18,13 +18,17 @@ todo: |
   
 client: gmail  
 email: setthelandfree@gmail.com  
-passsword:   
+passsword: bitwarden   
   
 client: github  
 user: setthelandfree  
-password:   
+password: bitwarden   
 link: https://github.com/setthelandfree/freewalls.git  
   
+alt email
+client: gmail
+email: freewallsyos@gmail.com
+password: bitwarden
   
 -  
   
@@ -83,4 +87,4 @@ huge future potential for speed climbing to become popular with under or mis-edu
 this could cause a much larger strain on rescue resources than big wall climbing ever has  
   
    
--    
+-
