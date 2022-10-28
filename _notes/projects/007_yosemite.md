@@ -25,6 +25,8 @@ https://setthelandfree.github.io/freewalls/
   
 site is mostly set up. there is some content, it still needs some work
 css is working great currently on larger screens.  small screens need priority
+
+---
   
 *2022-10-06*  
 ---
