@@ -3,6 +3,13 @@ published: true
 title: hours
 ---
 minutes: 
+  - {name: *sjk, date: 2022-10-28, client: *ftl, project: *012, hours: 07.50, description: 'site setup, writing, css',}
+  - {name: *sjk, date: 2022-10-27, client: *ftl, project: *012, hours: 06.00, description: 'site setup, writing',}
+  - {name: *sjk, date: 2022-10-26, client: *ftl, project: *012, hours: 03.00, description: 'site setup, writing',}
+  - {name: *sjk, date: 2022-10-26, client: *tuv, project: *002, hours: 02, description: 'post posters',}
+  - {name: *sjk, date: 2022-10-26, client: *tuv, project: *002, hours: 01.5, description: 'zoom call',}
+  - {name: *sjk, date: 2022-10-26, client: *tuv, project: *002, hours: 02, description: 'post posters',}
+  - {name: *sjk, date: 2022-10-25, client: *sjk, project: *016, hours: 4.00, description: 'tesla book',}
   - {name: *sjk, date: 2022-10-23, client: *sjk, project: *015, hours: 14.00, description: 'notes',}  
   - {name: *sjk, date: 2022-10-22, client: *sjk, project: *015, hours: 08.00, description: 'notes',}
   - {name: *sjk, date: 2022-10-22, client: *sjk, project: *016, hours: 01.00, description: 'dyneema pack repair',}
