@@ -103,4 +103,4 @@ huge future potential for speed climbing to become popular with under or mis-edu
 this could cause a much larger strain on rescue resources than big wall climbing ever has  
   
    
----
+---  
