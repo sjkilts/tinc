@@ -17,19 +17,19 @@ todo: |
   - [ ] reach out to james hornibrook
   - [ ] share
 ---
-**notes**  
-
-*2022-10-28*
----
+  
+  
+*2022-10-28*  
+---  
 https://setthelandfree.github.io/freewalls/  
   
 site is mostly set up. there is some content, it still needs some work
 css is working great currently on larger screens.  small screens need priority
 
----
-  
+---  
+   
 *2022-10-06*  
----
+---  
   
 client: gmail  
 email: setthelandfree@gmail.com  
@@ -47,8 +47,8 @@ password: bitwarden
    
 ---  
   
-*2022-10-06*
----
+*2022-10-06*  
+---  
   
 content:    
   
@@ -103,4 +103,4 @@ huge future potential for speed climbing to become popular with under or mis-edu
 this could cause a much larger strain on rescue resources than big wall climbing ever has  
   
    
----  
+---   
