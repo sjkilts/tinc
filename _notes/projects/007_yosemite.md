@@ -6,15 +6,28 @@ client:
   - free the land
 description: permits are for policing
 todo: |
-  - [ ] post site  
-  - [ ] link petition  
-  - [ ] fill in site content  
+  - [x] post site  
+  - [x] link petition  
+  - [x] fill in site content  
   - [ ] go through texts and notes  
   - [ ] list ideas
+  - [ ] edit posted content
+  - [ ] finalize site css
+  - [ ] peer review
+  - [ ] reach out to james hornibrook
+  - [ ] share
 ---
 **notes**  
+
+*2022-10-28*
+---
+https://setthelandfree.github.io/freewalls/  
+  
+site is mostly set up. there is some content, it still needs some work
+css is working great currently on larger screens.  small screens need priority
   
 *2022-10-06*  
+---
   
 client: gmail  
 email: setthelandfree@gmail.com  
@@ -46,9 +59,9 @@ compared to other user groups, my biased personal experience suggests the opposi
   
 [yosar was climbers self regulating alongside NPS](https://setthelandfree.github.io/freewalls/wall-permit/yosar.html)  
   
-NPS is forest cops  
+[NPS is forest cops](https://setthelandfree.github.io/freewalls/wall-permit/nps-is-forest-cops.html)  
   
-scenarios permitting makes some sense:  
+[scenarios permitting makes some sense:](https://setthelandfree.github.io/freewalls/wall-permit/where-permitting-makes-sense.html)  
 high risk/alpine  
 incliment weather/alipine  
 not truly applicable to el cap   
