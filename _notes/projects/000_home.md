@@ -5,12 +5,23 @@ client:
   - scott j kilts
 description: bits n pieces
 todo: |
+  - [ ] mailbox tag
   - [ ] dyneema pack repair
   - [ ] rope bag repair
   - [ ] yaak-maax
 title: home
 ---
-**dyneema pack**  
+*mailbox tag*
+---
+
+nickerson - alliouagana - kilts
+
+
+---
+
+*dyneema pack*  
+---
+
 current: 
   - most of the structure has been repaired   
     
@@ -19,15 +30,25 @@ priority:
   - bartack daisy chain
   - review for seam integrity
   - patch woven fabric  
-          
-**rope bag**  
+
+
+---
+
+*rope bag*
+---
+
 current: 
   - play with the sewing awl  
     
 priority:  
   - better bartacks  
+  
+  
+---  
           
-**yakk-maxx**  
+*yakk-maxx*  
+---
+
 current: 
   - the dyneema cord you have is plenty strong enough  
     
@@ -64,4 +85,6 @@ bonus:
   - shoould be able to pull all the todos from every project 
   - sort / display them together
   - free the world
-  - etc.
+  - etc.  
+  
+---  
