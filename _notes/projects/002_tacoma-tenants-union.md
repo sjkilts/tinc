@@ -11,7 +11,7 @@ todo: |
   - [ ] 404, thank you    
   - [ ] send login info
   - [ ] check in on poster, workshop
-description: 'tenants rights - organize, educate'
+description: tenant rights
 ---
 **landing page**  
 - [tacoma tenants union](https://tenantsrights.github.io/tacoma)  
