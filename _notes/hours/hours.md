@@ -2,7 +2,9 @@
 published: true
 title: hours
 ---
-minutes: 
+minutes:
+  - {name: *sjk, date: 2022-10-29, client: *sjk, project: *008, hours: 02.00, description: 'needl job, shopify job',}
+  - {name: *sjk, date: 2022-10-29, client: *sjk, project: *015, hours: 1.00, description: 'notes research',}
   - {name: *sjk, date: 2022-10-29, client: *ftl, project: *012, hours: 03.00, description: 'NPS is forest cops, css',}
   - {name: *sjk, date: 2022-10-28, client: *ftl, project: *012, hours: 07.50, description: 'site setup, writing, css',}
   - {name: *sjk, date: 2022-10-27, client: *ftl, project: *012, hours: 06.00, description: 'site setup, writing',}
@@ -32,3 +34,4 @@ minutes:
   - {name: *sjk, date: 2022-10-06, client: *sjk, project: *001, hours: 03.00, description: 'notes.yml setup',}
   - {name: *sjk, date: 2022-10-06, client: *tnc, project: *006, hours: 02.00, description: 'photoshop decolonize your mind drawing',}
   - {name: *sjk, date: 2022-10-06, client: *tuv, project: *003, hours: 01.00, description: 'initial setup cc, research landing page',}
+
