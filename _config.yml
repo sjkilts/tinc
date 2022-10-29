@@ -4,7 +4,7 @@ baseurl: ""
 title: scott kilts
 email: sjkilts@gmail.com
 permalink: /:categories/:title/
-markdown: Kramdown
+markdown: kramdown
 
 plugins:
   - jekyll-sitemap
