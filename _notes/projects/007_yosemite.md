@@ -17,7 +17,14 @@ todo: |
   - [ ] reach out to james hornibrook
   - [ ] share
 ---
-  
+    
+*2022-10-29*  
+---  
+https://codepen.io/sjkilts/pen/RwJPpVm
+
+mostly working on smaller screens, some refining left to do
+
+updated article [NPS is Forest Cops](https://setthelandfree.github.io/freewalls/wall-permit/nps-is-forest-cops.html)
   
 *2022-10-28*  
 ---  
@@ -103,4 +110,4 @@ huge future potential for speed climbing to become popular with under or mis-edu
 this could cause a much larger strain on rescue resources than big wall climbing ever has  
   
    
----   
+---
