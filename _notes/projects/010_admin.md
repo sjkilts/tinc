@@ -88,6 +88,7 @@ this can drop open to show the line items from that day
   
 pulled not-quite-working code:  
 
+~~~
 ```
 {% comment %}
 <div> <!--hours-->  
@@ -124,6 +125,7 @@ pulled not-quite-working code:
 </div>
 {% comment %}
 ```
+~~~
   
    
 ---
