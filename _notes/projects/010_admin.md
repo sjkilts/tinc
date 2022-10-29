@@ -88,7 +88,7 @@ this can drop open to show the line items from that day
   
 pulled not-quite-working code:  
 
-~~~
+```
 
 <div> <!--hours-->  
 	<strong>hours</strong>    
@@ -123,7 +123,7 @@ pulled not-quite-working code:
       </ul>
 </div>
 
-~~~
+```
   
    
 ---
