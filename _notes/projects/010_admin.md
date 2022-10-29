@@ -21,6 +21,9 @@ client:
    
 *scottkilts.com*  
 ---  
+you need a localhost web app (heroku?)
+- it's nice to set this up on the mac, but can you run a local host on ipad etc? haven't seen a good way.
+- keeping the mac up to date over cell connection is a true barrier to local development and shouldn't be necessary for the simple things we are doing here
   
 stack ? :
 - server (heroku)
@@ -31,7 +34,7 @@ stack ? :
 	- needs to integrate with dropshippers (printify, book publishers, etc)
 	- gui notes backend (jekyll/sanity?)
 - frontend (jekyll)(hugo?)
-- store functions (snipcart?)
+- store functions (snipcart? sellfy? more research needed)
 	- needs to manage worldwide taxes
   
   
