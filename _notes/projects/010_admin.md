@@ -88,9 +88,8 @@ this can drop open to show the line items from that day
   
 pulled not-quite-working code:  
 
-~~~
-```
-{% comment %}
+~~~html
+
 <div> <!--hours-->  
 	<strong>hours</strong>    
 	{% capture now %}{{'now' | date: '%Y-%m-%d' | plus: 0 }}{% endcapture %}
@@ -123,8 +122,7 @@ pulled not-quite-working code:
         {% endfor %}   
       </ul>
 </div>
-{% comment %}
-```
+
 ~~~
   
    
