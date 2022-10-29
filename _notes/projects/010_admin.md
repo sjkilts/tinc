@@ -30,7 +30,7 @@ frontend:				jekyll or hugo base theme / framework
 						manage themes/framework/skins with [storybook?]  
 						minimal skin for each site  
                     	store managed with [snipcart?]  
-                    	products and content managed with [sanity?]  
+                    	products and content managed with [sanity? netlify?]  
                     	hosted on fleek with #hash and web3.0  
                           
 backend:				products and content managed with headless cms api  
