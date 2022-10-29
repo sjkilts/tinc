@@ -6,8 +6,8 @@ client:
   - scott j kilts
 description: freelance projects
 todo: |
-  - [ ] upwork shopify data entry application 2022-10-23  
-  - [ ] upwork frontend engineer application 2022-10-23  
+  - [x] upwork shopify data entry application 2022-10-23  
+  - [x] upwork frontend engineer application 2022-10-23  
   - [ ] finish academic paper illustration 2022-10-23
 ---
   
