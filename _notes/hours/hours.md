@@ -3,6 +3,7 @@ published: true
 title: hours
 ---
 minutes: 
+  - {name: *sjk, date: 2022-10-29, client: *ftl, project: *012, hours: 03.00, description: 'NPS is forest cops, css',}
   - {name: *sjk, date: 2022-10-28, client: *ftl, project: *012, hours: 07.50, description: 'site setup, writing, css',}
   - {name: *sjk, date: 2022-10-27, client: *ftl, project: *012, hours: 06.00, description: 'site setup, writing',}
   - {name: *sjk, date: 2022-10-26, client: *ftl, project: *012, hours: 03.00, description: 'site setup, writing',}
