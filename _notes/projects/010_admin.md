@@ -22,7 +22,7 @@ client:
 *sites*  
 ---  
   
-webapp as localhost:	¿heroku linux server?  
+webapp as localhost:	¿heroku server?  
   
 version control:		gitea hosted on heroku backed up [somewhere]  
   
