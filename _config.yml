@@ -5,12 +5,9 @@ title: scott kilts
 email: sjkilts@gmail.com
 permalink: /:categories/:title/
 
-kramdown:
-  input: Kramdown
-  syntax_highlighter: coderay
-  syntax_highlighter_opts:
-    line_numbers: table
-    bold_every: 5
+markdown: kramdown
+highlighter: rouge
+  input: GFM
 
 plugins:
   - jekyll-sitemap
