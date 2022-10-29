@@ -10,10 +10,18 @@ todo: |
   - [ ] upwork frontend engineer application 2022-10-23  
   - [ ] finish academic paper illustration 2022-10-23
 ---
-**notes:**
-
+  
+*2022-10-29*  
+---  
+  
+[Remote Front-end developer (Shopify)](https://weworkremotely.com/remote-jobs/switch-themes-front-end-developer-shopify)  
+  
+[Full-Stack Software Engineer at Needl](https://www.workatastartup.com/jobs/55567)
+  
+  
 *2022-10-20*  
-
+---  
+  
 cover letter - frontend engineer  
   
 Hello,  
@@ -29,9 +37,11 @@ Thanks for your time.  I look forward to hearing from you,
 Scott Kilts    
   
   
--  
+---  
+  
 *2022-10-07*  
-   
+---  
+  
 create the best product listing possible  
   
 cover letter screenshots:  
@@ -63,4 +73,4 @@ highlight top 5 features:
 - DO NOT INCLUDE COMPANY INFO IN DESCRIPTIONS
   
   
--
+---  
