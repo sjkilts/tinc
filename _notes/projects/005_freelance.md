@@ -19,6 +19,8 @@ todo: |
 [Full-Stack Software Engineer at Needl](https://www.workatastartup.com/jobs/55567)
   
   
+---   
+   
 *2022-10-20*  
 ---  
   
