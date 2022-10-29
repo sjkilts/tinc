@@ -19,8 +19,44 @@ client:
 ---
 ---   
    
+*sites*  
+---  
+  
+webapp as localhost:	¿heroku linux server?  
+  
+version control:		gitea hosted on heroku backed up [somewhere]  
+  
+frontend:				jekyll or hugo base theme / framework  
+						manage themes/framework/skins with [storybook?]  
+						minimal skin for each site  
+                    	store managed with [snipcart?]  
+                    	products and content managed with [sanity?]  
+                    	hosted on fleek with #hash and web3.0  
+                          
+backend:				products and content managed with headless cms api  
+						backed up to cloud and gitea  
+                    	managed on localhost web app  
+						notes plugin [thanks Hieu Pham](https://medium.com/ionic-prototyping/my-journey-to-sanity-io-fe0a6576a417)  
+                          
+sales channels: 		jekyll/hugo site snipcart  
+						printify  
+                        etsy  
+  						sellfy?  
+                        market ionic? -themes  
+                        gumroad?  
+                        
+analytics:				find a google alternative
+
+marketing: 				heroku server app for email list management
+						should be able to write a plug-in for sanity to manage email lists
+                        alert email list with new products
+                        alert socials when content is pushed to sales channel
+  
+---   
+   
 *scottkilts.com*  
 ---  
+  
 you need a localhost web app (heroku?)
 - it's nice to set this up on the mac, but can you run a local host on ipad etc? haven't seen a good way.
 - keeping the mac up to date over cell connection is a true barrier to local development and shouldn't be necessary for the simple things we are doing here
@@ -39,6 +75,7 @@ stack ? :
   
   
 [this person has solved many of our problems for his digital projects using Sanity.io](https://medium.com/ionic-prototyping/my-journey-to-sanity-io-fe0a6576a417)
+  
   
 ---  
   
@@ -89,5 +126,4 @@ pulled not-quite-working code:
 ```
   
    
----  
-  
+---
