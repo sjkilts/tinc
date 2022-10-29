@@ -17,10 +17,27 @@ todo: |
 client:
   - scott j kilts
 ---
-**notes**
-
-*2022-20-21*
-
+*scottkilts.com*  
+---  
+  
+stack ? :
+- server (heroku)
+- version control (gitea/heroku)
+	- backed up securly (dropbox?)
+- web3.0 (fleek)
+- api based headless cms (sanity?)
+	- needs to integrate with dropshippers (printify, book publishers, etc)
+	- gui notes backend (jekyll/sanity?)
+- frontend (jekyll)(hugo?)
+- store functions (snipcart?)
+	- needs to manage worldwide taxes
+  
+  
+---  
+  
+*2022-20-21*  
+---  
+   
 working code for hours    
 would like to display a line item with the date, total number of hours worked, and projects worked on   
 this can drop open to show the line items from that day  
@@ -63,3 +80,7 @@ pulled not-quite-working code:
 </div>
 {% comment %}
 ```
+  
+   
+---  
+  
