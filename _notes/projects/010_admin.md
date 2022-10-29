@@ -38,6 +38,8 @@ stack ? :
 	- needs to manage worldwide taxes
   
   
+[this person has solved many of our problems for his digital projects using Sanity.io](https://medium.com/ionic-prototyping/my-journey-to-sanity-io-fe0a6576a417)
+  
 ---  
   
 *2022-20-21*  
