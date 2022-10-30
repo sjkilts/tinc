@@ -19,6 +19,33 @@ client:
 ---
 ---   
    
+*next*  
+---  
+  
+sunday 2022/10/30:  
+- jobs on freelance page
+- talk to sam about permit site
+- cleanup downstairs, outside house
+food:
+- rice and bean pita?
+- lentils?
+
+monday 2022/10/31:
+- halloween
+- prep house for tues
+- talk to grandma
+- dad's birthday
+food:
+
+tuesday 2022/11/01:
+- do something fun with alex and the birds
+- set up initial printful(?) products on etsy store
+- sell things / pay rent
+- focus on permit stuff
+   
+   
+---   
+   
 *sites*  
 ---  
   
@@ -52,6 +79,7 @@ marketing: 				heroku server app for email list management
                         alert email list with new products
                         alert socials when content is pushed to sales channel
   
+  
 ---   
    
 *scottkilts.com*  
@@ -76,10 +104,12 @@ stack ? :
   
 [this person has solved many of our problems for his digital projects using Sanity.io](https://medium.com/ionic-prototyping/my-journey-to-sanity-io-fe0a6576a417)
   
+would be cool to sync todos and notes with calendar?   
   
+ 
 ---  
   
-*2022-20-21*  
+*hours display _notes*  
 ---  
    
 working code for hours    
@@ -89,7 +119,7 @@ this can drop open to show the line items from that day
 pulled not-quite-working code:  
    
 
-```
+```html
 
 <div> <!--hours-->  
 	<strong>hours</strong>    
