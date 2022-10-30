@@ -5,10 +5,6 @@ title: scott kilts
 email: sjkilts@gmail.com
 permalink: /:categories/:title/
 
-markdown: kramdown
-highlighter: rouge
-  input: GFM
-
 plugins:
   - jekyll-sitemap
 
