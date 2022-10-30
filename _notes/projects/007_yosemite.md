@@ -12,27 +12,60 @@ todo: |
   - [ ] go through texts and notes  
   - [ ] list ideas
   - [ ] edit posted content
-  - [ ] finalize site css
+  - [x] finalize site css
   - [ ] peer review
   - [ ] reach out to james hornibrook
   - [ ] share
 ---
+---    
+    
+*next*  
+---  
+
+- write, edit, post articles
+	- international permitting systems
+    - where permitting makes sense
+    - yosar history
+
+
+---    
+    
+*2022-10-30*  
+---     
+   
+working on most screen sizes
+hid unfinished articles
+
+[home page codepen](https://codepen.io/sjkilts/pen/RwJPpVm)
+
+[post codepen](https://codepen.io/sjkilts/pen/XWYmjvq)
+
+bonus rainbow scrollbar
+
+   
+---    
     
 *2022-10-29*  
 ---  
+   
 https://codepen.io/sjkilts/pen/RwJPpVm
 
 mostly working on smaller screens, some refining left to do
 
 updated article [NPS is Forest Cops](https://setthelandfree.github.io/freewalls/wall-permit/nps-is-forest-cops.html)
   
+  
+---  
+    
 *2022-10-28*  
 ---  
+   
 https://setthelandfree.github.io/freewalls/  
   
 site is mostly set up. there is some content, it still needs some work
 css is working great currently on larger screens.  small screens need priority
 
+  
 ---  
    
 *2022-10-06*  
@@ -51,6 +84,7 @@ alt email
 client: gmail  
 email: freewallsyos@gmail.com  
 password: bitwarden  
+  
    
 ---  
   
