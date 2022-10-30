@@ -87,12 +87,8 @@ would like to display a line item with the date, total number of hours worked, a
 this can drop open to show the line items from that day  
   
 pulled not-quite-working code:  
+   
 
-```html
-
-
-
-```
   
    
 ---
