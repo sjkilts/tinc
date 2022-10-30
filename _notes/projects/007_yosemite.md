@@ -21,29 +21,42 @@ todo: |
     
 *next*  
 ---  
-
+  
+- pick a title
+  
 - write, edit, post articles
 	- international permitting systems
     - where permitting makes sense
     - yosar history
+  
+- reach out
+	- ruiz
+    - hornibrook
+    
+- collaborate
+	- offer help
+    - ask for help
 
+- analytics, seo plugin, google index
 
----    
+- icon / favicons
+  
+---     
     
 *2022-10-30*  
 ---     
    
-working on most screen sizes
-hid unfinished articles
-
-[home page codepen](https://codepen.io/sjkilts/pen/RwJPpVm)
-
-[post codepen](https://codepen.io/sjkilts/pen/XWYmjvq)
-
-bonus rainbow scrollbar
-
+working on most screen sizes  
+hid unfinished articles  
+  
+[home page codepen](https://codepen.io/sjkilts/pen/RwJPpVm)  
+  
+[post codepen](https://codepen.io/sjkilts/pen/XWYmjvq)  
    
----    
+bonus rainbow scrollbar  
+  
+     
+---     
     
 *2022-10-29*  
 ---  
