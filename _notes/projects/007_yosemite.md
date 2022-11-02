@@ -22,24 +22,47 @@ todo: |
 *next*  
 ---  
   
-- pick a title
+- nix a title, draw a quick logo
+
+- redo header
+	- [ ] utahbusiness.com example
+    - [ ] mobile hamburger, micro top of screen menu on large display
+    - [ ] logo left, social right
+    - [ ] social collapses into nav
+    
+- direct user flow
+	- [ ] add 'more posts' section on article page below footer
+    - [ ] use splash card in flex row
   
 - write, edit, post articles
-	- international permitting systems
-    - where permitting makes sense
-    - yosar history
+	- [ ] international permitting systems
+    - [ ] where permitting makes sense
+    - [ ] yosar history
   
 - reach out
-	- ruiz
-    - hornibrook
+	- [x] ruiz
+    - [ ] hornibrook
     
 - collaborate
-	- offer help
-    - ask for help
+	- [ ] offer help
+    - [ ] ask for help (patagonia?)
 
 - analytics, seo plugin, google index
 
 - icon / favicons
+  
+    
+---     
+    
+*2022-11-01*  
+---     
+
+updated codpen(s)
+
+typography and page layout working across screens
+
+redid footer
+
   
 ---     
     
