@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 img: /media/decolonize.jpeg
 img-name: decolonize
 medium: watercolor, ink
