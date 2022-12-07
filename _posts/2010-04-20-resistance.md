@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 img: /media/to-resist-is-to-exist.jpeg
 img-name: exist
 medium: aerosol, paint pens
