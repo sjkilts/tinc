@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 img: /media/bea/bear-apparent.jpeg
 img-name: barely apparent
 medium: digital
