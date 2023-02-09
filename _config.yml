@@ -1,5 +1,5 @@
-url: "http://www.scottkilts.com"
-description: you are the spacetimedistortion
+url: "https://thisisnotculture.us"
+description: this is everything
 baseurl: ""
 title: scott kilts
 email: sjkilts@gmail.com
@@ -24,7 +24,7 @@ collections:
 site_tree.file: map.md
   
 prose:
-  siteurl: "http://www.scottkilts.com"
+  siteurl: "https://thisisnotculture.us"
   media: "/media"
   metadata:
     _posts:
