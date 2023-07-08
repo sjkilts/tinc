@@ -1,6 +1,7 @@
 ---
 published: true
 layout: default
+sitemap: false
 title: notes
 ---
  
