@@ -550,6 +550,7 @@ Details: http://www.positioniseverything.net/easyclearing.html
 details > summary {
     list-style-type: none;
     list-style: none;
+    cursor: pointer;
 }
 
 details > summary::-webkit-details-marker {
