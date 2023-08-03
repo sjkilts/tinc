@@ -1,6 +1,6 @@
 ---
-published: true
+published: false
 title: look inside
 img: /media/look-inside.png
+medium: 'watercolor, ink'
 ---
-
