@@ -1,6 +1,6 @@
 ---
 published: true
-title: look into something
+title: look inside
 img: /media/look-inside.png
 ---
 
