@@ -3,7 +3,7 @@ published: true
 title: u stole a'murca
 img-name: u stole a'murca
 medium: digital
-img: /media/u stole a'murca.png
+img: /media/u-stole-a-murca.png
 ---
 it is important to protect certain things.
 
