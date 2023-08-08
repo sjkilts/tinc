@@ -1,11 +1,11 @@
 ---
-published: false
+published: true
 title: u stole a'murca
 img-name: u stole a'murca
 medium: digital
 img: /media/u-stole-a-murca.PNG
 ---
-there is a place for fences.  it is important to protect certain things.
+it is important to protect certain things.
 
 it is an abomination of space to parcel out land amongst people.  it defiles the land to redirect the rivers, or halt their flow.  it defiles the land to demonize and illigitimize that which is of the land. 
 
