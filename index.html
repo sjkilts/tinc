@@ -14,7 +14,7 @@ published: true
   	{% if forloop.first == true %}
   	
   	 <div class='splash col12' style='position:relative; padding-bottom:6em; display: inline-block;'>
-        <a class='excerpt show' href="{{site.baseurl}}{{item.url}}"><img class='splash' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=1200&output=jpg&q=99bg=transparent"</img></a>
+        <a class='excerpt show' href="{{site.baseurl}}{{item.url}}"><img class='splash' src="{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}"</img></a>
       </div>
       <div class='listing col6 margin3' style='padding-bottom:2em; padding-top:3em;'>
           {{ item.title }}
