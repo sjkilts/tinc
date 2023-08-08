@@ -12,7 +12,7 @@ published: true
     
       <div class='splash col12' style='padding-bottom: 4.32em; position: relative; display: inline-block;'>
     
-        <img src="//{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}"</img>  
+        <img style='height: auto; display: block; max-width: 100%;' src="//{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}"</img>  
 
         {% if page.previous.url %}
           <a class='date fr' href="{{page.previous.url}}">
