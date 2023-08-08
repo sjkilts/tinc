@@ -1,9 +1,9 @@
 ---
-published: true
+published: false
 title: u stole a'murca
 img-name: u stole a'murca
 medium: digital
-img: /media/u-stol-a-murca.PNG
+img: /media/u-stole-a-murca.PNG
 ---
 there is a place for fences.  it is important to protect certain things.
 
