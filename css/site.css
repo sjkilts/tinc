@@ -324,11 +324,12 @@ table {
 /* Global Layout
 ------------------------------------------------------- */
 .container {
+  width:98vw;
   max-width:1600px;
   margin:0 auto;
   overflow:hidden;
-  position: relative;
-  min-height: 100vh;
+  position:relative;
+  min-height:100vh;
   }
 
 /* Global Style
@@ -372,6 +373,7 @@ table {
   display:block;
   max-width:100%;
   height:auto;
+  max-height:91vh;
   }
 
 img .splash {
