@@ -12,11 +12,13 @@ published: true
     
       <div class='splash col12' style='padding-bottom: 4.32em; position: relative; display: inline-block;'>
     
-        <img style='height: auto; display: block; max-width: 100%;' src="//{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}"</img>  
+        <img style='height: auto; display: block; max-width: 100%;' src="//{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}">
+        <a href="//{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}"></a>
+        </img>  
 
         {% if page.previous.url %}
           <a class='date fr' href="{{page.previous.url}}">
-            <span style='position: absolute; right: 0; top: 0; height: 100%; width: 70%;'> </span>
+            <span style='position: absolute; right: 0; top: 0; height: 100%; width: 35%;'> </span>
           </a>
         {% endif %}
         
