@@ -33,12 +33,9 @@ out of place to we
 > in empty air  
 > a tree i must walk through  
 > - **[Ursula K LeGuin](https://www.ursulakleguin.com/collected-poems)**  
-  
+   
    
 ---  
   
   
 *there is some innapropriate language in this image*
-
-
-
