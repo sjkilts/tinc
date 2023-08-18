@@ -8,6 +8,10 @@ img: /media/under-standing.jpg
   
 do u under stand  
   
+how hard it is
+to put a disclaimer about appropriate use of content or an age warning
+what is accesibility
+  
 murder happening  
 grass and lots of little things  
 death is gasoline  
@@ -28,4 +32,13 @@ out of place to we
 > but to me  
 > in empty air  
 > a tree i must walk through  
-> - **[Ursula K LeGuin](https://www.ursulakleguin.com/collected-poems)**
+> - **[Ursula K LeGuin](https://www.ursulakleguin.com/collected-poems)**  
+  
+   
+---  
+  
+  
+*there is some innapropriate language in this image*
+
+
+
