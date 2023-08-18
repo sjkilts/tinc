@@ -5,7 +5,6 @@ published: true
 ---
 
 
-
   {% for item in site.posts %}
     {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
   	{% capture url %}{{ item.url }}{% endcapture %}
@@ -22,15 +21,15 @@ published: true
                &#152; {{item.date | date:"%b %d %Y"}}
           </span>
           <a href="{{site.baseurl}}{{item.url}}">
-          <h4 class='item'></h4>
           <span class='date fr' href='{{ site.baseurl }}{{ item.url }}'>
             	view post &nbsp;&raquo;
            </span>
+           <h4 class='item'></h4>
           </a>
       </div>
-      
+ 
   	{% else %}
-  	
+ 	
     <div class='listing col6 margin3'>
     
       <div class='splash' style='padding-bottom:.42em;'>
@@ -38,7 +37,7 @@ published: true
           <details>
             <summary>
               <a href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
-              <span class='date' style='padding-left:.43em;'>{{item.date | date:"%b %d %Y"}}</span>
+              <span class='date' style='padding-left:.43em;'>{{ item.date | date:"%b %d %Y" d}}</span>
               <span class='date fr'>&nbsp;&raquo;</span>
             </summary>
             <hr>
@@ -54,3 +53,10 @@ published: true
       
   {% endfor %}
   
+  <hr>
+
+  <div class='listing col6 margin3'>
+    <a href='#/' id='expAll' class='col date fr'>all</a>
+  </div>
+
+  {% include js/expand.js %}

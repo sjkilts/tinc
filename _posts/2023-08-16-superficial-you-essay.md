@@ -5,20 +5,22 @@ img-name: under-standing
 medium: 'watercolor, ink'
 img: /media/under-standing.jpg
 ---
-
+  
 do u under stand  
-    
+  
 murder happening  
 grass and lots of little things  
 death is gasoline  
    
 all a weird performance scene  
- 
+  
 look around and see!  
 straight lines cut in living things  
-out of place to we
+out of place to we  
+  
 
----
+---  
+  
 
 > sterile gravel  
 > stepping stones  

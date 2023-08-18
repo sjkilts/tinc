@@ -2,12 +2,13 @@ url: "https://thisisnotculture.us"
 description: this is everything
 baseurl: ""
 title: everything
-copyright: scott kilts
 email: sjkilts@gmail.com
 permalink: /:categories/:title/
 
 plugins:
   - jekyll-sitemap
+
+markdown: kramdown
 
 excerpt_separator: <!--more-->
 
