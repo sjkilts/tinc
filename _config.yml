@@ -2,7 +2,7 @@ url: "https://thisisnotculture.us"
 description: this is everything
 baseurl: ""
 title: everything
-email: sjkilts@gmail.com
+email: everything@thisisnotculture.us
 permalink: /:categories/:title/
 
 plugins:

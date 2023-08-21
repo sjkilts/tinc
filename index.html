@@ -37,7 +37,7 @@ published: true
           <details>
             <summary>
               <a href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
-              <span class='date' style='padding-left:.43em;'>{{ item.date | date:"%b %d %Y" d}}</span>
+              <span class='date' style='padding-left:.43em;'>{{ item.date | date:"%b %d %Y" }}</span>
               <span class='date fr'>&nbsp;&raquo;</span>
             </summary>
             <hr>
@@ -52,7 +52,7 @@ published: true
     {% endif %}
       
   {% endfor %}
-  
+
   <hr>
 
   <div class='listing col6 margin3'>
