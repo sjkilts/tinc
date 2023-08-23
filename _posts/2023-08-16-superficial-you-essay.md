@@ -5,12 +5,11 @@ img-name: under-standing
 medium: 'watercolor, ink'
 img: /media/under-standing.jpg
 ---
-  
+
 do u under stand  
   
-how hard it is
-to put a disclaimer about appropriate use of content or an age warning
-what is accesibility
+to put a disclaimer about appropriate use  of content or an age warning  
+what is accesibility  
   
 murder happening  
 grass and lots of little things  
