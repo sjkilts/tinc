@@ -10,6 +10,17 @@ the you essay
 rape culture as a strategy  
   
 let’s make it go away  
+   
+western eyes  
+polarize  
+western lies  
+  
+westernize  
+colonize  
+genocide  
+  
+homogenize  
+life  
   
   
 ---
