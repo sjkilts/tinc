@@ -5,7 +5,11 @@ img-name: under-standing
 medium: 'watercolor, ink'
 img: /media/under-standing.jpg
 ---
-
+see it’s a narssicisitic nation  
+the you essay  
+rape culture as a strategy  
+let’s make it go away  
+  
 do u under stand  
   
 to put a disclaimer about appropriate use  of content or an age warning  
