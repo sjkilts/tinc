@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 img: /media/ehp/existential-horsepower-dark.png
 img-name: existential horsepower

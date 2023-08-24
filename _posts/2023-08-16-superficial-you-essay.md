@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 title: superficial you essay
 img-name: under-standing
@@ -28,12 +29,8 @@ life
   
 do u under stand  
   
-how hard it is
-to put a disclaimer about appropriate use  of content or an age warning  
-what is accesibility  
-  
-  
----
-  
-  
-*there is some innapropriate language in this image*
+how hard it is  
+to put a disclaimer  
+we need appropriate use of content  
+and an age warning  
+what is accesibility   

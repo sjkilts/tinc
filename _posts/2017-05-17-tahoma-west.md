@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 img: /media/client/tw/tw-cover.jpeg
 img-name: tahoma west v.21 cover

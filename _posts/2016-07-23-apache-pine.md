@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 img: /media/client/ap/apache-pine-tree-stack.jpeg
 img-name: apache pine logo

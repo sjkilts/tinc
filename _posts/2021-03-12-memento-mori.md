@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 img: /media/memento-mori.jpeg
 img-name: remember you will die

@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 img: /media/holidaze.jpeg
 img-name: happy holidaze

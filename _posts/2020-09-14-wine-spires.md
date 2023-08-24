@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 img: /media/wine-spires.jpeg
 img-name: granite sunset

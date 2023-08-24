@@ -12,9 +12,10 @@ published: true
     
       <div class='splash col12' style='padding-bottom: 4.32em; position: relative; display: inline-block;'>
     
-        <img style='height: auto; display: block; max-width: 100%;' src="//{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}">
-        <a href="//{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}"></a>
-        </img>  
+        <a style="cursor: arrow;" href="//{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}">
+          <img style='height: auto; display: block; max-width: 100%;' src="//{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}">
+          </img>  
+        </a>
 
         {% if page.previous.url %}
           <a class='date fr' href="{{page.previous.url}}">
@@ -33,6 +34,10 @@ published: true
 
       <div class='listing col8 pad4h margin2' style='padding-bottom:2.43em;'>
 
+        {% if page.title %}
+        <h1 class="date">{{ page.title }}</h1>
+        {% endif %}
+        
         <div class='splash' style='padding-bottom: 2em;'>
             {{ content }}
         </div>

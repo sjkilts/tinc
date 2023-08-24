@@ -1,6 +1,6 @@
 {
     "name": "scott kilts",
-    "short_name": "scott kilts",
+    "short_name": "everything",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ffffff",
+    "theme_color": "#1976d2",
     "background_color": "#ffffff",
     "display": "standalone"
 }

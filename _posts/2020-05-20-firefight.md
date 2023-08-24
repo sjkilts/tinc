@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 img: /media/firefight.jpeg
 img-name: firefight

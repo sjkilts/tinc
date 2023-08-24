@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 img: /media/prayer-for-a-turtle.jpeg
 img-name: prayer for a turtle

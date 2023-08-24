@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 title: u stole a'murca
 img-name: u stole a'murca

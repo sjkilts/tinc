@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 title: look inside
 img: /media/look-inside.png

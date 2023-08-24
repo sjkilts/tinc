@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 img: /media/stop-killing-turtles.jpeg
 img-name: stop killing turtles

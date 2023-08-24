@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 img: /media/decolonize.jpeg
 img-name: decolonize

@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 img: /media/emerald-hummingbird-flying.jpeg
 img-name: welcome the sun

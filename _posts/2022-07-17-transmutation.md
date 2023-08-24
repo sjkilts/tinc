@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 img: /media/soverign.png
 img-name: goddess of the soverign

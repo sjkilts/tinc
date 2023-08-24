@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 img: /media/smith-rock-1200w.jpeg
 img-name: smith rock state park

@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 img: /media/fathers-day.jpeg
 img-name: father’s day 2022

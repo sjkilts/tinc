@@ -1,4 +1,5 @@
 ---
+layout: post
 published: true
 img: /media/tahoma-sunrise.jpeg
 img-name: sunrise

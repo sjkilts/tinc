@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 img: /media/to-resist-is-to-exist.jpeg
 img-name: exist

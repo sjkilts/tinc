@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 img: /media/think-different-1200w.jpeg
 img-name: think different

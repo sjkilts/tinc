@@ -1,4 +1,5 @@
 ---
+layout: post
 published: false
 img: /media/infinite-o.jpeg
 img-name: ouroboros

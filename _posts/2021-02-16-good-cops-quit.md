@@ -1,5 +1,10 @@
 ---
+<<<<<<< Updated upstream
 published: true
+=======
+layout: post
+published: false
+>>>>>>> Stashed changes
 img: /media/good-cops-quit.jpeg
 img-name: justice is love
 medium: 'watercolor, gouache, ink - digital'
