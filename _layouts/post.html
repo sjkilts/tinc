@@ -12,8 +12,8 @@ published: true
     
       <div class='splash col12' style='padding-bottom: 4.32em; position: relative; display: inline-block;'>
 
-        <a style="cursor: arrow;" href="//{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}">
-          <img class="splash" src="//{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}">
+        <a style="cursor: arrow;" href="{{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}">
+          <img class="splash" src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}&h=800&il&bg=transparent&errorredirect={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ page.img | prepend: site.baseurl }}">
           </img>  
         </a>
 

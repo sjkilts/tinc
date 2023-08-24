@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 img: /media/everything.png
 img-name: everything
 medium: digital
@@ -78,11 +78,10 @@ heels on fire
 lit the pyre  
 brought us to the brink
 
----
-
-![everything sketch](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/everything.png&h=800&output=jpg&q=65bg=transparent)
+<!-- fill in: 
+---  
 
 songs about how the romans have fucked the world over:
 - the fine print king geedorah
 - really doe danny brown kendrick
-- psychosocial slipknot
+- psychosocial slipknot -->
