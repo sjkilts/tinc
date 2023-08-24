@@ -13,7 +13,7 @@ published: true
   	{% if forloop.first == true %}
   	
   	 <div class='splash col12' style='position:relative; display: inline-block;'>
-        <a class='excerpt show' href="{{site.baseurl}}{{item.url}}"><img class='splash' src="//wsrv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&il&errorredirect={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}"</img></a>
+        <a class='excerpt show' href="{{site.baseurl}}{{item.url}}"><img class='splash' src="//wsrv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&bg=transparent&il&errorredirect={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}"</img></a>
       </div>
       <div class='listing col6 margin3' style='padding-bottom:2em; padding-top:3em;'>
           {{ item.title }}
@@ -42,7 +42,7 @@ published: true
             </summary>
             <hr>
             <p>
-              <a href="{{site.baseurl}}{{item.url}}"><img class='splash show' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&il&errorredirect={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}"</img></a>
+              <a href="{{site.baseurl}}{{item.url}}"><img class='splash show' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&h=800&bg=transparent&il&errorredirect={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}"</img></a>
             </p>
           </details>
         </div>

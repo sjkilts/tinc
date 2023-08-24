@@ -43,7 +43,7 @@ yes! this is mine.
   
   
   
-![justice is still love](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/good-cops-quit-painting.jpeg&h=800&il&errorredirect={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }})
+![justice is still love](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/good-cops-quit-painting.jpeg&h=800&il&errorredirect={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/good-cops-quit-painting.jpeg)
 <span class='date' style='float:right;'>*watercolor, gouache, ink*</span>  
   
   
