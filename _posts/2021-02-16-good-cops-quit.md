@@ -1,16 +1,11 @@
 ---
-<<<<<<< Updated upstream
 published: true
-=======
 layout: post
-published: false
->>>>>>> Stashed changes
 img: /media/good-cops-quit.jpeg
 img-name: justice is love
 medium: 'watercolor, gouache, ink - digital'
 title: good cops quit
 ---
-
 watched a world grow  
 for like a month straight  
 passed by for work  
@@ -48,10 +43,10 @@ yes! this is mine.
   
   
   
-![justice is still love](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/good-cops-quit-painting.jpeg&h=800&output=jpg&q=65)
+![justice is still love](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/good-cops-quit-painting.jpeg&h=800&il&errorredirect={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }})
 <span class='date' style='float:right;'>*watercolor, gouache, ink*</span>  
   
   
   
 good cops quit in real life  
-don't colonize, end the lies
+don't colonize, end the lies  
