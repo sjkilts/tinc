@@ -1,55 +1,51 @@
-/* https://www.joshwcomeau.com/css/custom-css-reset/
-------------------------------------------------------- */
+---
+---
 
-/*
-  1. Use a more-intuitive box-sizing model.
-*/
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-/*
-  2. Remove default margin
-*/
-* {
-  margin: 0;
-}
-/*
-  Typographic tweaks!
-  3. Add accessible line-height
-  4. Improve text rendering
-*/
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-/*
-  5. Improve media defaults
-*/
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
-}
-/*
-  6. Remove built-in form typography styles
-*/
-input, button, textarea, select {
-  font: inherit;
-}
-/*
-  7. Avoid text overflows
-*/
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
-}
-/*
-  8. Create a root stacking context
-*/
-#root, #__next {
-  isolation: isolate;
-}
+/*  Reset ♥
+    http://meyerweb.com/eric/tools/css/reset/
+    v2.0 | 20110126
+    License: none (public domain)
+------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline;
+  }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display:block;
+  }
+body { line-height:1; }
+ol, ul { list-style:none;  }
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content:''; content:none; }
+/* tables still need 'cellspacing="0"' in the markup */
+table { border-collapse: collapse; border-spacing:0; }
+/* remember to define focus styles. Hee Haw */
+:focus { outline:0; }
 
 /* Inline Elements & Typography
 ------------------------------------------------------- */
+body {
+  height: 100%;
+  }
 
 body,
 input,
@@ -57,7 +53,52 @@ textarea {
   color:#424242;
   font:1em/1.67 'IBM Plex Serif', 'Garamond', serif; /*'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   font-family: 'IBM Plex Serif', serif;
+  -webkit-font-smoothing:antialiased;
   }
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin:0;
+  font-weight:normal;
+  }
+
+h1 {
+  font-size:42px;
+  margin-bottom:10px;
+  line-height:5.33rem; //1em
+  }
+
+h2 {
+  font-size:28px;
+  margin-bottom:20px;
+  line-height:1.25em;
+  }
+
+h3 {
+  font-size:20px;
+  margin-bottom:20px;
+  line-height:1.5em;
+  }
+
+h4, h5 {
+  font-size:15px;
+  margin-bottom:0;
+  line-height:1.67em;
+  }
+
+p {
+  margin:0 0 20px;
+  }
+  p:last-child { margin-bottom:0;}
 
 /* Links */
 a,
@@ -88,7 +129,17 @@ a,
 p .excerpt {
     color: #424242;
     font-weight: normal;
-    }   
+    }          
+
+abbr {
+  border-bottom:1px dotted #000;
+  cursor:help;
+  }
+
+address { font-style:italic;}
+small   { font-size:11px;}
+strong  { font-weight:bold;}
+em      { font-style:italic;}
 
 hr {
   margin:0 0 20px;
@@ -113,7 +164,7 @@ q:after {
   content:'';
   }
 
-  /* Code Blocks & Pre */
+/* Code Blocks & Pre */
 code,
 pre {
   padding:5px;
@@ -253,6 +304,26 @@ table {
     color:#57594D;
     }
 
+/* Read content styling */
+.prose ul {
+  list-style:disc;
+  margin-left:40px;
+  }
+.prose ol {
+  list-style:decimal;
+  }
+.prose p {
+  margin:0 0 10px;
+  }
+
+.icon {
+  background:transparent url(img/sprite.png) no-repeat 0 0;
+  display:block;
+  width:30px;
+  height:30px;
+  text-indent:-999em;
+  }
+
 /* Global Layout
 ------------------------------------------------------- */
 .container {
@@ -343,16 +414,6 @@ table {
 .post-nav p:last-child {
     padding-left: 0.5em;
     text-align: right;
-}
-
-details > summary {
-    list-style-type: none;
-    list-style: none;
-    cursor: pointer;
-}
-
-details > summary::-webkit-details-marker {
-    display: none;
 }
 
 /* Columns
@@ -487,3 +548,15 @@ Details: http://www.positioniseverything.net/easyclearing.html
     background-size:240px 240px;
     }
   }
+
+/* <Details>
+------------------------------------------------------- */
+details > summary {
+    list-style-type: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
+}

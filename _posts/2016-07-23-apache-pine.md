@@ -1,13 +1,13 @@
 ---
 layout: post
-published: true
+published: false
 img: /media/client/ap/apache-pine-tree-stack.jpeg
 img-name: apache pine logo
 medium: digital
 title: apache pine
----
-  
-  
+---  
+*perhaps inappropriate design language. this company is no longer in service* 
+
 > branding, marketing, product design, print design, packaging, UX, SEO, web design & full-stack development
   
 An outdoor lifestyle brand. together we defined the visual identity and web presence of apache pine.  had the pleasure of designing several products and accompanying promotional materials as well  
