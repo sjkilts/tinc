@@ -1,0 +1,41 @@
+{% if site.posts %} <!-- posts index-->
+      <div class='listing col6 margin3'>
+
+        <details>
+          <summary>
+            <span class="date show center" style="text-decoration:underline;">index</span>
+          </summary>
+          {% for item in site.posts %}
+          {% capture date %}{{ item.date | date: '%B %Y' }}{% endcapture %}
+          {% capture url %}{{ item.url }}{% endcapture %}
+          {% capture img %}{{ item.img }}{% endcapture %}
+          <div class='splash' style='padding-bottom:.42em;'>
+
+            <div style='padding-bottom:.42em;'>
+              <details>
+                <summary>
+                  <a href="{{site.baseurl}}{{item.url}}">{{ item.title }}</a>
+                  <span class='date' style='padding-left:.43em;'>{{ item.date | date:"%b %d %Y" }}</span>
+                  <span class='date fr'>&nbsp;&raquo;</span>
+                </summary>
+                <hr>
+                <p>
+                  <a href="{{site.baseurl}}{{item.url}}"><img class='splash show' src="//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}&bg=transparent&il&errorredirect={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ item.img | prepend: site.baseurl }}"</img></a>
+                </p>
+              </details>
+            </div>
+
+          </div>
+        {% endfor %}
+
+        <!-- toggle for expand all (expand.js)
+        <div class='listing col6 margin3'>
+          <a href='#/' id='expAll' class='col date fr'>all</a>
+        </div> -->
+
+        {% comment %}{% include js/expand.js %}{% endcomment %}
+
+        </details>
+
+      </div> <!-- ./listing col6 margin3 -->
+      {% endif %}

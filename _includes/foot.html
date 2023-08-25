@@ -1,10 +1,16 @@
-  <footer style="text-align: center;width: 100vw;padding: 2em 0 1em 0;bottom: 0;height: 2.43em;">
+  <div class='listing col12'>
+
+    {% include posts-index.html %}
+      
+    <footer style="text-align: center;padding: 2em 0 1em 0;bottom: 0;" class="listing col6 margin3">
       <div class="date">
           <a class="date" href="mailto:{{site.email}}">{{site.email}}</a>
-      </div>
-      <div class="date">
+          <br>
           © <a class="date" href="mailto:scott@scottkilts.com">scott kilts</a> 2023. 
           All rights reserved. 
       </div>
-  </footer>
+    </footer>
+
+  </div>
+
 </html>
