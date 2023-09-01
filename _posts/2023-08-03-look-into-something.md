@@ -3,7 +3,7 @@ layout: post
 published: true
 title: look inside
 img: /media/look-inside.png
-medium: 'watercolor, ink'
+medium: 'watercolor, ink; digital'
 img-name: look inside
 ---
 >no toxic waste  
@@ -16,3 +16,7 @@ dragon lungs
 beware.  
 we.  
 bust  
+  
+
+  
+![look-inside-digital](//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/look-inside-digital.PNG&h=800&il&errorredirect={{ site.url | replace: 'http://','' | replace: 'https://','' }}/media/look-inside-digital.PNG)
