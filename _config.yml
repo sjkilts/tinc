@@ -1,72 +1,96 @@
-url: "http://sjkilts.github.io/"
-description: you are the spacetimedistortion
-baseurl: /
-title: scott kilts
-permalink: pretty
-markdown: CommonMark
-
-<<<<<<< Updated upstream
-commonmark:
-  options: ["FOOTNOTES", "SMART"]
-  extensions: ["strikethrough", "autolink", "table", "tasklist", "tagfilter"]
-=======
-plugins:
-  - jekyll-sitemap
+url: "https://thisisnotculture.us"
+description: this is everything
+baseurl: ""
+title: everything
+email: 'us@tinc.lol'
+permalink: /:categories/:title/
 
 markdown: kramdown
->>>>>>> Stashed changes
 
 excerpt_separator: <!--more-->
 
-prose:
-  rooturl: '_posts'
-  siteurl: 'http://sjkilts.github.io/'
-  relativeLinks: ''
-  media: 'media'
-  metadata:
-    _posts:
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "splash"
-        field:
-          element: "text"
-          label: "Splash image"
-          value: ""
-      - name: "photo_url"
-        field:
-          element: "text"
-          label: "450x450 Picture Thumb for index"
-          value: ""
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Published"
-          value: false
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-            - name: "Pears"
-              value: "pears"
-            - name: "Mangos"
-              value: "mangos"
 users:
   - login: "sjkilts"
     user: "Scott Kilts"
+
+include: 
+  - _notes
+  
+collections:
+  notes:
+    output: true  
+  
+prose:
+  siteurl: "https://thisisnotculture.us"
+  media: "/media"
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+        element: "text"
+        label: "title"
+      - name: "published"
+        field: 
+          element: "button"
+          label: "published"
+          on: "true"
+          off: "false"
+      - name: "img"
+        field:
+          element: "text"
+          label: "image"
+          placeholder: "/media/imagename.png"
+      - name: "img-name"
+        field:
+          element: "text"
+          label:  "image name"
+          placeholder: "image name"
+      - name: "medium"
+        field:
+          element: "text"
+          label:  "medium"
+          placeholder: "medium"
+      - name: "title"
+        field:
+          element: "text"
+          label:  "title"
+          placeholder: "title"
+      - name: "content"
+        field:
+          element: "textarea"
+          label: "post content"
+          placeholder: "text for post"
+    _notes/projects:
+      - name: "title"
+        field:
+         element: "text"
+         label: "title"
+      - name: "project"
+        field: 
+          element: "text"
+          label: "project"
+          placeholder: "project name"
+      - name: "client"
+        field: 
+          element: "multiselect"
+          label: "client"
+          placeholder: "select client"
+          options: 
+            - tenants union
+            - scott j kilts
+            - this is not culture
+            - spacetimedistortion
+            - wave
+            - free the land
+            - ultralightlife
+            - jupiter card
+      - name: "description"
+        field: 
+          element: "text"
+          label: "description"
+          placeholder: "project description"
+    _notes/hours:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
