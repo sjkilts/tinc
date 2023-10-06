@@ -5,9 +5,16 @@ title: scott kilts
 permalink: pretty
 markdown: CommonMark
 
+<<<<<<< Updated upstream
 commonmark:
   options: ["FOOTNOTES", "SMART"]
   extensions: ["strikethrough", "autolink", "table", "tasklist", "tagfilter"]
+=======
+plugins:
+  - jekyll-sitemap
+
+markdown: kramdown
+>>>>>>> Stashed changes
 
 excerpt_separator: <!--more-->
 

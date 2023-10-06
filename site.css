@@ -1,7 +1,32 @@
+<<<<<<< Updated upstream:site.css
 /*  Reset ♥
     http://meyerweb.com/eric/tools/css/reset/
     v2.0 | 20110126
     License: none (public domain)
+=======
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #e40303 16.66%,
+    #ff8c00 16.66%,
+    #ff8c00 33.33%,
+    #ffed00 33.33%,
+    #ffed00 50%,
+    #008026 50%,
+    #008026 66.66%,
+    #004dff 66.66%,
+    #004dff 83.33%,
+    #750787 0
+  ) no-repeat;
+}
+
+.container {
+  background: white;
+}
+
+/* https://www.joshwcomeau.com/css/custom-css-reset/
+>>>>>>> Stashed changes:css/site.css
 ------------------------------------------------------- */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -323,9 +348,18 @@ table {
 /* Global Layout
 ------------------------------------------------------- */
 .container {
+<<<<<<< Updated upstream:site.css
   max-width:1600px;
   margin:0 auto;
   overflow:hidden;
+=======
+  width:99.3vw;
+  max-width:1063px;
+  margin:0 auto;
+  overflow:hidden;
+  position:relative;
+  //min-height:100vh;
+>>>>>>> Stashed changes:css/site.css
   }
 
 /* Global Style

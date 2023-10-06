@@ -4,7 +4,9 @@ section: post
 published: true
 ---
 
+<div class='splash col12' style='position:relative; display: inline-block;'>
 
+<<<<<<< Updated upstream
 
 <div class='listing col6 pad4h margin3' style='padding-bottom:6em;'>
   {% for item in site.categories.post limit:1000 %}
@@ -50,3 +52,36 @@ published: true
       
   {% endfor %}
 </div>
+=======
+{% for page in site.posts %}
+  {% capture date %}{{ page.date | date: '%B %Y' }}{% endcapture %}
+	{% capture url %}{{ page.url }}{% endcapture %}
+	{% capture img %}{{ page.img }}{% endcapture %}
+	
+	{% if forloop.first == true %}
+	
+	
+    {% include img.html %}
+  
+    <!--
+    <div class='listing col6 margin3' style='padding-bottom:2em; padding-top:3em;'>
+      {{ page.title }}
+      <span class='date'>
+           &#152; {{page.date | date:"%b %d %Y"}}
+      </span>
+      <a href="{{site.baseurl}}{{page.url}}">
+      <h4 class='item'></h4>
+      <span class='date fr' href='{{ site.baseurl }}{{ page.url }}'>
+        	view post &nbsp;&raquo;
+       </span>
+      </a>
+    </div>
+    -->
+
+  {% endif %}
+{% endfor %}
+<br>
+{% include posts-index.html %}
+
+</div>
+>>>>>>> Stashed changes
