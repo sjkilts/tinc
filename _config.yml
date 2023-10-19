@@ -15,10 +15,13 @@ users:
 
 include: 
   - _notes
+  - _spacetimedistortion
   
 collections:
   notes:
     output: true  
+  spacetimedistortion:
+    output: true
   
 prose:
   siteurl: "https://thisisnotculture.us"
