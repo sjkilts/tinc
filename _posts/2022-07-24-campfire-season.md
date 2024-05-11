@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 img: /media/stars_and_stripes_for_never.jpg
 img-name: stars and stripes for never
 medium: digital
