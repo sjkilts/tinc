@@ -1,8 +1,8 @@
 ---
 layout: post
 published: true
-img: /media/stars_and_stripes_for_never.jpg
-img-name: stars and stripes for never
+img: /media/mountainsandthesea.png
+img-name: mountains and the sea
 medium: digital
 title: campfire season
 ---  
