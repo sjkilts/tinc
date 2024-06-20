@@ -20,7 +20,7 @@ title: turtle life
 > what could 
 > hypnotize you  
 > the way that 
-> chicken thighs do
+> system tries to 
 >  
 > talkin bout that  
 > i do  
