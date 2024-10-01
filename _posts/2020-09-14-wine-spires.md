@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false 
 img: /media/wine-spires.jpeg
 img-name: granite sunset
 medium: watercolor, gouache, ink
