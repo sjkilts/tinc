@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true 
 img: /media/bea/bear-apparent.jpeg
 img-name: barely apparent
 medium: digital
