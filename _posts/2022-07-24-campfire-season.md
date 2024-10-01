@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false 
 img: /media/mountainsandthesea.png
 img-name: mountains and the sea
 medium: digital
