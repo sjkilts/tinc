@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false 
 img: /media/prayer-for-a-turtle.jpeg
 img-name: prayer for a turtle
 medium: watercolor, ink, gouache
@@ -20,7 +20,7 @@ title: turtle life
 > what could 
 > hypnotize you  
 > the way that 
-> system tries to 
+> system ties do 
 >  
 > talkin bout that  
 > i do  
