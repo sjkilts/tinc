@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 title: superficial you essay
 img-name: under-standing
 medium: 'watercolor, ink'
